@@ -294,8 +294,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let video = document.getElementById("heroVideo");
     // let content = document.getElementById("mainContent"); ->contenuto sotto il video da far comparire
 
-    video.addEventListener("ended", function () {
-        video.classList.add("fade-out");
-        // content.classList.add("fade-in"); 
-    });
+    // video.addEventListener("ended", function () {
+    //     video.classList.add("fade-out");   
+    //     // content.classList.add("fade-in"); 
+    // });
 });
