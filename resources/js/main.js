@@ -96,7 +96,7 @@ gsap.from(".effettoGrafico", {
     autoAlpha: 0,
     y: 10,
     ease: "ease-inOut",
-    duration: 2,
+    duration: 1,
     delay: 2,
 });
 
@@ -252,10 +252,16 @@ setTimeout(autoRotateSwiper, 1500);
 // FINE SWIPER
 
 gsap.from(".primafilacard", {
+scrollTrigger:{
+    trigger:".primafilacard",
+    toggleActions:"play reverse play reverse",
+    start:"-=300 center",
+    markers:true
+},
 opacity:0,
 ease:"bounce.out",
 duration:1.5,
-x:-100
+x:-200
 
 });
 
@@ -268,7 +274,28 @@ gsap.from(".secondafilacard", {
     },
     
     opacity: 0,
-    ease: "power3.inOut",
+    ease: "bounce.out",
     duration: 1.5,
-    y: 100,
+    y: 200,
+});
+
+
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     let video = document.getElementById("heroVideo");
+
+//     if (video) {
+//         video.playbackRate = 0.5; // Rallenta il video del 50%
+//     }
+// });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let video = document.getElementById("heroVideo");
+    // let content = document.getElementById("mainContent"); ->contenuto sotto il video da far comparire
+
+    video.addEventListener("ended", function () {
+        video.classList.add("fade-out");
+        // content.classList.add("fade-in"); 
+    });
 });

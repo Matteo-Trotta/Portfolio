@@ -17,7 +17,7 @@
     
 </head>
 
-<body class="bianco rounded">
+<body class="bianco">
 
     <x-navbar />
 
