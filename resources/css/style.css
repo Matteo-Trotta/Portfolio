@@ -1,0 +1,159 @@
+body {
+    overflow-x: hidden;
+    border: 30px black solid;
+    border-radius:
+}
+
+/* GOOGLE FONTS */
+.tangerine-regular {
+    font-family: "montserrat", serif;
+    font-size: 90px;
+   
+    font-style: normal;
+    
+}
+
+.tangerine-regular2 {
+    font-family: "montserrat", serif;
+    letter-spacing: 25px;
+    font-size: 60px;
+    font-weight:600;
+    font-style: normal;
+    
+}
+
+
+.bodoni {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.tangerine-title {
+    font-family: "Tangerine", serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 80px;
+}
+
+.letter-spacing {
+    letter-spacing: 10px;
+}
+
+.tangerine-bold {
+    font-family: "Tangerine", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* SWIPEr*/
+
+.swiper {
+    max-width: 50%;
+    height: 50%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+/* .immagineHeader {
+    animation: slideInimmagineHeader 7s ease-in-out forwards;
+}
+
+@keyframes slideInimmagineHeader {
+    0% {
+        opacity: 0;
+        background-image: url("/public/storage/images/sfondoHero.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    20% {
+        opacity: 0.9;
+        transform: translateX(0);
+        background-image: url("/public/storage/images/sfondoHero.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(50);
+        background-image: url("/public/storage/images/IMG_1243.JPG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        transform: translateX(-50);
+        background-image: url("https://images.pexels.com/photos/1581554/pexels-photo-1581554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+} */
+
+/* PARAGRAFO DI SINISTRA */
+.paragrafo {
+    opacity: 0;
+    animation: paragrafodasinistra 2s ease-in-out forwards;
+    animation-delay: 4s;
+}
+
+@keyframes paragrafodasinistra {
+    0% {
+        opacity: 0%;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 100;
+        transform: translateX(0);
+        backdrop-filter: blur(60px);
+    }
+}
+/* PARAGRAFO SINISTRA FINE */
+
+.paragrafoDestra {
+    opacity: 0;
+    animation: paragrafodadestra 2s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+@keyframes paragrafodadestra {
+    0% {
+        opacity: 0%;
+        transform: translateY(-100px);
+    }
+
+    100% {
+        opacity: 100;
+        transform: translateY(0);
+        backdrop-filter: blur(60px);
+    }
+}
+
+.bianco {
+    background-color: rgb(250, 250, 250);
+}
+
+.card{
+    height: 600px;
+    width: 100%;
+}
+
