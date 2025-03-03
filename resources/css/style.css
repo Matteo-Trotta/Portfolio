@@ -157,25 +157,4 @@ body {
 }
 
 
-/* Nasconde inizialmente il contenuto principale */
-#mainContent {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 1.5s ease-in-out, visibility 0s linear 1.5s;
-}
-
-/* Effetto di dissolvenza per il video */
-.fade-out {
-    opacity: 0;
-    transition: opacity 1.5s ease-in-out;
-    pointer-events: none; /* Evita interazioni col video dopo la scomparsa */
-}
-
-/* Mostra il contenuto principale */
-.fade-in {
-    opacity: 1 !important;
-    visibility: visible !important;
-    transition: opacity 1.5s ease-in-out;
-}
-
 

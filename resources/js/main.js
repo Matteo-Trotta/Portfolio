@@ -281,21 +281,24 @@ gsap.from(".secondafilacard", {
 
 
 
-// document.addEventListener("DOMContentLoaded", function () {
-//     let video = document.getElementById("heroVideo");
+gsap.from(".bottonePill",{
 
-//     if (video) {
-//         video.playbackRate = 0.5; // Rallenta il video del 50%
-//     }
-// });
+opacity:0,
+    y:50,
+    ease:"power1.out",
+    duration:2,
+})
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    let video = document.getElementById("heroVideo");
-    // let content = document.getElementById("mainContent"); ->contenuto sotto il video da far comparire
 
-    // video.addEventListener("ended", function () {
-    //     video.classList.add("fade-out");   
-    //     // content.classList.add("fade-in"); 
-    // });
-});
+gsap.fromTo(".fade-zoom", 
+    { opacity: 0, scale: 0.1 }, 
+    { opacity: 1, scale: 1, duration: 1.5, delay:1, ease: "back.out(1.7)" }
+);
+
+
+gsap.fromTo(".titolo", 
+    { opacity: 0, y: 20, }, // Stato iniziale (invisibile e più in basso)
+    { opacity: 1, y: 0, duration: 2, delay:2, ease: "elastic.Inout(1, 0.5)" } // Effetto morbido di rimbalzo
+);
+
