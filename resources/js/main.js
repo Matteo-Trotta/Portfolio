@@ -13,6 +13,10 @@ import "swiper/css/effect-cube";
 
 Swiper.use([Navigation, Pagination, EffectCube]);
 
+
+
+
+
 gsap.fromTo(
     ".soluzioniDigitali",
     {
@@ -44,10 +48,7 @@ gsap.from(".paragrafoSoluzioniDigitali", {
     duration: 1,
 });
 
-gsap.from(".bottonenavbar", {
-    autoAlpha: 0,
-    duration: 1.5,
-});
+
 
 gsap.from(".lista", {
     scrollTrigger: {
@@ -227,26 +228,26 @@ var swiper = new Swiper(".welcomeSwiper", {
     },
 });
 
-// Animazione GSAP: comparsa del cubo
+
 gsap.from(".welcomeSwiper", {
     autoAlpha: 0,
-    duration: 1.5, // Leggermente più lenta per un fade-in più gradevole
+    duration: 1.5, 
     ease: "power2.out",
     x: -20,
 });
 
-// Simuliamo l'autoplay con una transizione più fluida
+
 function autoRotateSwiper() {
     gsap.to(swiper, {
-        duration: 5, //tempo visualizzazione slide
-        ease: "power1.inOut", // Movimento più fluido
+        duration: 5, 
+        ease: "power1.inOut", 
         onRepeat: () => swiper.slideNext(),
         repeat: -1,
-        delay: 1, // Piccola pausa prima del loop
+        delay: 1, 
     });
 }
 
-// Avviamo l'autoplay simulato dopo il fade-in
+
 setTimeout(autoRotateSwiper, 1500);
 
 // FINE SWIPER
@@ -301,4 +302,23 @@ gsap.fromTo(".titolo",
     { opacity: 0, y: 20, }, // Stato iniziale (invisibile e più in basso)
     { opacity: 1, y: 0, duration: 2, delay:2, ease: "elastic.Inout(1, 0.5)" } // Effetto morbido di rimbalzo
 );
+
+// NAVBAR
+gsap.from(".navbar",{
+    opacity:0,
+    
+    ease:"power4.inOut",
+    duration:2,
+    delay:2,
+});
+
+gsap.from(".contattatemi",{
+    opacity:0,
+    y:50,
+    ease:"power4.inOut",
+    duration:4,
+    delay:1,
+    skewY:60,
+    
+})
 

@@ -1,8 +1,8 @@
-<div class="container-fluid p-0 mx-0">
+<div class="container-fluid p-0 mx-0 d-none d-lg-block">
 
     <div class="row text-center justify-content-center align-items-center">
 
-        <div class="col-12  position-relative d-flex align-items-center justify-content-center vh-100 overflow-hidden">
+        <div class="col-12 position-relative d-flex align-items-center justify-content-center vh-100 overflow-hidden">
 
             {{-- <div class="bg-black">
                 <video class="bg-black" autoplay muted loop src="{{ asset('/storage/video/mt (1).mp4') }}"></video>
@@ -11,8 +11,8 @@
 
 
 
-            <video autoplay muted loop playinline src="https://cdn.pixabay.com/video/2023/07/27/173481-849645868_large.mp4"
-                id="heroVideo" class="position-absolute top-50 start-50 translate-middle w-100 h-100 object-fit-cover">
+            <video autoplay loop muted  playinline src="https://cdn.pixabay.com/video/2023/07/27/173481-849645868_large.mp4"
+                id="heroVideo" class="w-full vh-full position-absolute  ">
 
 
 
@@ -29,7 +29,9 @@
                 </p>
 
                 <a href="#contatti"
-                    class="btn btn-lg btn-light text-dark fw-bold p-3 mt-4 rounded-pill shadow-sm fade-zoom">
+                    class="btn btn-lg text-black btn-warning fw-bold p-3 mt-4 rounded-pill shadow-xl fade-zoom hover:bg-transparent hover:!text-white">
+
+{{-- ricorda di applicare classi di tailwind con ! important,per forzare il conflitto con bootstrap --}}
 
                     Scopri di più
                 </a>

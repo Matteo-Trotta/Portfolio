@@ -179,6 +179,54 @@
     </div>
 
 
+    <section id="about" class="container py-5">
+        <h2 class="text-center fw-bold mb-5">Il mio percorso</h2>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="timeline position-relative">
+                    
+                    <!-- Primo evento -->
+                    <div class="timeline-item d-flex align-items-center">
+                        <div class="icon-box">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="content">
+                            <h5>Aulab Hackademy</h5>
+                            <p>Ho completato il corso full-stack developer.</p>
+                        </div>
+                    </div>
+    
+                    <!-- Secondo evento -->
+                    <div class="timeline-item d-flex align-items-center">
+                        <div class="icon-box">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="content">
+                            <h5>Prime esperienze lavorative</h5>
+                            <p>Ho lavorato su vari progetti, specializzandomi in Laravel.</p>
+                        </div>
+                    </div>
+    
+                    <!-- Terzo evento -->
+                    <div class="timeline-item d-flex align-items-center">
+                        <div class="icon-box">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="content">
+                            <h5>Freelance</h5>
+                            <p>Oggi realizzo siti web e soluzioni digitali su misura.</p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
 
 
 

@@ -19,7 +19,12 @@
 
 <body class="bianco">
 
+
+
     <x-navbar />
+
+
+    
 
 
     <div class="min-h-screen">{{ $slot }}</div>
