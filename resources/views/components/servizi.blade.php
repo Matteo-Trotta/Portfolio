@@ -6,7 +6,7 @@
 
 
 {{-- animazione tavola bounceout  --}}
-<div class="container-fluid  bianco my-5 p-0">
+<div class="container-fluid bianco my-0  p-0">
     <div class="row  m-0 align-items-center justify-content-end">
 
         <div class="col-md-5">
@@ -50,10 +50,10 @@
 </div>
 
 {{-- animazione smartphone ease-in --}}
-<div class="container-fluid bianco my-5 p-0">
-    <div class="row mt-5 mx-0">
+<div class="container-fluid bianco my-0 p-0">
+    <div class="row mx-0">
         <div
-            class="col-lg-5 justify-content-center align-items-center  justify-content-center align-items-center text-center mx-auto my-5">
+            class="col-lg-5 my-0 justify-content-center align-items-center  justify-content-center align-items-center text-center mx-auto">
 
             <div>
                 <picture>

@@ -17,7 +17,7 @@
     
 </head>
 
-<body class="bianco">
+<body class="bg-indigo-900">
 
 
 

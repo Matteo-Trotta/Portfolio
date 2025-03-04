@@ -34,7 +34,7 @@
 
         <!-- Pulsante Contattami allineato a destra -->
         <div class="md:ml-auto">
-            <button class="d-lg-block d-none bottonenavbar btn btn-warning shadow-lg p-3 contattatemi">Contattami</button>
+            <button class="d-lg-block d-none bottonenavbar btn btn-warning shadow-lg p-3 contattami hover:bg-transparent hover:!text-white fs-4">Contattami</button>
         </div>
 
         <!-- Pulsante Menu Mobile -->

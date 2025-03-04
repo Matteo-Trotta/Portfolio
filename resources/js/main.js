@@ -13,10 +13,6 @@ import "swiper/css/effect-cube";
 
 Swiper.use([Navigation, Pagination, EffectCube]);
 
-
-
-
-
 gsap.fromTo(
     ".soluzioniDigitali",
     {
@@ -47,8 +43,6 @@ gsap.from(".paragrafoSoluzioniDigitali", {
     ease: "ease-in",
     duration: 1,
 });
-
-
 
 gsap.from(".lista", {
     scrollTrigger: {
@@ -98,26 +92,26 @@ gsap.from(".effettoGrafico", {
     y: 10,
     ease: "ease-inOut",
     duration: 1,
-    delay: 2,
+    delay: 1.5,
 });
 
 gsap.from(".belloEimmediato", {
     scrollTrigger: {
         trigger: ".belloEimmediato",
         toggleActions: "play none play reverse",
-        start: "top center",
-        end: "bottom center",
-        // markers: true,
-        // scrub: true,
+        start: "+=400 center",
+
+        markers: true,
+        //  scrub: true,
     },
     skewX: -5,
     skewY: -15,
     autoAlpha: 0,
     repeat: 0,
-    yoyo: true,
+    // yoyo: true,
     duration: 1.5,
     ease: "bounce.out",
-    delay: 1.5,
+    delay: 0.5,
 });
 
 gsap.from(".bottone", {
@@ -228,42 +222,38 @@ var swiper = new Swiper(".welcomeSwiper", {
     },
 });
 
-
 gsap.from(".welcomeSwiper", {
     autoAlpha: 0,
-    duration: 1.5, 
+    duration: 1.5,
     ease: "power2.out",
     x: -20,
 });
 
-
 function autoRotateSwiper() {
     gsap.to(swiper, {
-        duration: 5, 
-        ease: "power1.inOut", 
+        duration: 5,
+        ease: "power1.inOut",
         onRepeat: () => swiper.slideNext(),
         repeat: -1,
-        delay: 1, 
+        delay: 1,
     });
 }
-
 
 setTimeout(autoRotateSwiper, 1500);
 
 // FINE SWIPER
 
 gsap.from(".primafilacard", {
-scrollTrigger:{
-    trigger:".primafilacard",
-    toggleActions:"play reverse play reverse",
-    start:"-=300 center",
-    markers:true
-},
-opacity:0,
-ease:"bounce.out",
-duration:1.5,
-x:-200
-
+    scrollTrigger: {
+        trigger: ".primafilacard",
+        toggleActions: "play reverse play reverse",
+        start: "-=300 center",
+        markers: true,
+    },
+    opacity: 0,
+    ease: "bounce.out",
+    duration: 1.5,
+    x: -200,
 });
 
 gsap.from(".secondafilacard", {
@@ -273,52 +263,45 @@ gsap.from(".secondafilacard", {
         start: "-=300 center",
         markers: true,
     },
-    
+
     opacity: 0,
-    ease: "bounce.out",
+    ease: "ease.out",
     duration: 1.5,
     y: 200,
 });
 
+gsap.from(".bottonePill", {
+    opacity: 0,
+    y: 50,
+    ease: "power1.out",
+    duration: 2,
+});
 
-
-gsap.from(".bottonePill",{
-
-opacity:0,
-    y:50,
-    ease:"power1.out",
-    duration:2,
-})
-
-
-
-gsap.fromTo(".fade-zoom", 
-    { opacity: 0, scale: 0.1 }, 
-    { opacity: 1, scale: 1, duration: 1.5, delay:1, ease: "back.out(1.7)" }
+gsap.fromTo(
+    ".fade-zoom",
+    { opacity: 0, scale: 0.1 },
+    { opacity: 1, scale: 1, duration: 1.5, delay: 1, ease: "back.out(1.7)" }
 );
 
-
-gsap.fromTo(".titolo", 
-    { opacity: 0, y: 20, }, // Stato iniziale (invisibile e più in basso)
-    { opacity: 1, y: 0, duration: 2, delay:2, ease: "elastic.Inout(1, 0.5)" } // Effetto morbido di rimbalzo
+gsap.fromTo(
+    ".titolo",
+    { opacity: 0, y: 20 }, // Stato iniziale (invisibile e più in basso)
+    { opacity: 1, y: 0, duration: 2, delay: 2, ease: "elastic.Inout(1, 0.5)" } // Effetto morbido di rimbalzo
 );
 
 // NAVBAR
-gsap.from(".navbar",{
-    opacity:0,
-    
-    ease:"power4.inOut",
-    duration:2,
-    delay:2,
+gsap.from(".navbar", {
+    opacity: 0,
+
+    ease: "power4.inOut",
+    duration: 2,
+    delay: 2,
 });
 
-gsap.from(".contattatemi",{
-    opacity:0,
-    y:50,
-    ease:"power4.inOut",
-    duration:4,
-    delay:1,
-    skewY:60,
-    
-})
-
+gsap.from(".contattami", {
+    opacity: 0,
+    y: 50,
+    ease: "power4.out",
+    duration: 2,
+    delay: 4,
+});
