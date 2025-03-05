@@ -66,7 +66,7 @@
         </div>
 
 
-        <div class="col-lg-5 my-5 justify-content-center align-items-center">
+        <div class="col-lg-5 p-0 my-5 justify-content-center align-items-center">
 
             <div class="my-2 justify-content-center align-items-center text-center">
 
@@ -91,26 +91,6 @@
 
                 <div class="">
                     <button class="btn btn-warning shadow-2xl bottone p-3" type="submit">Preventivo Web</button>
-
-                    <ul class="my-5 d-flex justify-around fs-3 playfair-display italic">
-
-                        <li>
-                            30min.
-                            <br>
-                            consulenza gratuita
-                        </li>
-
-
-                        <li>
-
-                            zoom
-                            <br>
-                            meeting
-                        </li>
-
-                        <li>contact mail <br> <a class="text-decoration-underline text-blue-500 hover:text-yellow-500"
-                                href="">matteotrotta7@gmail.com</a> </li>
-                    </ul>
 
                 </div>
             </div>

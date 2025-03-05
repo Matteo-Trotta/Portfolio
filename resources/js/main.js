@@ -104,7 +104,7 @@ gsap.from(".belloEimmediato", {
         markers: true,
         //  scrub: true,
     },
-    skewX: -5,
+    // skewX: -5, crea scorrimento asseX
     skewY: -15,
     autoAlpha: 0,
     repeat: 0,
@@ -114,23 +114,23 @@ gsap.from(".belloEimmediato", {
     delay: 0.5,
 });
 
-gsap.from(".bottone", {
-    scrollTrigger: {
-        trigger: ".bottone",
-        start: "-200px center",
-        toggleActions: "play reverse play reverse",
-    },
+// gsap.from(".bottone", {
+//     scrollTrigger: {
+//         trigger: ".bottone",
+//         start: "-200px center",
+//         toggleActions: "play reverse play reverse",
+//     },
 
-    autoAlpha: 0,
-    repeat: 0,
-    yoyo: true,
-    duration: 1.8,
-    scale: 3,
-    skewX: -80,
-    skewY: 10,
-    delay: 0,
-    ease: "bounce.out",
-});
+//     autoAlpha: 0,
+//     repeat: 0,
+//     yoyo: true,
+//     duration: 1.8,
+//     scale: 3,
+//     skewX: -80,
+//     skewY: 10,
+//     delay: 0,
+//     ease: "bounce.out",
+// });
 
 gsap.to(".designsumisura", {
     scrollTrigger: {
@@ -244,8 +244,10 @@ setTimeout(autoRotateSwiper, 1500);
 // FINE SWIPER
 
 // animazioni esclusivamente da desktop
-if (!/Mobi|Android/i.test(navigator.userAgent) && window.matchMedia("(min-width: 1024px)").matches) {
-    
+if (
+    !/Mobi|Android/i.test(navigator.userAgent) &&
+    window.matchMedia("(min-width: 1024px)").matches
+) {
     gsap.from(".primafilacard", {
         scrollTrigger: {
             trigger: ".primafilacard",
@@ -255,10 +257,11 @@ if (!/Mobi|Android/i.test(navigator.userAgent) && window.matchMedia("(min-width:
         },
         opacity: 0,
         ease: "bounce.out",
+
         duration: 1.5,
         x: -200,
     });
-    
+
     gsap.from(".secondafilacard", {
         scrollTrigger: {
             trigger: ".secondafilacard",
@@ -274,8 +277,6 @@ if (!/Mobi|Android/i.test(navigator.userAgent) && window.matchMedia("(min-width:
 } else {
     console.log("Animazioni disattivate su dispositivi mobili");
 }
-
-
 
 gsap.from(".bottonePill", {
     opacity: 0,
@@ -312,5 +313,3 @@ gsap.from(".contattami", {
     duration: 2,
     delay: 4,
 });
-
-
