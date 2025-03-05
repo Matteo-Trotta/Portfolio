@@ -2,7 +2,7 @@
 
 
 
-    <div class="col-lg-3 my-5 justify-content-center align-items-center">
+    <div class=" col-10 col-lg-3 my-5 justify-content-center align-items-center">
 
         <div class="card primafilacard shadow-lg border-blue-500">
             <div class="img-container">
@@ -27,7 +27,7 @@
     </div>
 
 
-    <div class="col-lg-3 my-5 justify-content-center align-items-center ">
+    <div class="col-10 col-lg-3 my-5 justify-content-center align-items-center ">
 
         <div class="card primafilacard shadow-lg border-blue-500 p-1 ">
             <img class="img-fluid" src="https://cdn.pixabay.com/photo/2023/01/13/06/58/google-7715407_1280.png"
@@ -52,7 +52,7 @@
     </div>
 
 
-    <div class="col-lg-3 my-5 justify-content-center align-items-center  ">
+    <div class="col-10 col-lg-3 my-5 justify-content-center align-items-center  ">
 
         <div class="card primafilacard shadow-lg border-blue-500 p-1">
 
@@ -79,10 +79,10 @@
 </div>
 
 {{-- SECONDA FILA --}}
-<div class="row text-center justify-content-center align-items-center mx-0 my-3">
+<div class="row text-center justify-content-center align-items-center mx-0 lg:my-3">
 
 
-    <div class="col-lg-3 my-5 secondafilacard justify-content-center align-items-center  text-center">
+    <div class="col-10 col-lg-3 my-5 lg:secondafilacard justify-content-center align-items-center  text-center">
 
         <div class="card shadow-lg border-blue-500">
 
@@ -115,7 +115,7 @@
 
 
 
-    <div class="col-lg-3 my-5 secondafilacard justify-content-center align-items-center ">
+    <div class="col-10 col-lg-3 my-5 secondafilacard justify-content-center align-items-center ">
 
         <div class="card shadow-lg border-blue-500 p-1 ">
 
@@ -148,7 +148,7 @@
 
 
 
-    <div class="col-lg-3 my-5 secondafilacard justify-content-center align-items-center ">
+    <div class="col-10 col-lg-3 my-5 secondafilacard justify-content-center align-items-center ">
         <div class="card shadow-lg border-blue-500 p-1 ">
             <img class="img-fluid"
                 src="https://img.freepik.com/vettori-gratuito/banner-della-tecnologia-cloud_107791-3202.jpg?t=st=1740667676~exp=1740671276~hmac=d26cb7c56737a7fca7f29abda529fb39d96969dc131ec375296ae70ba7830871&w=1380"

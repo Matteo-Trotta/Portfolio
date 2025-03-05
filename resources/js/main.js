@@ -243,32 +243,39 @@ setTimeout(autoRotateSwiper, 1500);
 
 // FINE SWIPER
 
-gsap.from(".primafilacard", {
-    scrollTrigger: {
-        trigger: ".primafilacard",
-        toggleActions: "play reverse play reverse",
-        start: "-=300 center",
-        markers: true,
-    },
-    opacity: 0,
-    ease: "bounce.out",
-    duration: 1.5,
-    x: -200,
-});
+// animazioni esclusivamente da desktop
+if (!/Mobi|Android/i.test(navigator.userAgent) && window.matchMedia("(min-width: 1024px)").matches) {
+    
+    gsap.from(".primafilacard", {
+        scrollTrigger: {
+            trigger: ".primafilacard",
+            toggleActions: "play reverse play reverse",
+            start: "-=300 center",
+            markers: true,
+        },
+        opacity: 0,
+        ease: "bounce.out",
+        duration: 1.5,
+        x: -200,
+    });
+    
+    gsap.from(".secondafilacard", {
+        scrollTrigger: {
+            trigger: ".secondafilacard",
+            toggleActions: "play reverse play reverse",
+            start: "-=300 center",
+            markers: true,
+        },
+        opacity: 0,
+        ease: "ease.out",
+        duration: 1,
+        y: 200,
+    });
+} else {
+    console.log("Animazioni disattivate su dispositivi mobili");
+}
 
-gsap.from(".secondafilacard", {
-    scrollTrigger: {
-        trigger: ".secondafilacard",
-        toggleActions: "play reverse play reverse",
-        start: "-=300 center",
-        markers: true,
-    },
 
-    opacity: 0,
-    ease: "ease.out",
-    duration: 1.5,
-    y: 200,
-});
 
 gsap.from(".bottonePill", {
     opacity: 0,
@@ -305,3 +312,5 @@ gsap.from(".contattami", {
     duration: 2,
     delay: 4,
 });
+
+
