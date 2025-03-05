@@ -313,3 +313,33 @@ gsap.from(".contattami", {
     duration: 2,
     delay: 4,
 });
+
+
+
+// Seleziona il bottone tramite data attribute
+const toggleButton = document.querySelector('[data-collapse-toggle="navbar-cta"]');
+// Seleziona il menu tramite l'id
+const menu = document.getElementById('navbar-cta');
+
+toggleButton.addEventListener('click', () => {
+  menu.classList.toggle('hidden');
+});
+
+
+gsap.fromTo(".evidenziatore",
+
+{
+background: "transparent",
+
+
+}
+,
+{
+    duration:1,
+    delay:2,
+    scaleX:20,
+background:"rgb(245, 158, 11)",
+
+
+}
+);

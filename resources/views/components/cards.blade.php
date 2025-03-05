@@ -82,7 +82,7 @@
 <div class="row text-center justify-content-center align-items-center mx-0 lg:my-3">
 
 
-    <div class="col-10 col-lg-3 my-5 lg:secondafilacard justify-content-center align-items-center  text-center">
+    <div class="col-10 col-lg-3 my-5 secondafilacard justify-content-center align-items-center  text-center">
 
         <div class="card shadow-lg border-blue-500">
 

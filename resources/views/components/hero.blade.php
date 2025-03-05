@@ -1,4 +1,4 @@
-<div class="container-fluid p-0 mx-0 d-none d-lg-block">
+<div class="container-fluid p-0 mx-0 d-none d-lg-block ">
 
     <div class="row text-center justify-content-center align-items-center">
 
@@ -12,10 +12,7 @@
 
 
             <video autoplay loop muted  playinline src="https://cdn.pixabay.com/video/2023/07/27/173481-849645868_large.mp4"
-                id="heroVideo" class="w-full vh-full position-absolute  ">
-
-
-
+                id="heroVideo" class=" position-absolute">
             </video>
 
 
