@@ -9,7 +9,7 @@
 <div class="container-fluid bianco my-0  p-0">
     <div class="row  m-0 align-items-center justify-content-end">
 
-        <div class="col-md-5">
+        <div class="col-md-5 my-5">
 
             <h2 class="tangerine-title fs-1 text-stone-900 avraiUnaMarcia">Avrai una marcia in più
             </h2>
@@ -59,15 +59,15 @@
 
             <div class="my-2 justify-content-center align-items-center text-center">
 
-                <h2 class=" bodoni fw-semibold fs-1 fw-normal text-black text-center">
+                <h2 class=" bodoni fw-semibold fs-1 fw-normal text-black text-center my-1">
                     Siti Web Responsive
                 </h2>
 
-                <h3 class="text-center lg:tangerine-regular designsumisura text-black">
+                <h3 class="text-center fs-5 tangerine-regular designsumisura text-black">
                     Design su misura per aziende, ristoratori e professionisti
                 </h3>
 
-                <p class="my-5 bodoni fw-semibold fs-3 fw-4 text-center">
+                <p class="my-5 bodoni fs-3 fw-4 text-center">
 
                     Realizzo siti web moderni, veloci e perfettamente adattabili a qualsiasi dispositivo, ideali per
                     ristoranti, negozi, aziende e liberi professionisti. Ogni progetto è studiato per garantire
