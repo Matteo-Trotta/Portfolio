@@ -46,31 +46,33 @@
             </button>
         </div>
 
+
+
         {{-- menu mobile --}}
         <nav id="navbar-cta" class="hidden">
-            <ul class="bg-indigo-900 ms-3">
-                <li class="hover:translate-y-4">
-                    <a href="{{ 'welcome' }}" class=" hover:underline text-white fs-3 italic text-lg">home</a>
+            <ul class="bg-transparent ms-3  text-yellow-500  rounded p-2">
+                <li class="">
+                    <a href="{{ 'welcome' }}" class="  fs-3 italic text-lg">home</a>
                 </li>
 
-                <li class="hover:translate-y-4">
-                    <a href="{{ 'aboutMe' }}" class=" hover:underline text-white fs-3 italic text-lg">About Me
+                <li class="">
+                    <a href="{{ 'aboutMe' }}" class="  fs-3 italic text-lg">About Me
                     </a>
                 </li>
 
-                <li class="hover:translate-y-4 text-white fs-3 italic text-lg ">
-                    <a href="#" class="hover:underline text-white fs-3 italic text-lg ">Works
+                <li class="">
+                    <a href="#" class=" fs-3 italic text-lg ">Works
 
                     </a>
                 </li>
 
-                <li class="hover:translate-y-4">
-                    <a href="{{ 'services' }}" class=" hover:underline text-white fs-3 italic text-lg">Services
+                <li class="">
+                    <a href="{{ 'services' }}" class="  fs-3 italic text-lg">Services
                     </a>
                 </li>
 
-                <li class="hover:translate-y-4">
-                    <a href="#" class=" hover:underline text-white fs-3 italic text-lg ">Contact
+                <li class="">
+                    <a href="#" class="  fs-3 italic text-lg ">Contact
 
                     </a>
                 </li>

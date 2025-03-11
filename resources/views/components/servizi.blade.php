@@ -2,7 +2,12 @@
 
 
 {{-- cards di bootstrap --}}
-<x-cards />
+<div class="container-fluid">
+
+    <x-cards />
+
+</div>
+
 
 
 {{-- animazione tavola bounceout  --}}
@@ -19,7 +24,18 @@
                     grafico</p>
             </h3>
 
-            <p class="my-5 fs-3 tangerine-regular text-stone-900 paragrafoAvraiUnaMarcia">Scegliere uno <span class=" evidenziatore rounded p-1 italic bodoni fw-bold">sviluppo custom</span> con PHP e Laravel significa liberare il potenziale digitale della tua attività. A differenza dei template standard, questo approccio ti offre un <span class=" evidenziatore rounded p-1 italic bodoni fw-bold">sito web su misura</span>, come un abito sartoriale: ogni pixel, ogni funzionalità è pensata specificamente per te. La <span class=" evidenziatore rounded p-1 italic bodoni fw-bold">scalabilità del codice</span> garantisce che il tuo sito cresca insieme alla tua impresa, <span class=" evidenziatore rounded p-1 italic bodoni fw-bold">adattandosi con agilità alle tue esigenze future</span>  di business, senza compromessi e con la massima flessibilità tecnica.Laravel implementa inoltre <span class=" evidenziatore rounded p-1 italic bodoni fw-bold">protocolli di sicurezza avanzati</span> che proteggono il tuo spazio digitale da potenziali vulnerabilità, garantendo un'esperienza online robusta e affidabile.</p>
+            <p class="my-5 fs-3 tangerine-regular text-stone-900 paragrafoAvraiUnaMarcia">Scegliere uno <span
+                    class=" evidenziatore rounded p-1 italic bodoni fw-bold">sviluppo custom</span> con PHP e Laravel
+                significa liberare il potenziale digitale della tua attività. A differenza dei template standard, questo
+                approccio ti offre un <span class=" evidenziatore rounded p-1 italic bodoni fw-bold">sito web su
+                    misura</span>, come un abito sartoriale: ogni pixel, ogni funzionalità è pensata specificamente per
+                te. La <span class=" evidenziatore rounded p-1 italic bodoni fw-bold">scalabilità del codice</span>
+                garantisce che il tuo sito cresca insieme alla tua impresa, <span
+                    class=" evidenziatore rounded p-1 italic bodoni fw-bold">adattandosi con agilità alle tue esigenze
+                    future</span> di business, senza compromessi e con la massima flessibilità tecnica.Laravel
+                implementa inoltre <span class=" evidenziatore rounded p-1 italic bodoni fw-bold">protocolli di
+                    sicurezza avanzati</span> che proteggono il tuo spazio digitale da potenziali vulnerabilità,
+                garantendo un'esperienza online robusta e affidabile.</p>
 
         </div>
 

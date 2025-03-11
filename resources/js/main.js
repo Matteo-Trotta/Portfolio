@@ -272,7 +272,7 @@ if (
         opacity: 0,
         ease: "ease.out",
         duration: 1,
-        y: 200,
+        y: 100,
     });
 } else {
     console.log("Animazioni disattivate su dispositivi mobili");

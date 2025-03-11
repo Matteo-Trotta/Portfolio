@@ -1,8 +1,8 @@
 <div class="container-fluid bg-stone-100 my-0">
-    <div class="row  justify-content-center align-items-center">
+    <div class="row mx-0  justify-content-center align-items-center">
 
 
-        <div class="col-4 text-center">
+        <div class="col-10 col-md-4 text-center">
 
             <h2 class="fs-1 tangerine-regular my-4 playfair-display ">Metodi di contatto</h2>
 
@@ -27,10 +27,10 @@
 
 
                     Linked <i class="fa-brands fa-linkedin fa-lg"></i> :
-                    
+
                     <a href="https://www.linkedin.com/in/matteo-trotta-5a9984278/" class="hover:underline text-blue-500">
 
-     Profilo LinkedIn
+                        Profilo LinkedIn
 
                     </a>
 
@@ -41,7 +41,7 @@
         </div>
 
 
-        <div class="col-6 my-5">
+        <div class="col-10 col-md-6 my-5">
 
             <form id="contactForm" class="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-2xl">
                 <h2 class="text-xl font-semibold mb-4 text-center">Scrivi un messaggio</h2>
