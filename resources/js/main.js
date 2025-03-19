@@ -74,7 +74,7 @@ gsap.from(".paragrafoAvraiUnaMarcia", {
         toggleActions: "play reverse play reverse",
         start: "top center",
 
-        // markers: true,
+        // markers: false,
     },
     autoAlpha: 0,
     y: 50,
@@ -101,36 +101,19 @@ gsap.from(".belloEimmediato", {
         toggleActions: "play none play reverse",
         start: "+=400 center",
 
-        markers: true,
-        //  scrub: true,
+        markers: false,
+        //  scrub: false,
     },
     // skewX: -5, crea scorrimento asseX
     skewY: -15,
     autoAlpha: 0,
     repeat: 0,
-    // yoyo: true,
+    // yoyo: false,
     duration: 1.5,
     ease: "bounce.out",
     delay: 0.5,
 });
 
-// gsap.from(".bottone", {
-//     scrollTrigger: {
-//         trigger: ".bottone",
-//         start: "-200px center",
-//         toggleActions: "play reverse play reverse",
-//     },
-
-//     autoAlpha: 0,
-//     repeat: 0,
-//     yoyo: true,
-//     duration: 1.8,
-//     scale: 3,
-//     skewX: -80,
-//     skewY: 10,
-//     delay: 0,
-//     ease: "bounce.out",
-// });
 
 gsap.to(".designsumisura", {
     scrollTrigger: {
@@ -205,43 +188,6 @@ gsap.from(".incrementavisibilità", {
     delay: 2,
 });
 
-// SWIPER
-
-var swiper = new Swiper(".welcomeSwiper", {
-    effect: "cube",
-    grabCursor: true,
-    loop: true,
-    cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 50,
-        shadowScale: 0.94,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-    },
-});
-
-gsap.from(".welcomeSwiper", {
-    autoAlpha: 0,
-    duration: 1.5,
-    ease: "power2.out",
-    x: -20,
-});
-
-function autoRotateSwiper() {
-    gsap.to(swiper, {
-        duration: 5,
-        ease: "power1.inOut",
-        onRepeat: () => swiper.slideNext(),
-        repeat: -1,
-        delay: 1,
-    });
-}
-
-setTimeout(autoRotateSwiper, 1500);
-
-// FINE SWIPER
 
 // animazioni esclusivamente da desktop
 if (
@@ -253,7 +199,7 @@ if (
             trigger: ".primafilacard",
             toggleActions: "play reverse play reverse",
             start: "-=300 center",
-            markers: true,
+            markers: false,
         },
         opacity: 0,
         ease: "bounce.out",
@@ -267,7 +213,7 @@ if (
             trigger: ".secondafilacard",
             toggleActions: "play reverse play reverse",
             start: "-=300 center",
-            markers: true,
+            markers: false,
         },
         opacity: 0,
         ease: "ease.out",
