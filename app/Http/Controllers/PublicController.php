@@ -14,7 +14,7 @@ class PublicController extends Controller
 
     public function aboutMe()
     {
-        return view('aboutMe');
+        return view('aboutme');
     }
 
 
