@@ -95,46 +95,48 @@ gsap.from(".effettoGrafico", {
     delay: 1.5,
 });
 
-gsap.from(".belloEimmediato", {
-    scrollTrigger: {
-        trigger: ".belloEimmediato",
-        toggleActions: "play none play reverse",
-        start: "+=400 center",
+if (!window.matchMedia("(max-width: 767px)").matches) {
+    gsap.from(".belloEimmediato", {
+        scrollTrigger: {
+            trigger: ".belloEimmediato",
+            toggleActions: "play none play reverse",
+            start: "+=400 center",
 
-        markers: false,
-        //  scrub: false,
-    },
-    // skewX: -5, crea scorrimento asseX
-    skewY: -15,
-    autoAlpha: 0,
-    repeat: 0,
-    // yoyo: false,
-    duration: 1.5,
-    ease: "bounce.out",
-    delay: 0.5,
-});
-
-
-gsap.to(".designsumisura", {
-    scrollTrigger: {
-        trigger: ".designsumisura",
-        toggleActions: "play reverse play reverse",
-        start: "top center",
-    },
-});
-
-gsap.from(".smartphone", {
-    scrollTrigger: {
-        trigger: ".smartphone",
-        toggleActions: "play reverse play reverse",
-        start: "top center",
-    },
-
-    autoAlpha: 0,
-    y: 100,
-    ease: "ease-in",
-    duration: 0.5,
-});
+            markers: false,
+            //  scrub: false,
+        },
+        // skewX: -5, crea scorrimento asseX
+        skewY: -15,
+        autoAlpha: 0,
+        repeat: 0,
+        // yoyo: false,
+        duration: 1.5,
+        ease: "bounce.out",
+        delay: 0.5,
+    });
+    
+    
+    gsap.to(".designsumisura", {
+        scrollTrigger: {
+            trigger: ".designsumisura",
+            toggleActions: "play reverse play reverse",
+            start: "top center",
+        },
+    });
+    
+    gsap.from(".smartphone", {
+        scrollTrigger: {
+            trigger: ".smartphone",
+            toggleActions: "play reverse play reverse",
+            start: "top center",
+        },
+        
+        autoAlpha: 0,
+        y: 100,
+        ease: "ease-in",
+        duration: 0.5,
+    });
+}
 
 gsap.to(".immagineHeader", {});
 

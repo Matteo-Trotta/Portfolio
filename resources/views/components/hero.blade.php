@@ -1,4 +1,4 @@
-<div class="container-fluid p-0 mx-0 heroContainer ">
+<div class="container-fluid p-0 mx-0 heroContainer sm:m-1">
 
     <div class="row text-center justify-content-center align-items-center">
 

@@ -52,7 +52,7 @@
         <nav id="navbar-cta" class="hidden">
             <ul class="bg-transparent ms-3  text-yellow-500  rounded p-2">
                 <li class="">
-                    <a href="{{ 'welcome' }}" class="  fs-3 italic text-lg">home</a>
+                    <a href="{{ route('welcome') }}" class="  fs-3 italic text-lg">home</a>
                 </li>
 
                 <li class="">
@@ -67,7 +67,7 @@
                 </li>
 
                 <li class="">
-                    <a href="{{ 'services' }}" class="  fs-3 italic text-lg">Services
+                    <a href="{{ route('services') }}" class="  fs-3 italic text-lg">Services
                     </a>
                 </li>
 
