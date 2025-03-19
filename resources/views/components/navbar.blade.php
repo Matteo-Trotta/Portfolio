@@ -56,7 +56,7 @@
                 </li>
 
                 <li class="">
-                    <a href="{{ 'aboutMe' }}" class="  fs-3 italic text-lg">About Me
+                    <a href="{{ route('aboutMe') }}" class="  fs-3 italic text-lg">About Me
                     </a>
                 </li>
 
