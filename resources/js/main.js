@@ -114,8 +114,7 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         ease: "bounce.out",
         delay: 0.5,
     });
-    
-    
+
     gsap.to(".designsumisura", {
         scrollTrigger: {
             trigger: ".designsumisura",
@@ -123,14 +122,14 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
             start: "top center",
         },
     });
-    
+
     gsap.from(".smartphone", {
         scrollTrigger: {
             trigger: ".smartphone",
             toggleActions: "play reverse play reverse",
             start: "top center",
         },
-        
+
         autoAlpha: 0,
         y: 100,
         ease: "ease-in",
@@ -190,7 +189,6 @@ gsap.from(".incrementavisibilità", {
     delay: 2,
 });
 
-
 // animazioni esclusivamente da desktop
 if (
     !/Mobi|Android/i.test(navigator.userAgent) &&
@@ -222,6 +220,15 @@ if (
         duration: 1,
         y: 100,
     });
+
+    document.getElementById("scrollButton").addEventListener("click", function () {
+        window.scrollTo({
+            top: 999,
+            behavior: "smooth",
+        });
+    });
+    
+
 } else {
     console.log("Animazioni disattivate su dispositivi mobili");
 }
@@ -241,8 +248,8 @@ gsap.fromTo(
 
 gsap.fromTo(
     ".titolo",
-    { opacity: 0, y: 20 }, // Stato iniziale (invisibile e più in basso)
-    { opacity: 1, y: 0, duration: 2, delay: 2, ease: "elastic.Inout(1, 0.5)" } // Effetto morbido di rimbalzo
+    { opacity: 0, y: 20 },
+    { opacity: 1, y: 0, duration: 2, delay: 2, ease: "elastic.Inout(1, 0.5)" }
 );
 
 // NAVBAR
@@ -262,32 +269,31 @@ gsap.from(".contattami", {
     delay: 4,
 });
 
-
-
 // Seleziona il bottone tramite data attribute
-const toggleButton = document.querySelector('[data-collapse-toggle="navbar-cta"]');
+const toggleButton = document.querySelector(
+    '[data-collapse-toggle="navbar-cta"]'
+);
 // Seleziona il menu tramite l'id
-const menu = document.getElementById('navbar-cta');
+const menu = document.getElementById("navbar-cta");
 
-toggleButton.addEventListener('click', () => {
-  menu.classList.toggle('hidden');
+toggleButton.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
 });
 
-
-gsap.fromTo(".evidenziatore",
-
-{
-background: "transparent",
-
-
-}
-,
-{
-    duration:1,
-    delay:2,
-    scaleX:20,
-background:"rgb(245, 158, 11)",
-
-
-}
+gsap.fromTo(
+    ".evidenziatore",
+    {
+        background: "transparent",
+    },
+    {
+        duration: 1,
+        delay: 2,
+        scaleX: 20,
+        background: "rgb(245, 158, 11)",
+    }
 );
+
+
+
+
+

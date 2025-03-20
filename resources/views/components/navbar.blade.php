@@ -31,7 +31,7 @@
 
         <div class="md:ml-auto">
             <button
-                class="d-lg-block d-none bottonenavbar btn btn-warning shadow-lg p-3 contattami hover:bg-transparent hover:!text-white fs-3">Contattami</button>
+                class="d-lg-block d-none bottonenavbar btn btn-warning shadow-lg p-3 contattami hover:bg-transparent hover:!text-white fs-4">Contattami</button>
         </div>
 
 

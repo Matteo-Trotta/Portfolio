@@ -25,7 +25,7 @@
                 </p>
 
                 <a href="#contatti"
-                    class="btn btn-lg bg-yellow-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 my-4">
+                    id="scrollButton" class="btn btn-lg bg-yellow-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 my-4">
 
                     {{-- ricorda di applicare classi di tailwind con ! important,per forzare il conflitto con bootstrap --}}
 
