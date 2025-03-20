@@ -100,9 +100,9 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         scrollTrigger: {
             trigger: ".belloEimmediato",
             toggleActions: "play none play reverse",
-            start: "+=400 center",
+            start: "top center",
 
-            markers: false,
+            markers: true,
             //  scrub: false,
         },
         // skewX: -5, crea scorrimento asseX

@@ -40,12 +40,12 @@
         </div>
 
 
-        <div class="col-md-6 mx-0 px-0 align-items-center justify-content-end">
+        <div class="col-md-6 ms-5 px-0 align-items-center justify-content-end">
 
-            <div class="">
+            <div class="ms-5">
 
                 <img class="belloEimmediato img-fluid" class="img-fluid"
-                    src="https://www.artworkstudios.it/wp-content/uploads/2019/01/preventivo-sito-web-professionale.jpg"
+                    src="{{ asset('storage/images/tolkien-gsapp-animazione-removebg-preview.png') }}"
                     alt="">
 
             </div>
@@ -63,7 +63,7 @@
             <div>
                 <picture>
                     <img class="img-fluid smartphone" class="img-fluid"
-                        src="https://www.artworkstudios.it/wp-content/uploads/2020/06/realizzazione-siti-responsive.jpg"
+                        src="https://cdn.pixabay.com/photo/2018/06/11/23/14/hand-3469618_1280.png"
                         alt="immagine smartphone">
                 </picture>
             </div>
