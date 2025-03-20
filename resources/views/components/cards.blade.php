@@ -17,7 +17,7 @@
                     attività. Ogni progetto è unico e pensato per offrire un’esperienza utente perfetta su qualsiasi
                     dispositivo.</p>
 
-                <a href="#" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
+                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
             </div>
 
         </div>
@@ -39,7 +39,7 @@
                     online.
                 </p>
 
-                <a href="#"
+                <a href="{{ route('services') }}"
                     class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-120 hover:bg-blue-600 hover:text-white ">Scopri
                     di più</a>
             </div>
@@ -67,7 +67,7 @@
                     convertire i visitatori in clienti. Perfette per promuovere prodotti, servizi o eventi speciali.
                 </p>
 
-                <a href="#" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
+                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
             </div>
         </div>
 
@@ -100,7 +100,7 @@
                     garantendo un’esperienza fluida e intuitiva su tutti i dispositivi, dal mobile al desktop.
                 </p>
 
-                <a href="#" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più
+                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più
 
                 </a>
 
@@ -134,7 +134,7 @@
                     Trends per ottimizzare contenuti e chiave.
                 </p>
 
-                <a href="#" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
+                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
             </div>
         </div>
 
@@ -162,7 +162,7 @@
                     continua. Il tuo sito sarà sempre online, aggiornato e sicuro, senza che tu debba preoccuparti
                     di nulla.</p>
 
-                <a href="#" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
+                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
             </div>
         </div>
 
