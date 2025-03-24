@@ -43,22 +43,30 @@
 
         <div class="col-10 col-md-6 my-5">
 
-            <form id="contactForm" class="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-2xl">
+            @if (session('message'))
+                <div class="alert alert-success">{{ session('message') }}
+                </div>
+            @endif
+
+            <form action="{{ route('sendEmail') }}" method ="POST" id="contactForm"
+                class="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-2xl">
+                @csrf
+
                 <h2 class="text-xl font-semibold mb-4 text-center">Scrivi un messaggio</h2>
 
                 <div class="mb-4">
-                    <label for="name" class="block font-medium mb-1">Nome</label>
+                    <label class="block font-medium mb-1">Nome</label>
                     <input type="text" id="name" name="name" class="w-full p-2 border rounded-lg" required>
                 </div>
 
                 <div class="mb-4">
-                    <label for="email" class="block font-medium mb-1">Email</label>
+                    <label class="block font-medium mb-1">Email</label>
                     <input type="email" id="email" name="email" class="w-full p-2 border rounded-lg" required>
                 </div>
 
                 <div class="mb-4">
-                    <label for="message" class="block font-medium mb-1">Messaggio</label>
-                    <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded-lg" required></textarea>
+                    <label class="block font-medium mb-1">Messaggio</label>
+                    <textarea id="description" name="desciption" rows="4" class="w-full p-2 border rounded-lg" required></textarea>
                 </div>
 
                 <button type="submit"
@@ -66,6 +74,10 @@
                     Invia
                 </button>
             </form>
+
+            @if (session('success'))
+                <p>{{ session('success') }}</p>
+            @endif
 
 
 
