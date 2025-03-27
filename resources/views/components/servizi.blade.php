@@ -62,7 +62,7 @@
             <div>
                 <picture>
                     <img class="img-fluid smartphone" class="img-fluid"
-                        src="https://media.canva.com/v2/files/uri:ifs%3A%2F%2FM%2Fc917423c-7b7e-42d7-b096-1f35ecb3d615?csig=AAAAAAAAAAAAAAAAAAAAANuPclA_DgHaLBONmO6aUFR1LLKIjcZKuD5PG6khD67a&exp=1743002184&signer=media-rpc&token=AAIAAU0AJGM5MTc0MjNjLTdiN2UtNDJkNy1iMDk2LTFmMzVlY2IzZDYxNQAAAAABldMGqUAo7PGBlIZr0lIzHfKKSY6FSc4ck-wAZdLhRk6Idn-HJA"
+                        src=""
                         alt="immagine smartphone">
                 </picture>
             </div>
