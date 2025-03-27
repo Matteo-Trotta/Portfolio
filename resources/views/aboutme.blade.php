@@ -18,7 +18,7 @@
 
             <div class="col-12 col-md-5 justify-content-center align-items-center ">
 
-<img class="rounded-circle border-yellow-500 border-3 shadow-2xl mx-auto " src="{{ asset('/storage/images/fotoCv.jpg') }}" alt="foto di Matteo trotta">
+<img class="rounded-circle border-yellow-500 border-3 shadow-2xl mx-auto " src="https://media.istockphoto.com/id/165964685/it/vettoriale/night-cielo.jpg?s=612x612&w=0&k=20&c=hhZp-kl5zV9VyGO1CzOZMEWqNjovMPPVVWvnK-duKao=">
 
             </div>
 

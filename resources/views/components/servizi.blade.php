@@ -45,7 +45,7 @@
             <div class="ms-5">
 
                 <img class="belloEimmediato img-fluid" class="img-fluid"
-                    src="{{ asset('storage/images/tolkien-gsapp-animazione-removebg-preview.png') }}"
+                    src="https://cdn.pixabay.com/photo/2024/08/21/14/51/four-dimensional-8986442_1280.png"
                     alt="">
 
             </div>
@@ -56,14 +56,13 @@
 
 {{-- animazione smartphone ease-in --}}
 <div class="container-fluid bianco my-0 p-0">
-    <div class="row mx-0">
-        <div
-            class="col-lg-5 my-0 justify-content-center align-items-center  justify-content-center align-items-center text-center mx-auto">
+    <div class="row mx-0 align-items-center justify-content-around">
+        <div class="col-lg-5 my-0 justify-content-center align-items-center px-0">
 
             <div>
                 <picture>
                     <img class="img-fluid smartphone" class="img-fluid"
-                        src="https://cdn.pixabay.com/photo/2018/06/11/23/14/hand-3469618_1280.png"
+                        src="https://media.canva.com/v2/files/uri:ifs%3A%2F%2FM%2Fc917423c-7b7e-42d7-b096-1f35ecb3d615?csig=AAAAAAAAAAAAAAAAAAAAANuPclA_DgHaLBONmO6aUFR1LLKIjcZKuD5PG6khD67a&exp=1743002184&signer=media-rpc&token=AAIAAU0AJGM5MTc0MjNjLTdiN2UtNDJkNy1iMDk2LTFmMzVlY2IzZDYxNQAAAAABldMGqUAo7PGBlIZr0lIzHfKKSY6FSc4ck-wAZdLhRk6Idn-HJA"
                         alt="immagine smartphone">
                 </picture>
             </div>
@@ -71,26 +70,31 @@
         </div>
 
 
-        <div class="col-lg-5 p-0 my-5 justify-content-center align-items-center">
+        <div class="col-lg-5 p-0 mx-0 text-center ">
 
-            <div class="my-2 justify-content-center align-items-center text-center">
+            <div class="my-2">
 
-                <h2 class=" bodoni fw-semibold fs-1 fw-normal text-black text-center my-1">
+                <h2 class=" bodoni fw-semibold fs-1 fw-normal text-black my-1">
                     Siti Web Responsive
                 </h2>
 
-                <h3 class="text-center fs-5 tangerine-regular designsumisura text-black">
+                <h3 class=" fs-5 tangerine-regular designsumisura text-black">
                     Design su misura per aziende, ristoratori e professionisti
                 </h3>
 
-                <p class="my-5 bodoni fs-3 fw-4 text-center">
+                <p class="my-5 bodoni fs-3 fw-4">
 
-                    Realizzo siti web moderni, veloci e perfettamente adattabili a qualsiasi dispositivo, ideali per
-                    ristoranti, negozi, aziende e liberi professionisti. Ogni progetto è studiato per garantire
-                    un’esperienza utente intuitiva e coinvolgente.
-                    <br>
-                    🍽️ Per il settore della ristorazione offro anche un servizio fotografico professionale per menu e
-                    ambienti, valorizzando la tua attività con immagini di alta qualità.
+                    Siti Web Responsive su Misura per Aziende, Ristoratori e Professionisti
+
+                    Scegliere un sito web responsive significa creare una presenza digitale che risponde perfettamente a
+                    ogni dispositivo, ottimizzando l’esperienza utente su smartphone, tablet e desktop. Offro soluzioni
+                    personalizzate, progettate per soddisfare le specifiche esigenze di ristoranti, aziende, negozi e
+                    liberi professionisti. Ogni sito è pensato per combinare design moderno, prestazioni elevate e
+                    funzionalità pratiche, garantendo un'interfaccia user-friendly che cattura l’attenzione degli utenti
+                    e li invita ad esplorare il contenuto. Per il settore della ristorazione, oltre alla progettazione
+                    web, offro anche un servizio fotografico professionale per menù e ambienti, creando immagini di alta
+                    qualità che esaltano l’aspetto della tua attività, contribuendo a valorizzare l'immagine del tuo
+                    brand.
 
                 </p>
 

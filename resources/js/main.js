@@ -102,7 +102,7 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
             toggleActions: "play none play reverse",
             start: "top center",
 
-            markers: true,
+            markers: false,
             //  scrub: false,
         },
         // skewX: -5, crea scorrimento asseX
@@ -221,14 +221,14 @@ if (
         y: 100,
     });
 
-    document.getElementById("scrollButton").addEventListener("click", function () {
-        window.scrollTo({
-            top: 999,
-            behavior: "smooth",
+    document
+        .getElementById("scrollButton")
+        .addEventListener("click", function () {
+            window.scrollTo({
+                top: 999,
+                behavior: "smooth",
+            });
         });
-    });
-    
-
 } else {
     console.log("Animazioni disattivate su dispositivi mobili");
 }
@@ -269,11 +269,10 @@ gsap.from(".contattami", {
     delay: 4,
 });
 
-// Seleziona il bottone tramite data attribute
 const toggleButton = document.querySelector(
     '[data-collapse-toggle="navbar-cta"]'
 );
-// Seleziona il menu tramite l'id
+
 const menu = document.getElementById("navbar-cta");
 
 toggleButton.addEventListener("click", () => {
@@ -292,8 +291,3 @@ gsap.fromTo(
         background: "rgb(245, 158, 11)",
     }
 );
-
-
-
-
-
