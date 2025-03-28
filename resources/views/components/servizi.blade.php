@@ -42,7 +42,7 @@
 
         <div class="col-md-6 ms-5 px-0 align-items-center justify-content-end">
 
-            <div class="ms-5">
+            <div class="lg:ms-5">
 
                 <img class="belloEimmediato img-fluid" class="img-fluid"
                     src="https://cdn.pixabay.com/photo/2024/08/21/14/51/four-dimensional-8986442_1280.png"
@@ -61,7 +61,7 @@
 
             <div>
                 <picture>
-                    <img class="img-fluid smartphone" class="img-fluid"
+                    <img class="img-fluid smartphone d-none d-md-block" class="img-fluid"
                         src=""
                         alt="immagine smartphone">
                 </picture>

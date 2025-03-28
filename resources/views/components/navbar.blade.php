@@ -8,12 +8,12 @@
                 </li>
 
                 <li class="hover:translate-y-4">
-                    <a href="{{ 'aboutMe' }}" class=" hover:underline text-white fs-3 italic text-lg">chi sono
+                    <a href="{{ 'aboutMe' }}" class=" hover:underline text-white fs-3 italic text-lg">Chi sono
                     </a>
                 </li>
 
                 <li class="hover:translate-y-4 text-white fs-3 italic text-lg ">
-                    <a href="#" class="hover:underline text-white fs-3 italic text-lg ">Lavori
+                    <a href="#" class="hover:underline text-white fs-3 italic text-lg ">Portfolio
 
                     </a>
                 </li>
@@ -49,7 +49,7 @@
 
 
         {{-- menu mobile --}}
-        <nav id="navbar-cta" class="hidden">
+        <nav id="navbar-cta" class="hidden  shadow-md">
             <ul class="bg-transparent ms-3  text-yellow-500  rounded p-2">
                 <li class="">
                     <a href="{{ route('welcome') }}" class="  fs-3 italic text-lg">home</a>

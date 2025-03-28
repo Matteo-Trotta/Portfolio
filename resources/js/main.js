@@ -190,10 +190,7 @@ gsap.from(".incrementavisibilità", {
 });
 
 // animazioni esclusivamente da desktop
-if (
-    !/Mobi|Android/i.test(navigator.userAgent) &&
-    window.matchMedia("(min-width: 1024px)").matches
-) {
+if (!window.matchMedia("(max-width: 767px)").matches)  {
     gsap.from(".primafilacard", {
         scrollTrigger: {
             trigger: ".primafilacard",
