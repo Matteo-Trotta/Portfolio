@@ -46,7 +46,7 @@
 
                 <img class="belloEimmediato img-fluid" class="img-fluid"
                     src="{{ asset('storage/images/tolkien-animazione.png') }}"
-                    alt="">
+                    alt="Immagine animata con montagne">
 
             </div>
 
