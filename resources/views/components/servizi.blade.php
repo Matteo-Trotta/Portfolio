@@ -45,7 +45,7 @@
             <div class="lg:ms-5">
 
                 <img class="belloEimmediato img-fluid" class="img-fluid"
-                    src="https://cdn.pixabay.com/photo/2024/08/21/14/51/four-dimensional-8986442_1280.png"
+                    src="{{ asset('storage/images/tolkien-animazione.png') }}"
                     alt="">
 
             </div>
@@ -59,13 +59,12 @@
     <div class="row mx-0 align-items-center justify-content-around">
         <div class="col-lg-5 my-0 justify-content-center align-items-center px-0">
 
-            <div>
-                <picture>
-                    <img class="img-fluid smartphone d-none d-md-block" class="img-fluid"
-                        src=""
-                        alt="immagine smartphone">
-                </picture>
-            </div>
+
+            <picture>
+                <img class="img-fluid smartphone d-none d-md-block" class="img-fluid"
+                    src="{{ asset('storage/images/mockup-smartphone-portfolio.png') }}" alt="immagine smartphone">
+            </picture>
+
 
         </div>
 
