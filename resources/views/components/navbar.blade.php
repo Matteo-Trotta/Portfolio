@@ -56,23 +56,18 @@
                 </li>
 
                 <li class="">
-                    <a href="{{ route('aboutMe') }}" class="  fs-3 italic text-lg">About Me
+                    <a href="{{ route('aboutMe') }}" class="  fs-3 italic text-lg">Chi sono
+                    </a>
+                </li>
+
+                
+                <li class="">
+                    <a href="{{ route('services') }}" class="  fs-3 italic text-lg">Servizi
                     </a>
                 </li>
 
                 <li class="">
-                    <a href="#" class=" fs-3 italic text-lg ">Works
-
-                    </a>
-                </li>
-
-                <li class="">
-                    <a href="{{ route('services') }}" class="  fs-3 italic text-lg">Services
-                    </a>
-                </li>
-
-                <li class="">
-                    <a href="#" class="  fs-3 italic text-lg ">Contact
+                    <a href="#" class="  fs-3 italic text-lg ">Portfolio
 
                     </a>
                 </li>
