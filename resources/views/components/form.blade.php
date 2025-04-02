@@ -1,4 +1,4 @@
-<div class="container-fluid bg-stone-100 my-0">
+<div class="container-fluid bg-stone-100 my-0 ">
     <div class="row mx-0  justify-content-center align-items-center">
 
 
@@ -42,7 +42,7 @@
 
         
 
-        <div class="col-10 col-md-6 my-5">
+        <div class="col-10 col-md-6 my-5 d-none">
 
             @if (session('message'))
                 <div class="alert alert-success">{{ session('message') }}
