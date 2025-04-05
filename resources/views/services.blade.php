@@ -24,8 +24,8 @@
 
             <div class="col-12 col-md-6">
 
-                <img class="rounded d-none d-md-block" src=" https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
-                    alt="">
+                <img class="imgServices rounded d-none d-md-block"
+                    src=" https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg" alt="">
             </div>
 
 
@@ -109,8 +109,8 @@
 
             <div class="col-12 col-md-6 text-center my-auto ">
 
-                <img class="rounded d-none d-md-block" src="https://cdn.pixabay.com/photo/2016/08/30/05/00/seo-1629811_1280.jpg"
-                    alt="">
+                <img class="rounded d-none d-md-block"
+                    src="https://cdn.pixabay.com/photo/2016/08/30/05/00/seo-1629811_1280.jpg" alt="">
             </div>
 
         </div>
@@ -381,7 +381,7 @@
             <div class="col-12 col-md-6 text-center my-auto ">
 
                 <img class="rounded d-none d-md-block"
-                    src="https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="">
             </div>
 

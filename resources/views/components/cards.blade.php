@@ -17,7 +17,8 @@
                     attività. Ogni progetto è unico e pensato per offrire un’esperienza utente perfetta su qualsiasi
                     dispositivo.</p>
 
-                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
+                <a href="{{ route('services') }}"
+                    class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Scopri di più</a>
             </div>
 
         </div>
@@ -32,15 +33,17 @@
                 class="card-img-top" alt="...">
 
             <div class="card-body overflow-scroll text-center align-items-center">
+
                 <h5 class="card-title fs-1 bodoni mt-5 pt-1">Consulenza SEO</h5>
                 <hr>
+
                 <p class="card-text playfair-display fs-4">Ottimizzo il tuo sito per migliorare la visibilità su
                     Google. Analizzo contenuti, parole chiave e prestazioni per aiutarti a raggiungere più clienti
                     online.
                 </p>
 
                 <a href="{{ route('services') }}"
-                    class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-120 hover:bg-blue-600 hover:text-white ">Scopri
+                    class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-120 hover:bg-indigo-500 hover:text-white ">Scopri
                     di più</a>
             </div>
 
@@ -67,7 +70,8 @@
                     convertire i visitatori in clienti. Perfette per promuovere prodotti, servizi o eventi speciali.
                 </p>
 
-                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
+                <a href="{{ route('services') }}"
+                    class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Scopri di più</a>
             </div>
         </div>
 
@@ -100,7 +104,8 @@
                     garantendo un’esperienza fluida e intuitiva su tutti i dispositivi, dal mobile al desktop.
                 </p>
 
-                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più
+                <a href="{{ route('services') }}"
+                    class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Scopri di più
 
                 </a>
 
@@ -134,7 +139,8 @@
                     Trends per ottimizzare contenuti e chiave.
                 </p>
 
-                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
+                <a href="{{ route('services') }}"
+                    class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Scopri di più</a>
             </div>
         </div>
 
@@ -162,7 +168,8 @@
                     continua. Il tuo sito sarà sempre online, aggiornato e sicuro, senza che tu debba preoccuparti
                     di nulla.</p>
 
-                <a href="{{ route('services') }}" class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110">Scopri di più</a>
+                <a href="{{ route('services') }}"
+                    class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Scopri di più</a>
             </div>
         </div>
 

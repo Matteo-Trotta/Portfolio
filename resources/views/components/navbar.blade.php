@@ -3,23 +3,26 @@
         <!-- Menu Navigazione -->
         <div class="hidden md:flex flex-grow justify-center space-x-8">
             <ul class="flex space-x-6">
-                <li class="hover:translate-y-4">
-                    <a href="{{ 'welcome' }}" class=" hover:underline text-white fs-3 italic text-lg">home</a>
+                <li class="hover:translate-y-2">
+                    <a href="{{ 'welcome' }}"
+                        class=" hover:underline fs-3 italic text-lg hover:text-yellow-500">home</a>
                 </li>
 
-                <li class="hover:translate-y-4">
-                    <a href="{{ 'aboutMe' }}" class=" hover:underline text-white fs-3 italic text-lg">Chi sono
+                <li class="hover:translate-y-2">
+                    <a href="{{ 'aboutMe' }}" class=" hover:underline fs-3 italic text-lg  hover:text-indigo-500">Chi
+                        sono
                     </a>
                 </li>
 
-                <li class="hover:translate-y-4 text-white fs-3 italic text-lg ">
-                    <a href="#" class="hover:underline text-white fs-3 italic text-lg ">Portfolio
+                <li class="hover:translate-y-2 fs-3 italic text-lg ">
+                    <a href="#" class="hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Portfolio
 
                     </a>
                 </li>
 
-                <li class="hover:translate-y-4">
-                    <a href="{{ 'services' }}" class=" hover:underline text-white fs-3 italic text-lg">Servizi
+                <li class="hover:translate-y-2">
+                    <a href="{{ 'services' }}"
+                        class=" hover:underline fs-3 italic text-lg hover:text-indigo-500">Servizi
                     </a>
                 </li>
 
@@ -31,7 +34,7 @@
 
         <div class="md:ml-auto">
             <button
-                class="d-lg-block d-none bottonenavbar btn btn-warning shadow-lg p-3 contattami hover:bg-transparent hover:!text-white fs-4">Contattami</button>
+                class="d-lg-block d-none btn btn-lg bg-yellow-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 my-4 fs-3">Contattami</button>
         </div>
 
 
@@ -60,7 +63,7 @@
                     </a>
                 </li>
 
-                
+
                 <li class="">
                     <a href="{{ route('services') }}" class="  fs-3 italic text-lg">Servizi
                     </a>

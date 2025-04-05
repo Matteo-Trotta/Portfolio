@@ -19,7 +19,7 @@
 
             <div class="col-12 col-md-5 justify-content-center align-items-center ">
 
-                <img class="rounded-circle border-yellow-500 border-3 shadow-2xl mx-auto "
+                <img class=" border-yellow-500 border-3 shadow-2xl mx-auto "
                     src="{{ asset('storage/images/fotoCv.jpg') }}">
 
             </div>

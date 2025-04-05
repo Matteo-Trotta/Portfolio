@@ -190,7 +190,7 @@ gsap.from(".incrementavisibilità", {
 });
 
 // animazioni esclusivamente da desktop
-if (!window.matchMedia("(max-width: 767px)").matches)  {
+if (!window.matchMedia("(max-width: 767px)").matches) {
     gsap.from(".primafilacard", {
         scrollTrigger: {
             trigger: ".primafilacard",
@@ -227,7 +227,6 @@ if (!window.matchMedia("(max-width: 767px)").matches)  {
             });
         });
 } else {
-    console.log("Animazioni disattivate su dispositivi mobili");
 }
 
 gsap.from(".bottonePill", {
@@ -286,5 +285,17 @@ gsap.fromTo(
         delay: 2,
         scaleX: 20,
         background: "rgb(245, 158, 11)",
+    }
+);
+
+gsap.fromTo(
+    ".imgServices",
+    {
+        opacity: 0,
+        x: 100,
+    },
+    {
+        opacity: 1,
+        x: 0,
     }
 );

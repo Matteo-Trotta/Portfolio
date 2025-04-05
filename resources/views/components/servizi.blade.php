@@ -19,7 +19,7 @@
             <h2 class="tangerine-title fs-1 text-stone-900 avraiUnaMarcia">Avrai una marcia in più
             </h2>
 
-            <h3 class="tangerine-title  p-0  text-stone-800 fs-1 fw-normal ">Siti web a costi contenuti <p
+            <h3 class="tangerine-title p-0 text-stone-800 fs-1 fw-normal">Siti web a costi contenuti <p
                     class="effettoGrafico">di effetto
                     grafico</p>
             </h3>
@@ -56,11 +56,11 @@
 
 {{-- animazione smartphone ease-in --}}
 <div class="container-fluid bianco my-0 p-0">
-    <div class="row mx-0 align-items-center justify-content-around">
-        <div class="col-lg-5 my-0 justify-content-center align-items-center px-0">
+    <div class="row mx-0 align-items-center justify-content-center">
+        <div class="col-lg-5 my-0 justify-content-center align-items-center px-0 ">
 
 
-            <picture>
+            <picture class="">
                 <img class="img-fluid smartphone d-none d-md-block" class="img-fluid"
                     src="{{ asset('storage/images/mockup-smartphone-portfolio.png') }}" alt="immagine smartphone">
             </picture>
@@ -77,7 +77,7 @@
                     Siti Web Responsive
                 </h2>
 
-                <h3 class=" fs-5 tangerine-regular designsumisura text-black">
+                <h3 class=" fs-3 letter.spacing underline tangerine-regular designsumisura text-black">
                     Design su misura per aziende, ristoratori e professionisti
                 </h3>
 
