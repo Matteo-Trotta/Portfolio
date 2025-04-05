@@ -15,6 +15,7 @@ Route::get('/aboutMe', [PublicController::class, 'aboutMe'])->name('aboutMe');
 
 Route::get('/services', [PublicController::class, 'services'])->name('services');
 
+Route::get('/portfolio', [PublicController::class, 'portfolio'])->name('portfolio');
 
 
 Route::post('/welcome', [ContactController::class, 'sendEmail'])->name('sendEmail');

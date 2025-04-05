@@ -15,7 +15,7 @@
                 </li>
 
                 <li class="hover:translate-y-2 fs-3 italic text-lg ">
-                    <a href="#" class="hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Portfolio
+                    <a href="{{ route('portfolio') }}" class="hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Portfolio
 
                     </a>
                 </li>
@@ -70,7 +70,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#" class="  fs-3 italic text-lg ">Portfolio
+                    <a href="{{ route('portfolio') }}" class="  fs-3 italic text-lg ">Portfolio
 
                     </a>
                 </li>
