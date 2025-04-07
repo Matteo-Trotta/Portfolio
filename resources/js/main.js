@@ -226,8 +226,16 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
                 behavior: "smooth",
             });
         });
-} else {
 }
+
+document
+    .getElementById("scrollButtonContattami")
+    .addEventListener("click", function () {
+        window.scrollTo({
+            top: 10000,
+            behavior: "smooth",
+        });
+    });
 
 gsap.from(".bottonePill", {
     opacity: 0,
@@ -299,3 +307,16 @@ gsap.fromTo(
         x: 0,
     }
 );
+
+
+
+const $prevButton = document.getElementById('data-carousel-prev');
+const $nextButton = document.getElementById('data-carousel-next');
+
+$prevButton.addEventListener('click', () => {
+    carousel.prev();
+});
+
+$nextButton.addEventListener('click', () => {
+    carousel.next();
+});
