@@ -50,32 +50,34 @@
 
     <div class="container-fluid px-0">
         <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
-    
-            
+
+
             <div class="col-12 col-md-6 order-2 order-md-1">
                 <img class="shadow-2xl img-fluid mx-auto rounded"
                     src="{{ asset('storage/images/presto.it/Slide Pagina-Intera-Home.jpg') }}">
             </div>
-    
+
             <div class="col-12 col-md-6 align-items-center justify-content-center text-start order-1 order-md-2">
                 <h2 class="tangerine display-1 letter-spacing md:my-5">Web Development</h2>
-    
+
                 <p class="fs-5 bg-white md:p-5 bodoni text-justify justify-self-start ms-5 w-50">
                     Dopo anni dietro il bancone, ho deciso di esplorare un nuovo linguaggio: quello del web. Ho iniziato
                     con un corso intensivo online, scoprendo che anche con il codice si possono creare esperienze.
                 </p>
                 <br>
                 <p class="fs-5 bg-white md:p-5 bodoni text-justify justify-self-center me-5 w-75">
-                    Ho lavorato in team utilizzando Git per il versionamento del codice e la collaborazione sullo sviluppo,
+                    Ho lavorato in team utilizzando Git per il versionamento del codice e la collaborazione sullo
+                    sviluppo,
                     con diversi linguaggi come HTML, CSS e JavaScript, PHP, framework Laravel e MySql per realizzare un
-                    e-commerce di compra/vendita articoli, con integrazione di IA. Questo mi ha permesso di creare siti web
+                    e-commerce di compra/vendita articoli, con integrazione di IA. Questo mi ha permesso di creare siti
+                    web
                     che offrono un'esperienza utente intuitiva e coinvolgente.
                 </p>
             </div>
-    
+
         </div>
     </div>
-    
+
 
 
     <div class="container-fluid mb-5 px-0">
@@ -86,7 +88,7 @@
 
                 <h2 class=" tangerine display-1 letter-spacing  md:my-5 ">Fotografia</h2>
 
-                <p class="fs-5  bg-white md:p-5 bodoni text-justify justify-self-start ms-5 w-50">
+                <p class="fs-5  bg-white md:p-5 bodoni lg-text-justify justify-self-start ms-5 w-50">
 
                     Con la macchina fotografica ho portato quella stessa attenzione nell'immagine: raccontare
                     un’atmosfera, dare forma a un’emozione.
@@ -98,18 +100,28 @@
             </div>
 
 
-            <div class="col-12 col-md-6 ">
+            <div class="col-12 col-md-6 my-2 ">
 
-                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExample" class="overflow-hidden relative carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
+
                         <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
+
                         <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
+                            aria-label="Slide 2">
+                        </button>
+
                         <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+                            aria-label="Slide 3">
+                        </button>
+
                         <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
+                            aria-label="Slide 4">
+                        </button>
+
+                        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
                     </div>
 
                     <div class="carousel-inner sm-mb-1">
@@ -135,6 +147,8 @@
                                 alt="Slide 3">
                         </div>
 
+
+
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                         data-bs-slide="prev">
@@ -156,7 +170,3 @@
 
 
 </x-layout>
-
-
-
-

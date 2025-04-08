@@ -45,8 +45,7 @@
             <div class="lg:ms-5">
 
                 <img class="belloEimmediato img-fluid" class="img-fluid"
-                    src="{{ asset('storage/images/tolkien-animazione.png') }}"
-                    alt="Immagine animata con montagne">
+                    src="{{ asset('storage/images/tolkien-animazione.png') }}" alt="Immagine animata con montagne">
 
             </div>
 
@@ -82,18 +81,12 @@
                 </h3>
 
                 <p class="my-5 bodoni fs-3 fw-4">
-
-                    Siti Web Responsive su Misura per Aziende, Ristoratori e Professionisti
-
-                    Scegliere un sito web responsive significa creare una presenza digitale che risponde perfettamente a
-                    ogni dispositivo, ottimizzando l’esperienza utente su smartphone, tablet e desktop. Offro soluzioni
-                    personalizzate, progettate per soddisfare le specifiche esigenze di ristoranti, aziende, negozi e
-                    liberi professionisti. Ogni sito è pensato per combinare design moderno, prestazioni elevate e
+                    Scegliere un sito web responsive significa creare una <span class="evidenziatore rounded">presenza digitale </span>che risponde perfettamente a
+                    <span class="evidenziatore rounded">ogni dispositivo</span>, ottimizzando
+                    l’esperienza utente su smartphone, tablet e desktop. Offro <span class="evidenziatore rounded">soluzioni personalizzate</span>, progettate per soddisfare le specifiche esigenze di ristoranti, aziende, negozi e
+                    liberi professionisti. Ogni sito è pensato per combinare <span class="evidenziatore rounded">design moderno</span>, prestazioni elevate e
                     funzionalità pratiche, garantendo un'interfaccia user-friendly che cattura l’attenzione degli utenti
-                    e li invita ad esplorare il contenuto. Per il settore della ristorazione, oltre alla progettazione
-                    web, offro anche un servizio fotografico professionale per menù e ambienti, creando immagini di alta
-                    qualità che esaltano l’aspetto della tua attività, contribuendo a valorizzare l'immagine del tuo
-                    brand.
+                    e li invita ad esplorare il contenuto.
 
                 </p>
 

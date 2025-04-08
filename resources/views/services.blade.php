@@ -14,7 +14,7 @@
     {{-- CARDS --}}
 
 
-    <div class="container">
+    <div class="container mx-auto px-0">
         {{-- PRIMA FILA / sito web --}}
         <div class="row text-center justify-content-between align-items-center ">
 
@@ -386,6 +386,16 @@
             </div>
 
         </div>
+
+
+        <div class="row mx-0 px-0">
+
+
+            <x-form />
+
+
+        </div>
+
 
     </div>
 
