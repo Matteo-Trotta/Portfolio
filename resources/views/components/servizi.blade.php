@@ -44,7 +44,7 @@
 
             <div class="lg:ms-5">
 
-                <img class="belloEimmediato img-fluid" class="img-fluid"
+                <img class="belloEimmediato d-none d-md-block img-fluid" class="img-fluid"
                     src="{{ asset('storage/images/tolkien-animazione.png') }}" alt="Immagine animata con montagne">
 
             </div>
@@ -60,7 +60,7 @@
 
 
             <picture class="">
-                <img class="img-fluid smartphone d-none d-md-block" class="img-fluid"
+                <img class="img-fluid smartphone " class="img-fluid"
                     src="{{ asset('storage/images/mockup-smartphone-portfolio.png') }}" alt="immagine smartphone">
             </picture>
 
