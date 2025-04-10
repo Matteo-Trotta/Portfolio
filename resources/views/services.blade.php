@@ -25,7 +25,7 @@
             <div class="col-12 col-md-6">
 
                 <img class="imgServices rounded d-none d-md-block"
-                    src=" https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg" alt="">
+                    src=" {{ asset('/storage/images/servizi/sito-web.webp') }}" alt="">
             </div>
 
 
@@ -110,7 +110,7 @@
             <div class="col-12 col-md-6 text-center my-auto ">
 
                 <img class="rounded d-none d-md-block"
-                    src="https://cdn.pixabay.com/photo/2016/08/30/05/00/seo-1629811_1280.jpg" alt="">
+                    src="{{ asset('storage/images/servizi/seo.jpg') }}" alt="">
             </div>
 
         </div>
@@ -124,7 +124,7 @@
             <div class="col-12 col-md-6 text-center my-auto ">
 
                 <img class="rounded d-none d-md-block"
-                    src="https://images.unsplash.com/photo-1625442772842-329d4f08ea14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="{{ asset('storage/images/servizi/landing-page.avif') }}"
                     alt="">
             </div>
 
@@ -244,7 +244,7 @@
             <div class="col-12 col-md-6 text-center my-auto ">
 
                 <img class="rounded d-none d-md-block"
-                    src="https://images.unsplash.com/photo-1480694313141-fce5e697ee25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="{{ asset('storage/images/servizi/responsive-design.avif') }}"
                     alt="">
             </div>
 
@@ -259,7 +259,7 @@
             <div class="col-12 col-md-6 text-center my-auto ">
 
                 <img class="rounded d-none d-md-block"
-                    src="https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="{{ asset('storage/images/servizi/trends-seo.avif') }}"
                     alt="">
             </div>
 
@@ -380,22 +380,14 @@
 
             <div class="col-12 col-md-6 text-center my-auto ">
 
-                <img class="rounded d-none d-md-block"
-                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="rounded d-none d-md-block" src="{{ asset('storage/images/servizi/hosting.avif') }}"
                     alt="">
             </div>
 
         </div>
 
 
-        <div class="row mx-0 px-0">
-
-
-            <x-form />
-
-
-        </div>
-
+        
 
     </div>
 

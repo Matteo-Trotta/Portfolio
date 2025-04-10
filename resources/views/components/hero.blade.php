@@ -10,7 +10,7 @@
 
             {{-- video mostrato solamente su dispositivi lg --}}
             <video autoplay loop muted playinline
-                src="https://cdn.pixabay.com/video/2023/07/27/173481-849645868_large.mp4" id="heroVideo"
+                src="{{ asset('storage/video/video-hero.mp4') }}" id="heroVideo"
                 class=" d-none d-lg-block position-absolute">
             </video>
 
