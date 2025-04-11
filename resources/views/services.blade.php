@@ -109,8 +109,8 @@
 
             <div class="col-12 col-md-6 text-center my-auto ">
 
-                <img class="rounded d-none d-md-block"
-                    src="{{ asset('storage/images/servizi/seo.jpg') }}" alt="">
+                <img class="rounded d-none d-md-block" src="{{ asset('storage/images/servizi/seo.jpg') }}"
+                    alt="">
             </div>
 
         </div>
@@ -123,8 +123,7 @@
 
             <div class="col-12 col-md-6 text-center my-auto ">
 
-                <img class="rounded d-none d-md-block"
-                    src="{{ asset('storage/images/servizi/landing-page.avif') }}"
+                <img class="rounded d-none d-md-block" src="{{ asset('storage/images/servizi/landing-page.avif') }}"
                     alt="">
             </div>
 
@@ -244,8 +243,7 @@
             <div class="col-12 col-md-6 text-center my-auto ">
 
                 <img class="rounded d-none d-md-block"
-                    src="{{ asset('storage/images/servizi/responsive-design.avif') }}"
-                    alt="">
+                    src="{{ asset('storage/images/servizi/responsive-design.avif') }}" alt="">
             </div>
 
 
@@ -258,8 +256,7 @@
 
             <div class="col-12 col-md-6 text-center my-auto ">
 
-                <img class="rounded d-none d-md-block"
-                    src="{{ asset('storage/images/servizi/trends-seo.avif') }}"
+                <img class="rounded d-none d-md-block" src="{{ asset('storage/images/servizi/trends-seo.avif') }}"
                     alt="">
             </div>
 
@@ -387,7 +384,7 @@
         </div>
 
 
-        
+
 
     </div>
 

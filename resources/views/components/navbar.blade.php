@@ -14,11 +14,7 @@
                     </a>
                 </li>
 
-                <li class="hover:translate-y-2 fs-3 italic text-lg ">
-                    <a href="{{ route('portfolio') }}" class="hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Portfolio
 
-                    </a>
-                </li>
 
                 <li class="hover:translate-y-2">
                     <a href="{{ 'services' }}"
@@ -41,7 +37,7 @@
         {{-- menu mobile --}}
         <div class="md:hidden fixed top-20 left-2 right-0 z-50">
             <button data-collapse-toggle="navbar-cta" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-gray-200">
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-yellow-500 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-gray-200">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -53,7 +49,7 @@
 
 
         <nav id="navbar-cta" class="hidden hadow-md fixed ms-2 align-items-center top-20">
-            <ul class="bg-yellow-500 ms-4  text-indigo-500  rounded p-3">
+            <ul class="bg-yellow-500 ms-4 mt-3 text-indigo-500  rounded p-3">
                 <li class="">
                     <a href="{{ route('welcome') }}" class=" fw-semibold fs-3 italic text-lg">home</a>
                 </li>
@@ -69,11 +65,7 @@
                     </a>
                 </li>
 
-                <li class="">
-                    <a href="{{ route('portfolio') }}" class=" fw-semibold fs-3 italic text-lg ">Portfolio
 
-                    </a>
-                </li>
             </ul>
         </nav>
 

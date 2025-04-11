@@ -30,7 +30,8 @@
                     <!-- Ricorda: applica tailwind con !important per forzare il conflitto con bootstrap -->
                     Scopri di più
                 </a>
- {{-- BOTTONE SMARTPHONE E DEKSTOP COMPORTAMENTO DIFFERENTE --}}
+                
+                {{-- BOTTONE SMARTPHONE E DEKSTOP COMPORTAMENTO DIFFERENTE --}}
                 <script>
                     function updateLink() {
                         const scrollButton = document.getElementById('scrollButton');
