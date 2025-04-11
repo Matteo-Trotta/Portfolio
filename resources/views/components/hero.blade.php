@@ -9,8 +9,7 @@
 
 
             {{-- video mostrato solamente su dispositivi lg --}}
-            <video autoplay loop muted playinline
-                src="{{ asset('storage/video/video-hero.mp4') }}" id="heroVideo"
+            <video autoplay loop muted playinline src="{{ asset('storage/video/video-hero.mp4') }}" id="heroVideo"
                 class=" d-none d-lg-block position-absolute">
             </video>
 
@@ -28,12 +27,27 @@
 
                 <a href="#scopridipiù" id="scrollButton"
                     class="btn btn-lg bg-yellow-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 my-4">
-
-                    {{-- ricorda di applicare classi di tailwind con ! important,per forzare il conflitto con bootstrap --}}
-
+                    <!-- Ricorda: applica tailwind con !important per forzare il conflitto con bootstrap -->
                     Scopri di più
                 </a>
+ {{-- BOTTONE SMARTPHONE E DEKSTOP COMPORTAMENTO DIFFERENTE --}}
+                <script>
+                    function updateLink() {
+                        const scrollButton = document.getElementById('scrollButton');
 
+                        if (window.innerWidth <= 768) {
+
+                            scrollButton.href = '{{ route('services') }}';
+                        } else {
+
+                            scrollButton.href = '#scopridipiù';
+                        }
+                    }
+
+
+                    window.addEventListener('load', updateLink);
+                    window.addEventListener('resize', updateLink);
+                </script>
             </div>
 
 
