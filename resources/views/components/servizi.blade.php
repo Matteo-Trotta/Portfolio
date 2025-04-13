@@ -68,11 +68,11 @@
         </div>
 
 
-        <div class="col-lg-5 p-0 mx-0 text-center ">
+        <div class="col-lg-5 p-0 mx-0 text-center sitiwebresponsive">
 
             <div class="my-2">
 
-                <h2 class=" bodoni fw-semibold fs-1 fw-normal text-black my-1">
+                <h2 class=" bodoni fw-semibold fs-1 fw-normal text-black my-1 ">
                     Siti Web Responsive
                 </h2>
 

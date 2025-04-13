@@ -137,6 +137,20 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
     });
 }
 
+gsap.from(".sitiwebresponsive", {
+    scrollTrigger: {
+        trigger: ".sitiwebresponsive",
+        toggleActions: "play reverse play reverse",
+        start: "top center",
+    },
+
+    autoAlpha: 0,
+    y: 100,
+    ease: "ease-in",
+    duration: 0.5,
+});
+
+
 gsap.to(".immagineHeader", {});
 
 gsap.fromTo(
@@ -320,3 +334,8 @@ $nextButton.addEventListener("click", () => {
 });
 
 
+gsap.fromTo(
+    ".sitiwebresponsive",
+    { opacity: 0, scale: 0.1 },
+    { opacity: 1, scale: 1, duration: 1.5, delay: 1, ease: "back.out(1.7)" }
+);

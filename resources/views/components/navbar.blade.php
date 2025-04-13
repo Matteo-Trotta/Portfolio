@@ -5,11 +5,11 @@
             <ul class="flex space-x-6">
                 <li class="hover:translate-y-2">
                     <a href="{{ 'welcome' }}"
-                        class=" hover:underline fs-3 italic text-lg hover:text-yellow-500">home</a>
+                        class=" hover:underline fs-3 italic text-lg hover:text-yellow-500 ">home</a>
                 </li>
 
                 <li class="hover:translate-y-2">
-                    <a href="{{ 'aboutMe' }}" class=" hover:underline fs-3 italic text-lg  hover:text-indigo-500">Chi
+                    <a href="{{ 'aboutMe' }}" class=" hover:underline fs-3 italic text-lg  hover:text-yellow-500 ">Chi
                         sono
                     </a>
                 </li>
@@ -18,7 +18,7 @@
 
                 <li class="hover:translate-y-2">
                     <a href="{{ 'services' }}"
-                        class=" hover:underline fs-3 italic text-lg hover:text-indigo-500">Servizi
+                        class=" hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Servizi
                     </a>
                 </li>
 
