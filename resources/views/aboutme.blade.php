@@ -80,7 +80,7 @@
 
 
 
-    <div class="container-fluid mb-5 px-0">
+    <div class="container-fluid px-0 border-5">
         <div class="row mx-0  md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
 
 
@@ -167,6 +167,9 @@
 
         </div>
     </div>
+
+
+    <x-contatti />
 
 
 </x-layout>
