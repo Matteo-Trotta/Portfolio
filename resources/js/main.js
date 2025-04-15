@@ -334,46 +334,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const descriptionBox = document.getElementById("slideDescription");
 
     const slideDescriptions = [
-        `<p>1. Caricamento di un annuncio da parte di
-        un utente loggato al sistema</p>
-         <p class="fw-bold">Canon EOS 400Digital</p>`,
+        `<h3 class="fs-1 my-3  underline fw-semibold tangerine-regular2">home page</h3>
+         <p class="italic bodoni fs-3">"in evidenza una serie di funzionalità chiave: supporto multilingua, ricerca testuale e per tag, e un comodo accesso tramite login. La pagina principale presenta inoltre una selezione degli articoli in vendita, ordinati cronologicamente per offrire agli utenti sempre le novità più recenti."</h3>`,
 
-        `<p>Visualizzazione pubblica degli annunci e
-         del loro dettaglio</p>
-         <p class="fw-bold">Canon EOS 400Digital</p>`,
+        `<h3 class="fs-1 my-3  underline fw-semibold tangerine-regular2">Visualizzazione cards</h3>
+         <p class="italic bodoni fs-3">"La schermata della scheda prodotto di presto.it evidenzia diverse funzionalità chiave: è possibile aggiungere il prodotto ai preferiti, visualizzare la lista dei preferiti direttamente dal menu del profilo personalizzabile (con foto) e le immagini dei prodotti sono protette da un watermark per garantire la sicurezza dei contenuti."</p>`,
 
         `<p>Form di registrazione utente</p>
-         <p class="fw-bold">Canon EOS 400Digital</p>`,
+         <p class="">Canon EOS 400Digital</p>`,
 
-        `<p>Scheda del prodotto e delle sue info, watermark integrazione IA</p>
-         <p class="fw-bold">Canon EOS 400Digital</p>`,
+         `<h3 class="fs-1 my-3 underline fw-semibold tangerine-regular2">Rilevazione IA</h3>
+         <p class="italic bodoni fs-3">"mplica l'uso di strumenti di intelligenza artificiale per analizzare il testo inserito negli annunci. Questo sistema potrebbe essere usato per vari scopi, ad esempio per rilevare contenuti inappropriati, per arricchire il testo con metadati utili alla ricerca, oppure per suggerire delle modifiche che ne migliorino la chiarezza e l'efficacia."</p>`,,
     ];
 
-    // BACKLOG PerformanceResourceTiming.itemIl Backlog del Prodotto
-
-    // // 1. Caricamento di un annuncio da parte di
-    // // un utente loggato al sistema
-
-    // // 2. Visualizzazione pubblica degli annunci e
-    // // del loro dettaglio
-
-    // // 3. Sistema di approvazione degli annunci
-    // // da parte di utenti abilitati
-
-    // // 4. Interfaccia multi-lingua
-
-    // // 5. Caricamento di multiple foto descrittive
-    // // del prodotto in vendita
-    
-    // // 6. Refactoring del front-end con crop delle
-    // // immagini
-    // // 7. Analisi automatica tramite Al del testo degli
-    // // annunci
-    
-    // // 8. Aggiunta di immagini per coprire i volti
-    // // delle persone presenti nelle foto caricate
-    // // 9. Aggiunta di un watermark personalizzato
-    // // 10. Ricerca full-text degli annunci
+   
 
     const getActiveIndex = () => {
         const items = carousel.querySelectorAll(".carousel-item");
