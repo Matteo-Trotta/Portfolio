@@ -74,7 +74,7 @@
             <div class="col-12 col-md-6 order-2 order-md-1 align-items-start">
 
 
-                <div id="carouselDescription" class="overflow-hidden relative carousel slide " data-bs-ride="carousel">
+                <div id="carouselDescription" class="overflow-hidden relative carousel slide " >
                     <div class="carousel-indicators">
 
                         <button type="button" data-bs-target="#carouselDescription" data-bs-slide-to="0" class="active"
@@ -97,7 +97,7 @@
 
                     <div class="carousel-inner ">
                         <!-- ITEM 1 -->
-                        <div class="carousel-item active" >
+                        <div class="carousel-item active">
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="storage/images/presto.it/card-presto.jpg" alt="Slide 1"
                                     style="object-fit: contain; max-width: 100%; max-height: 100%;">
@@ -105,7 +105,7 @@
                         </div>
 
                         <!-- ITEM 2 -->
-                        <div class="carousel-item" >
+                        <div class="carousel-item">
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="storage/images/presto.it/footer-byte-buster.jpg" alt="Slide 2"
                                     style="object-fit: contain; max-width: 100%; max-height: 100%;">
@@ -113,7 +113,7 @@
                         </div>
 
                         <!-- ITEM 3 -->
-                        <div class="carousel-item" >
+                        <div class="carousel-item">
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="storage/images/presto.it/form-presto.jpg" alt="Slide 3"
                                     style="object-fit: contain; max-width: 100%; max-height: 100%;">
@@ -121,7 +121,7 @@
                         </div>
 
                         <!-- ITEM 4 -->
-                        <div class="carousel-item" >
+                        <div class="carousel-item">
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="storage/images/presto.it/slide-scarpe.jpg" alt="Slide 4"
                                     style="object-fit: contain; max-width: 100%; max-height: 100%;">
@@ -181,7 +181,7 @@
 
             <div class="col-12 col-md-6 my-2 ">
 
-                <div id="carouselExample" class="overflow-hidden relative carousel slide" data-bs-ride="carousel">
+                <div id="carouselExample" class="overflow-hidden relative carousel slide" >
                     <div class="carousel-indicators">
 
                         <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"

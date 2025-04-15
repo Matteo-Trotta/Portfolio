@@ -334,44 +334,46 @@ document.addEventListener("DOMContentLoaded", () => {
     const descriptionBox = document.getElementById("slideDescription");
 
     const slideDescriptions = [
-        `<p>Scatto rubato di una scimmia tra le ombre, atmosfera urbana intensa.</p>
+        `<p>1. Caricamento di un annuncio da parte di
+        un utente loggato al sistema</p>
          <p class="fw-bold">Canon EOS 400Digital</p>`,
 
-        `<p>Dettaglio bottigliera con luce calda e composizione simmetrica.</p>
+        `<p>Visualizzazione pubblica degli annunci e
+         del loro dettaglio</p>
          <p class="fw-bold">Canon EOS 400Digital</p>`,
 
-        `<p>Un bulldog con sguardo deciso, profondità di campo accentuata.</p>
+        `<p>Form di registrazione utente</p>
          <p class="fw-bold">Canon EOS 400Digital</p>`,
 
-        `<p>Bottiglia Montelobos su sfondo scuro, gioco di riflessi e texture.</p>
+        `<p>Scheda del prodotto e delle sue info, watermark integrazione IA</p>
          <p class="fw-bold">Canon EOS 400Digital</p>`,
     ];
 
     // BACKLOG PerformanceResourceTiming.itemIl Backlog del Prodotto
 
-    // 1. Caricamento di un annuncio da parte di
-    // un utente loggato al sistema
+    // // 1. Caricamento di un annuncio da parte di
+    // // un utente loggato al sistema
 
-    // 2. Visualizzazione pubblica degli annunci e
-    // del loro dettaglio
+    // // 2. Visualizzazione pubblica degli annunci e
+    // // del loro dettaglio
 
-    // 3. Sistema di approvazione degli annunci
-    // da parte di utenti abilitati
+    // // 3. Sistema di approvazione degli annunci
+    // // da parte di utenti abilitati
 
-    // 4. Interfaccia multi-lingua
+    // // 4. Interfaccia multi-lingua
 
-    // 5. Caricamento di multiple foto descrittive
-    // del prodotto in vendita
+    // // 5. Caricamento di multiple foto descrittive
+    // // del prodotto in vendita
     
-    // 6. Refactoring del front-end con crop delle
-    // immagini
-    // 7. Analisi automatica tramite Al del testo degli
-    // annunci
+    // // 6. Refactoring del front-end con crop delle
+    // // immagini
+    // // 7. Analisi automatica tramite Al del testo degli
+    // // annunci
     
-    // 8. Aggiunta di immagini per coprire i volti
-    // delle persone presenti nelle foto caricate
-    // 9. Aggiunta di un watermark personalizzato
-    // 10. Ricerca full-text degli annunci
+    // // 8. Aggiunta di immagini per coprire i volti
+    // // delle persone presenti nelle foto caricate
+    // // 9. Aggiunta di un watermark personalizzato
+    // // 10. Ricerca full-text degli annunci
 
     const getActiveIndex = () => {
         const items = carousel.querySelectorAll(".carousel-item");
