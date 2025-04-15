@@ -50,13 +50,13 @@
 
 
     <div class="container-fluid px-0">
-        <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
+        <div class="row mx-0 md:mx-0 md:p-5  bg-white justify-content-between align-items-center">
 
 
 
 
 
-            {{-- DESCSRIZIONE CAROUSEL --}}
+            {{-- DESCRIZIONE CAROUSEL --}}
 
             <div class="col-12 col-md-6 align-items-center justify-content-center text-start">
 
@@ -71,7 +71,7 @@
 
             {{-- CAROUSEL PRESTO IT --}}
 
-            <div class="col-12 col-md-6 order-2 order-md-1">
+            <div class="col-12 col-md-6 order-2 order-md-1 align-items-start">
 
 
                 <div id="carouselDescription" class="overflow-hidden relative carousel slide " data-bs-ride="carousel">
@@ -95,9 +95,9 @@
 
                     </div>
 
-                    <div class="carousel-inner vh-100">
+                    <div class="carousel-inner ">
                         <!-- ITEM 1 -->
-                        <div class="carousel-item active" style="height: 100vh;">
+                        <div class="carousel-item active" >
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="storage/images/presto.it/card-presto.jpg" alt="Slide 1"
                                     style="object-fit: contain; max-width: 100%; max-height: 100%;">
@@ -105,7 +105,7 @@
                         </div>
 
                         <!-- ITEM 2 -->
-                        <div class="carousel-item" style="height: 100vh;">
+                        <div class="carousel-item" >
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="storage/images/presto.it/footer-byte-buster.jpg" alt="Slide 2"
                                     style="object-fit: contain; max-width: 100%; max-height: 100%;">
@@ -113,7 +113,7 @@
                         </div>
 
                         <!-- ITEM 3 -->
-                        <div class="carousel-item" style="height: 100vh;">
+                        <div class="carousel-item" >
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="storage/images/presto.it/form-presto.jpg" alt="Slide 3"
                                     style="object-fit: contain; max-width: 100%; max-height: 100%;">
@@ -121,7 +121,7 @@
                         </div>
 
                         <!-- ITEM 4 -->
-                        <div class="carousel-item" style="height: 100vh;">
+                        <div class="carousel-item" >
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="storage/images/presto.it/slide-scarpe.jpg" alt="Slide 4"
                                     style="object-fit: contain; max-width: 100%; max-height: 100%;">
@@ -164,7 +164,7 @@
 
             <div class="col-12 col-md-6  align-items-center justify-content-center text-start ">
 
-                <h2 class=" tangerine display-1 letter-spacing  md:my-5 ">Fotografia</h2>
+                <h2 class=" tangerine display-1 letter-spacing ">Fotografia</h2>
 
                 <p class="fs-5  bg-white md:p-5 bodoni lg-text-justify justify-self-start ms-5 w-50">
 
