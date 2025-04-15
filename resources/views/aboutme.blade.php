@@ -50,7 +50,7 @@
 
 
     <div class="container-fluid px-0">
-        <div class="row mx-0 md:mx-0 md:p-5  bg-white justify-content-between align-items-center">
+        <div class="row mx-0 md:mx-0 md:p-5 vh-100  bg-white justify-content-between align-items-center">
 
 
 
@@ -58,7 +58,7 @@
 
             {{-- DESCRIZIONE CAROUSEL --}}
 
-            <div class="col-12 col-md-6 align-items-center justify-content-center text-start">
+            <div class="col-12 col-md-4 align-items-center justify-content-center text-start">
 
                 <h2 class="tangerine display-1 letter-spacing md:my-5">Presto.it</h2>
 
@@ -71,7 +71,7 @@
 
             {{-- CAROUSEL PRESTO IT --}}
 
-            <div class="col-12 col-md-6 order-2 order-md-1 align-items-start">
+            <div class="col-12 col-md-7 order-2 order-md-1 align-items-start">
 
 
                 <div id="carouselDescription" class="overflow-hidden relative carousel slide " >
@@ -95,7 +95,7 @@
 
                     </div>
 
-                    <div class="carousel-inner ">
+                    <div class="carousel-inner shadow-2xl ">
                         <!-- ITEM 1 -->
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
@@ -162,7 +162,7 @@
         <div class="row mx-0  md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
 
 
-            <div class="col-12 col-md-6  align-items-center justify-content-center text-start ">
+            <div class="col-12 col-md-5  align-items-center justify-content-center text-start ">
 
                 <h2 class=" tangerine display-1 letter-spacing ">Fotografia</h2>
 
@@ -179,7 +179,7 @@
 
             {{-- CAROUSEL FOTOGRAFIA --}}
 
-            <div class="col-12 col-md-6 my-2 ">
+            <div class="col-12 col-md-7 my-2 ">
 
                 <div id="carouselExample" class="overflow-hidden relative carousel slide" >
                     <div class="carousel-indicators">
