@@ -1,6 +1,6 @@
 <div class="container-fluid bg-white border-5">
     <div class="row justify-content-center align-items-center my-5">
-        <div class="col-12 col-md-6 text-center">
+        <div class="col-12 col-md-6 text-center ">
 
             <h3 class="tangerine-regular fs-1">
                 Metodi di contatto :

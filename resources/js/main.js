@@ -150,7 +150,6 @@ gsap.from(".sitiwebresponsive", {
     duration: 0.5,
 });
 
-
 gsap.to(".immagineHeader", {});
 
 gsap.fromTo(
@@ -232,14 +231,14 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         y: 100,
     });
 
-    document
-        .getElementById("scrollButton")
-        .addEventListener("click", function () {
-            window.scrollTo({
-                top: 999,
-                behavior: "smooth",
-            });
-        });
+    // document
+    //     .getElementById("scrollButton")
+    //     .addEventListener("click", function () {
+    //         window.scrollTo({
+    //             top: 999,
+    //             behavior: "smooth",
+    //         });
+    //     });
 }
 
 document
@@ -322,20 +321,60 @@ gsap.fromTo(
     }
 );
 
-const $prevButton = document.getElementById("data-carousel-prev");
-const $nextButton = document.getElementById("data-carousel-next");
-
-$prevButton.addEventListener("click", () => {
-    carousel.prev();
-});
-
-$nextButton.addEventListener("click", () => {
-    carousel.next();
-});
-
-
 gsap.fromTo(
     ".sitiwebresponsive",
     { opacity: 0, scale: 0.1 },
     { opacity: 1, scale: 1, duration: 1.5, delay: 1, ease: "back.out(1.7)" }
 );
+
+// CAROSELLO PRESTO
+
+document.addEventListener("DOMContentLoaded", () => {
+    const carousel = document.querySelector("#carouselDescription");
+    const descriptionBox = document.getElementById("slideDescription");
+
+    const slideDescriptions = [
+        `<p>Scatto rubato di una scimmia tra le ombre, atmosfera urbana intensa.</p>
+         <p class="fw-bold">Canon EOS 400Digital</p>`,
+
+        `<p>Dettaglio bottigliera con luce calda e composizione simmetrica.</p>
+         <p class="fw-bold">Canon EOS 400Digital</p>`,
+
+        `<p>Un bulldog con sguardo deciso, profondità di campo accentuata.</p>
+         <p class="fw-bold">Canon EOS 400Digital</p>`,
+
+        `<p>Bottiglia Montelobos su sfondo scuro, gioco di riflessi e texture.</p>
+         <p class="fw-bold">Canon EOS 400Digital</p>`,
+    ];
+
+    const getActiveIndex = () => {
+        const items = carousel.querySelectorAll(".carousel-item");
+        return Array.from(items).findIndex((item) =>
+            item.classList.contains("active")
+        );
+    };
+
+    if (descriptionBox) {
+        descriptionBox.innerHTML = slideDescriptions[0];
+    }
+
+    carousel.addEventListener("slid.bs.carousel", () => {
+        const activeIndex = getActiveIndex();
+
+        if (slideDescriptions[activeIndex] && descriptionBox) {
+            gsap.to(descriptionBox, {
+                opacity: 0,
+                y: 20,
+                duration: 0.3,
+                onComplete: () => {
+                    descriptionBox.innerHTML = slideDescriptions[activeIndex];
+                    gsap.fromTo(
+                        descriptionBox,
+                        { opacity: 0, y: -20 },
+                        { opacity: 1, y: 0, duration: 0.5 }
+                    );
+                },
+            });
+        }
+    });
+});
