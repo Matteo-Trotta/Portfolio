@@ -16,8 +16,8 @@ body {
     font-weight: 600;
     font-style: normal;
 }
-.tangerine{
-    font-family:"montserrat",serif;
+.tangerine {
+    font-family: "montserrat", serif;
 }
 
 .bodoni {
@@ -102,4 +102,42 @@ body {
 
 .heroContainer {
     background: linear-gradient(13deg, rgb(48, 45, 127) 30%, #0768cf 80%);
+}
+
+/* CAROSELLO FOTOGRAFIA
+ */
+
+.slide-fullheight {
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.img-responsive {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* colorefrecce carousel */
+.custom-carousel-prev-icon {
+    /* Usa un SVG inline con il colore desiderato (in questo esempio, rosso) */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3e%3cpath d='M3.854 0.146a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L1.707 4l2.147-2.146a.5.5 0 0 0 0-.708z'/%3e%3c/svg%3e");
+    background-size: 100%, 100%;
+}
+
+.custom-carousel-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3e%3cpath d='M4.146 0.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L6.293 4 4.146 1.854a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-size: 100%, 100%;
+}
+
+/* centrare le img di presto.it nelle loro slide contenitori */
+.object-contain {
+    object-fit: contain;
+    object-position: center;
 }

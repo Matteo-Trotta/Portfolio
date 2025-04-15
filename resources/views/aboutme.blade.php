@@ -95,40 +95,50 @@
 
                     </div>
 
-                    <div class="carousel-inner sm-mb-1">
-                        {{-- ITEM 1 --}}
-                        <div class="carousel-item active">
-                            <img class="" src="storage/images/presto.it/card-presto.jpg" class="d-block w-100"
-                                alt="Slide 1">
-                        </div>
-                        {{-- ITEM 2 --}}
-                        <div class="carousel-item">
-                            <img src="storage/images/presto.it/footer-byte-buster.jpg" class="d-block w-100"
-                                alt="Slide 2">
-                        </div>
-                        {{-- ITEM 3 --}}
-                        <div class="carousel-item">
-                            <img src="storage/images/presto.it/form-presto.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-inner vh-100">
+                        <!-- ITEM 1 -->
+                        <div class="carousel-item active" style="height: 100vh;">
+                            <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                                <img src="storage/images/presto.it/card-presto.jpg" alt="Slide 1"
+                                    style="object-fit: contain; max-width: 100%; max-height: 100%;">
+                            </div>
                         </div>
 
-                        {{-- ITEM 4 --}}
-                        <div class="carousel-item">
-                            <img src="storage/images/presto.it/slide-scarpe.jpg" class="d-block w-100"
-                                alt="Slide 3">
+                        <!-- ITEM 2 -->
+                        <div class="carousel-item" style="height: 100vh;">
+                            <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                                <img src="storage/images/presto.it/footer-byte-buster.jpg" alt="Slide 2"
+                                    style="object-fit: contain; max-width: 100%; max-height: 100%;">
+                            </div>
                         </div>
 
+                        <!-- ITEM 3 -->
+                        <div class="carousel-item" style="height: 100vh;">
+                            <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                                <img src="storage/images/presto.it/form-presto.jpg" alt="Slide 3"
+                                    style="object-fit: contain; max-width: 100%; max-height: 100%;">
+                            </div>
+                        </div>
 
-
+                        <!-- ITEM 4 -->
+                        <div class="carousel-item" style="height: 100vh;">
+                            <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                                <img src="storage/images/presto.it/slide-scarpe.jpg" alt="Slide 4"
+                                    style="object-fit: contain; max-width: 100%; max-height: 100%;">
+                            </div>
+                        </div>
                     </div>
 
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDescription"
+
+
+                    <button class=" carousel-control-prev" type="button" data-bs-target="#carouselDescription"
                         data-bs-slide="prev">
 
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    
+
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselDescription"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -146,7 +156,7 @@
         </div>
     </div>
 
-
+    {{-- DESCRIZIONE CAROUSEL FOTOGRAFIA --}}
 
     <div class="container-fluid px-0 border-5">
         <div class="row mx-0  md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
@@ -167,6 +177,7 @@
                 </p>
             </div>
 
+            {{-- CAROUSEL FOTOGRAFIA --}}
 
             <div class="col-12 col-md-6 my-2 ">
 
@@ -191,42 +202,51 @@
 
                     </div>
 
-                    <div class="carousel-inner sm-mb-1">
-                        {{-- ITEM 1 --}}
-                        <div class="carousel-item active">
-                            <img class="" src="storage/images/aboutMe/verticali/scimmia-scuro.JPG"
-                                class="d-block w-100" alt="Slide 1">
-                        </div>
-                        {{-- ITEM 2 --}}
-                        <div class="carousel-item">
-                            <img src="storage/images/aboutMe/verticali/dettaglio-bottigliera.JPG"
-                                class="d-block w-100" alt="Slide 2">
-                        </div>
-                        {{-- ITEM 3 --}}
-                        <div class="carousel-item">
-                            <img src="storage/images/aboutMe/verticali/bulldog.JPG" class="d-block w-100"
-                                alt="Slide 3">
+                    <div class="carousel-inner sm-mb-1 vh-100">
+                        <!-- ITEM 1 -->
+                        <div class="carousel-item active slide-fullheight">
+                            <div class="flex-center">
+                                <img src="storage/images/aboutMe/verticali/scimmia-scuro.JPG" alt="Slide 1"
+                                    class="img-responsive">
+                            </div>
                         </div>
 
-                        {{-- ITEM 4 --}}
-                        <div class="carousel-item">
-                            <img src="storage/images/aboutMe/verticali/montelobos.JPG" class="d-block w-100"
-                                alt="Slide 3">
+                        <!-- ITEM 2 -->
+                        <div class="carousel-item slide-fullheight">
+                            <div class="flex-center">
+                                <img src="storage/images/aboutMe/verticali/dettaglio-bottigliera.JPG" alt="Slide 2"
+                                    class="img-responsive">
+                            </div>
                         </div>
 
+                        <!-- ITEM 3 -->
+                        <div class="carousel-item slide-fullheight">
+                            <div class="flex-center">
+                                <img src="storage/images/aboutMe/verticali/bulldog.JPG" alt="Slide 3"
+                                    class="img-responsive">
+                            </div>
+                        </div>
 
-
+                        <!-- ITEM 4 -->
+                        <div class="carousel-item slide-fullheight">
+                            <div class="flex-center">
+                                <img src="storage/images/aboutMe/verticali/montelobos.JPG" alt="Slide 4"
+                                    class="img-responsive">
+                            </div>
+                        </div>
                     </div>
+
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                         data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon custom-carousel-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
                         data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon custom-carousel-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
+
                 </div>
 
             </div>
