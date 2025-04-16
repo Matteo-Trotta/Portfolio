@@ -334,20 +334,42 @@ document.addEventListener("DOMContentLoaded", () => {
     const descriptionBox = document.getElementById("slideDescription");
 
     const slideDescriptions = [
-        `<h3 class="fs-1 my-3  underline fw-semibold tangerine-regular2">home page</h3>
-         <p class="italic bodoni fs-3">"in evidenza una serie di funzionalità chiave: supporto multilingua, ricerca testuale e per tag, e un comodo accesso tramite login. La pagina principale presenta inoltre una selezione degli articoli in vendita, ordinati cronologicamente per offrire agli utenti sempre le novità più recenti."</h3>`,
+        // HOME PAGE
 
-        `<h3 class="fs-1 my-3  underline fw-semibold tangerine-regular2">Visualizzazione cards</h3>
-         <p class="italic bodoni fs-3">"La schermata della scheda prodotto di presto.it evidenzia diverse funzionalità chiave: è possibile aggiungere il prodotto ai preferiti, visualizzare la lista dei preferiti direttamente dal menu del profilo personalizzabile (con foto) e le immagini dei prodotti sono protette da un watermark per garantire la sicurezza dei contenuti."</p>`,
+        `<h3 class="fs-1 my-3  underline fw-semibold tangerine-regular2">
+        home page
+        </h3>
 
-        `<p>Form di registrazione utente</p>
-         <p class="">Canon EOS 400Digital</p>`,
+         <p class="italic bodoni fs-3">
+         "in evidenza una serie di funzionalità chiave: supporto multilingua, ricerca testuale e per tag, e un comodo accesso tramite login. La pagina principale presenta inoltre una selezione degli articoli in vendita, ordinati cronologicamente per offrire agli utenti sempre le novità più recenti.
+         "</h3>`,
+        // VISUALIZZAZIONE CARDS
+        `<h3 class="fs-1 my-3 underline fw-semibold tangerine-regular2">
+        Visualizzazione cards
+        </h3>
 
-         `<h3 class="fs-1 my-3 underline fw-semibold tangerine-regular2">Rilevazione IA</h3>
-         <p class="italic bodoni fs-3">"mplica l'uso di strumenti di intelligenza artificiale per analizzare il testo inserito negli annunci. Questo sistema potrebbe essere usato per vari scopi, ad esempio per rilevare contenuti inappropriati, per arricchire il testo con metadati utili alla ricerca, oppure per suggerire delle modifiche che ne migliorino la chiarezza e l'efficacia."</p>`,,
+         <p class="italic bodoni fs-3">
+         "La schermata della scheda prodotto di presto.it evidenzia diverse funzionalità chiave: è possibile aggiungere il prodotto ai preferiti, visualizzare la lista dei preferiti direttamente dal menu del profilo personalizzabile (con foto) e le immagini dei prodotti sono protette da un watermark per garantire la sicurezza dei contenuti."
+         </p>`,
+
+        //  FORM REGISTRAZIONE UTENTE
+        `<h3 class="fs-1 my-3  underline fw-semibold tangerine-regular2">
+        Form di registrazione utente
+        </h3>
+
+         <p class="italic bodoni fs-3">Creazione di un proprio profilo personale da utilizzare per accedere alle funzionalità di Presto.it, come la possibilità di aggiungere annunci e visualizzare la lista dei preferiti.
+         </p>`,
+
+        //  RILEVAZIONE IA
+        `<h3 class="fs-1 my-3 underline fw-semibold tangerine-regular2">
+        Rilevazione IA
+        </h3>
+
+         <p class="italic bodoni fs-3">
+         "Uso di strumenti di intelligenza artificiale per analizzare il testo inserito negli annunci. Questo sistema potrebbe essere usato per vari scopi, ad esempio per rilevare contenuti inappropriati, per arricchire il testo con metadati utili alla ricerca, oppure per suggerire delle modifiche che ne migliorino la chiarezza e l'efficacia."
+         </p>`,
+        ,
     ];
-
-   
 
     const getActiveIndex = () => {
         const items = carousel.querySelectorAll(".carousel-item");

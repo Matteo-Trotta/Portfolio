@@ -60,9 +60,10 @@
 
             <div class="col-12 col-md-4 align-items-center justify-content-center text-start">
 
-                <h2 class="tangerine display-1 letter-spacing md:my-5 bg-warning rounded p-2 border-3 border-blue-500">Presto.it</h2>
+                <h2 class="tangerine display-1 letter-spacing md:my-5 bg-warning rounded p-2 border-3 border-blue-500">
+                    Presto.it</h2>
 
-                <div id="slideDescription" class="fs-5 bg-white p-4 bodoni text-start animate-description">
+                <div id="slideDescription" class="fs-5 bg-white p-4 bodoni text-start animate-description overflow-scroll h-50">
 
                     <p class="mb-3">Testo descrittivo iniziale della prima slide.</p>
                     <p class="fw-bold">Canon EOS 400Digital</p>
@@ -116,7 +117,7 @@
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                                 <img src="{{ asset('storage/images/presto.it/form-presto.jpg') }}" alt="Slide 3"
-                                    style="object-fit: contain; max-width: 100%; max-height: 100%;"/>
+                                    style="object-fit: contain; max-width: 100%; max-height: 100%;" />
                             </div>
                         </div>
 
@@ -158,23 +159,22 @@
 
     {{-- DESCRIZIONE CAROUSEL FOTOGRAFIA --}}
 
-    <div class="container-fluid px-0 border-5">
+    <div class="container-fluid px-0 border-5 ">
         <div class="row mx-0  md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
 
 
-            <div class="col-12 col-md-5  align-items-center justify-content-center text-start ">
+            <div class="col-12 col-md-5 mt-5  align-items-center justify-content-center text-start ">
 
                 <h2 class=" tangerine display-1 letter-spacing ">Fotografia</h2>
 
-                <p class="fs-5  bg-white md:p-5 bodoni lg-text-justify justify-self-start ms-5 w-50">
+                <p class="fs-5  bg-white md:p-5 bodoni  justify-self-start ms-5 w-50">
 
                     Con la macchina fotografica ho portato quella stessa attenzione nell'immagine: raccontare
                     un’atmosfera, dare forma a un’emozione.
                     Scatto per raccontare storie, che siano luci soffuse, riflessi su una bottiglia o un paesaggio
                     urbano. Per me, la fotografia è il modo più diretto per fermare un momento e dargli voce.</p>
                 <br>
-                <p class="fs-5  bg-white md:p-5 bodoni text-justify justify-self-center me-5 w-75"> Canon EOS 400Digital
-                </p>
+
             </div>
 
             {{-- CAROUSEL FOTOGRAFIA --}}
@@ -202,10 +202,10 @@
 
                     </div>
 
-                    <div class="carousel-inner sm-mb-1 vh-100">
+                    <div class="carousel-inner sm-mb-1 " style="height: 750px">
                         <!-- ITEM 1 -->
                         <div class="carousel-item active slide-fullheight">
-                            <div class="flex-center">
+                            <div class=" flex-center">
                                 <img src="storage/images/aboutMe/verticali/scimmia-scuro.JPG" alt="Slide 1"
                                     class="img-responsive">
                             </div>
@@ -213,7 +213,7 @@
 
                         <!-- ITEM 2 -->
                         <div class="carousel-item slide-fullheight">
-                            <div class="flex-center">
+                            <div class=" flex-center">
                                 <img src="storage/images/aboutMe/verticali/dettaglio-bottigliera.JPG" alt="Slide 2"
                                     class="img-responsive">
                             </div>
@@ -221,7 +221,7 @@
 
                         <!-- ITEM 3 -->
                         <div class="carousel-item slide-fullheight">
-                            <div class="flex-center">
+                            <div class=" flex-center">
                                 <img src="storage/images/aboutMe/verticali/bulldog.JPG" alt="Slide 3"
                                     class="img-responsive">
                             </div>
@@ -229,7 +229,7 @@
 
                         <!-- ITEM 4 -->
                         <div class="carousel-item slide-fullheight">
-                            <div class="flex-center">
+                            <div class=" flex-center">
                                 <img src="storage/images/aboutMe/verticali/montelobos.JPG" alt="Slide 4"
                                     class="img-responsive">
                             </div>
