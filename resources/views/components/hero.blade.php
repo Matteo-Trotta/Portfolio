@@ -1,8 +1,8 @@
 <div class="container-fluid p-0 mx-0 heroContainer ">
 
-    <div class="row text-center justify-content-center align-items-center">
+    <div class="row mx-0 text-center justify-content-center align-items-center">
 
-        <div class="col-12 position-relative d-flex align-items-center justify-content-center vh-100 overflow-hidden">
+        <div class="col-12 position-relative d-flex align-items-center justify-content-center vh-100 overflow-hidden px-0">
 
 
 
