@@ -60,7 +60,7 @@
 
             <div class="col-12 col-md-4 align-items-center justify-content-center text-start">
 
-                <h2 class="tangerine display-1 letter-spacing md:my-5 bg-warning rounded p-2 border-3 border-blue-500">
+                <h2 class="tangerine display-1  md:my-5 rounded ">
                     Presto.it</h2>
 
                 <div id="slideDescription" class="fs-5 bg-white p-4 bodoni text-start animate-description overflow-scroll h-50">

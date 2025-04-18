@@ -366,7 +366,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </h3>
 
          <p class="italic bodoni fs-3">
-         "Uso di strumenti di intelligenza artificiale per analizzare il testo inserito negli annunci. Questo sistema potrebbe essere usato per vari scopi, ad esempio per rilevare contenuti inappropriati, per arricchire il testo con metadati utili alla ricerca, oppure per suggerire delle modifiche che ne migliorino la chiarezza e l'efficacia."
+         "Uso di strumenti di intelligenza artificiale per analizzare gli annunci. Questo sistema potrebbe essere usato per vari scopi, ad esempio per rilevare contenuti inappropriati, oppure per suggerire delle modifiche che ne migliorino la chiarezza e l'efficacia."
          </p>`,
         ,
     ];
