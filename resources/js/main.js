@@ -231,14 +231,15 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         y: 100,
     });
 
-    // document
-    //     .getElementById("scrollButton")
-    //     .addEventListener("click", function () {
-    //         window.scrollTo({
-    //             top: 999,
-    //             behavior: "smooth",
-    //         });
-    //     });
+    document
+    .getElementById("scrollButton")
+    .addEventListener("click", function () {
+        window.scrollTo({
+            top: 999,
+            behavior: "smooth",
+        });
+    });
+
 }
 
 document

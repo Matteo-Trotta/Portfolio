@@ -14,6 +14,7 @@
 
 
     <div class="container-fluid px-0 my-0">
+
         <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
 
 
@@ -24,7 +25,7 @@
                 <h2 class=" tangerine display-1 letter-spacing !fs-2  md:my-5 ">hello World !</h2>
 
 
-                <p class="fs-5  bg-white md:p-5 bodoni text-justify justify-self-end w-50 ">
+                <p class="fs-5  bg-white md:p-5 bodoni  justify-self-end w-50 ">
 
                     Ho iniziato con la passione per i mondi fantasy e il bartending, poi ho scoperto nella
                     programmazione web il modo perfetto per costruire realtà digitali eleganti e funzionali. Ora
@@ -63,7 +64,7 @@
                 <h2 class="tangerine display-1  md:my-5 rounded ">
                     Presto.it</h2>
 
-                <div id="slideDescription" class="fs-5 bg-white p-4 bodoni text-start animate-description overflow-scroll h-50">
+                <div id="slideDescription" class="fs-5 bg-white p-4 bodoni text-start animate-description ">
 
                     <p class="mb-3">Testo descrittivo iniziale della prima slide.</p>
                     <p class="fw-bold">Canon EOS 400Digital</p>
