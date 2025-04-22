@@ -25,11 +25,11 @@
                     business.
                 </p>
 
-                <a href="#scopridipiù" id="scrollButton"
+                {{-- <a href="#scopridipiù" id="scrollButton"
                     class="btn btn-lg bg-yellow-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 my-4">
                     <!-- Ricorda: applica tailwind con !important per forzare il conflitto con bootstrap -->
                     Scopri di più
-                </a>
+                </a> --}}
                 
                 {{-- BOTTONE SMARTPHONE E DEKSTOP COMPORTAMENTO DIFFERENTE --}}
                 <script>
