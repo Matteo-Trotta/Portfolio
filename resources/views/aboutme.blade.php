@@ -2,7 +2,7 @@
 
 
 
-    <div class="container my-5 ">
+    <div class="container md:my-5 ">
         <div class="row text-center justify-content-center ">
             <div class="col-10 justify-content-center text-center">
 
@@ -13,19 +13,19 @@
 
 
 
-    <div class="container-fluid px-0 my-0">
+    <div class="container-fluid px-0 my-0 border-5">
 
-        <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
-
-
+        <div class="row  md:mx-0 md:p-5 bg-white justify-content-center align-items-center">
 
 
-            <div class="col-10 col-md-6  align-items-center justify-content-center text-start">
+
+
+            <div class="col-10 col-md-6 align-items-center justify-content-center text-center">
 
                 <h2 class=" tangerine display-1 letter-spacing !fs-2  md:my-5 ">hello World !</h2>
 
 
-                <p class="fs-5  bg-white md:p-5 bodoni  justify-self-end w-50 ">
+                <p class="fs-5 bg-white md:p-5 bodoni md:w-1/2">
 
                     Ho iniziato con la passione per i mondi fantasy e il bartending, poi ho scoperto nella
                     programmazione web il modo perfetto per costruire realtà digitali eleganti e funzionali. Ora
@@ -36,9 +36,9 @@
 
 
 
-            <div class="col-10 col-md-6 ">
+            <div class="col-10 col-md-6 mx-auto ">
 
-                <img class="shadow-2xl img-fluid mx-auto rounded  "
+                <img class="shadow-2xl img-fluid mx-auto rounded mb-4  "
                     src="{{ asset('storage/images/foto-cv-canva.jpg') }}">
 
             </div>

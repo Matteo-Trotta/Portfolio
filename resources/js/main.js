@@ -337,7 +337,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const slideDescriptions = [
         // HOME PAGE
 
-        `<h3 class="fs-1 my-3  underline fw-semibold tangerine-regular2">
+        `<h3 class="fs-1 my-3  underline fw-semibold ">
         home page
         </h3>
 
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
          "in evidenza una serie di funzionalità chiave: supporto multilingua, ricerca testuale e per tag, e un comodo accesso tramite login. La pagina principale presenta inoltre una selezione degli articoli in vendita, ordinati cronologicamente per offrire agli utenti sempre le novità più recenti.
          "</h3>`,
         // VISUALIZZAZIONE CARDS
-        `<h3 class="fs-1 my-3 underline fw-semibold tangerine-regular2">
+        `<h3 class="fs-1 my-3 underline fw-semibold ">
         Visualizzazione cards
         </h3>
 
@@ -354,15 +354,15 @@ document.addEventListener("DOMContentLoaded", () => {
          </p>`,
 
         //  FORM REGISTRAZIONE UTENTE
-        `<h3 class="fs-1 my-3  underline fw-semibold tangerine-regular2">
+        `<h3 class="fs-1 my-3  underline fw-semibold ">
         Form di registrazione utente
         </h3>
 
-         <p class="italic bodoni fs-3">Creazione di un proprio profilo personale da utilizzare per accedere alle funzionalità di Presto.it, come la possibilità di aggiungere annunci e visualizzare la lista dei preferiti.
+         <p class="italic bodoni fs-3">"Creazione di un proprio profilo personale da utilizzare per accedere alle funzionalità di Presto.it, come la possibilità di aggiungere annunci e visualizzare la lista dei preferiti."
          </p>`,
 
         //  RILEVAZIONE IA
-        `<h3 class="fs-1 my-3 underline fw-semibold tangerine-regular2">
+        `<h3 class="fs-1 my-3 underline fw-semibold ">
         Rilevazione IA
         </h3>
 
