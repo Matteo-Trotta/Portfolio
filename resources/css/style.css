@@ -143,3 +143,15 @@ body {
 }
 
 /* FINE CAROSELLO FOTOGRAFIA */
+
+@media (max-width: 768px) {
+    .carousel-inner.dynamic-height {
+        height: 40vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .carousel-inner.dynamic-height {
+        height: 60vh !important;
+    }
+}
