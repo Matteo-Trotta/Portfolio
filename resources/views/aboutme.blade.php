@@ -1,15 +1,8 @@
 <x-layout>
 
 
-
-    <div class="container md:my-5 ">
-        <div class="row text-center justify-content-center ">
-            <div class="col-10 justify-content-center text-center">
-                <hr class="pt-20 mt-20">
-            </div>
-        </div>
-    </div>
-
+    <div class="h-20 md:h-24"></div>
+    
     <div class="container-fluid px-0 my-0 border-5">
         <div class="row md:mx-0 md:p-5 bg-white justify-content-center align-items-center">
             <div class="col-10 col-md-6 align-items-center justify-content-center text-center">
