@@ -3,15 +3,15 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-import Swiper from "swiper";
-import { Navigation, Pagination, EffectCube } from "swiper/modules";
+// import Swiper from "swiper";
+// import { Navigation, Pagination, EffectCube } from "swiper/modules";
 // import Swiper and modules styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/effect-cube";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import "swiper/css/effect-cube";
 
-Swiper.use([Navigation, Pagination, EffectCube]);
+// Swiper.use([Navigation, Pagination, EffectCube]);
 
 gsap.fromTo(
     ".soluzioniDigitali",

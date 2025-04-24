@@ -2,7 +2,7 @@
 
 
     <div class="h-20 md:h-24"></div>
-    
+
     <div class="container-fluid px-0 my-0 border-5">
         <div class="row md:mx-0 md:p-5 bg-white justify-content-center align-items-center">
             <div class="col-10 col-md-6 align-items-center justify-content-center text-center">
@@ -14,7 +14,7 @@
                 </p>
             </div>
             <div class="col-10 col-md-6 mx-auto">
-                <img class="shadow-2xl img-fluid mx-auto rounded mb-4"
+                <img alt="foto di Matteo Trotta" class="shadow-2xl img-fluid mx-auto rounded mb-4"
                     src="{{ asset('storage/images/foto-cv-canva.jpg') }}">
             </div>
         </div>
