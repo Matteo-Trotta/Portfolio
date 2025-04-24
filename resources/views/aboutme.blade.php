@@ -1,7 +1,7 @@
 <x-layout>
 
 
-    <div class="h-20 md:h-24"></div>
+    <div class="h-20  md:h-24"></div>
 
     <div class="container-fluid px-0 my-0 border-5">
         <div class="row md:mx-0 md:p-5 bg-white justify-content-center align-items-center">
