@@ -29,9 +29,9 @@
             </div>
 
 
-            <div class="col-12 col-md-6 my-1  bg-white text-center rounded ">
+            <div class="col-12 col-md-6 my-1  text-center rounded ">
 
-                <div class="p-5">
+                <div class="p-5 bg-white rounded mx-3">
                     <ul class="flex flex-wrap">
                         <li>
                             <h5 class="text-lg font-bold text-gray-800 ">🔹 Visibilità e Credibilità</h5>
@@ -73,9 +73,9 @@
             <h2 class="bodoni fs-1 letter-spacing text-yellow-500 my-2 "> Attenzione alla SEO</h2>
 
 
-            <div class="col-12 col-md-6 bg-white text-center rounded ">
+            <div class="col-12 col-md-6 text-center rounded ">
 
-                <div class="p-5">
+                <div class="p-5 bg-white rounded mx-3">
                     <ul class="">
                         <li>
                             <h5 class="text-lg font-bold text-gray-800">🔍 Maggiore Visibilità su Google</h5>
@@ -127,9 +127,9 @@
                     alt="">
             </div>
 
-            <div class="col-12 col-md-6 bg-white text-center rounded ">
+            <div class="col-12 col-md-6 text-center rounded ">
 
-                <div class="p-5">
+                <div class="p-5 bg-white rounded mx-3">
                     <ul class="">
                         <li>
                             <h5 class="text-lg font-bold text-gray-800">🔍 Massima Visibilità Online</h5>
@@ -190,9 +190,9 @@
             <h2 class="bodoni fs-1 letter-spacing text-yellow-500 my-2">Responsive-Design</h2>
 
 
-            <div class="col-12 col-md-6 bg-white text-center rounded ">
+            <div class="col-12 col-md-6 text-center rounded ">
 
-                <div class="p-5">
+                <div class="p-5 bg-white rounded mx-3">
                     <ul class="">
                         <li>
                             <h5 class="text-lg font-bold text-gray-800">📱 Esperienza Ottimale su Ogni Dispositivo</h5>
@@ -260,9 +260,9 @@
                     alt="">
             </div>
 
-            <div class="col-12 col-md-6 bg-white text-center rounded ">
+            <div class="col-12 col-md-6 text-center rounded ">
 
-                <div class="p-5">
+                <div class="p-5 bg-white rounded mx-3">
                     <ul class="">
                         <li>
                             <h5 class="text-lg font-bold text-gray-800">📊 Analisi delle Tendenze in Tempo Reale</h5>
@@ -321,9 +321,9 @@
             <h2 class="bodoni fs-1 letter-spacing text-yellow-500 my-2">Hosting</h2>
 
 
-            <div class="col-12 col-md-6 bg-white text-center rounded ">
+            <div class="col-12 col-md-6 text-center rounded ">
 
-                <div class="p-5">
+                <div class="p-5 bg-white rounded mx-3">
                     <ul class="">
                         <li>
                             <h5 class="text-lg font-bold text-gray-800">🖥️ Affidabilità e Stabilità</h5>
@@ -338,7 +338,7 @@
                         </li>
                         <li>
                             <h5 class="text-lg font-bold text-gray-800">🔐 Sicurezza Avanzata</h5>
-                            <p class="text-gray-600 bodoni fs-5">Certificato SSL, protezione contro attacchi
+                            <p class="text-gray-600 bodoni fs-5">Certificato SSL,HTTPS, protezione contro attacchi
                                 informatici e backup automatici ti mettono al riparo da perdite di dati e accessi non
                                 autorizzati.</p>
                         </li>
@@ -364,9 +364,8 @@
                                 il sito facilmente in caso di problemi.</p>
                         </li>
                         <li>
-                            <h5 class="text-lg font-bold text-gray-800">🔄 Assistenza Tecnica H24</h5>
-                            <p class="text-gray-600 bodoni fs-5">Un supporto sempre disponibile ti aiuta a risolvere
-                                eventuali problemi in qualsiasi momento.</p>
+                            <h5 class="text-lg font-bold text-gray-800">🔄 Assistenza Tecnica </h5>
+                            <p class="text-gray-600 bodoni fs-5">Dopo la realizzazione del tuo prodotto,verrai sempre assistito nel mantenimento del tuo sito web e nel miglioramento delle prestazioni.</p>
                         </li>
                     </ul>
 
@@ -395,7 +394,7 @@
     </div>
 
 
-
+<x-contatti />
 
 
 

@@ -2,12 +2,12 @@
     <div class="row justify-content-center align-items-center my-5">
 
 
-        <div class="col-12 col-md-4 text-center justify-content-center align-items-center ">
+        <div class="col-12 col-md-4 justify-content-center align-items-center ">
 
 
-            <picture class="justify-content-center align-items-center">
+            <picture class="">
                 <img src="{{ asset('storage/images/biglietto-da-visita.png') }}"
-                    alt="biglietto da visita di trotta matteo" class="img-fluid">
+                    alt="biglietto da visita di trotta matteo" class="img-fluid justify-self-center">
             </picture>
 
 

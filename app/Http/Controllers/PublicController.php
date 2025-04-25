@@ -27,4 +27,9 @@ class PublicController extends Controller
     {
         return view('portfolio');
     }
+
+    // public function fotografia()
+    // {
+    //     return view('fotografia');
+    // }
 }

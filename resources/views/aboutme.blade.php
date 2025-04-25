@@ -88,15 +88,34 @@
 
     <div class="container-fluid px-0 border-5">
         <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
+
             <div class="col-12 col-md-5 mt-5 align-items-center justify-content-center text-start">
-                <h2 class="tangerine display-1 letter-spacing">Fotografia</h2>
+
+
+                <div class="d-inline-block">
+
+                    <h2 class="display-1">
+
+                        <a href="" class="md:text-transparent hover:text-black" data-bs-toggle="tooltip"
+                            data-bs-placement="top" title="Guarda le mie foto"
+                            style="text-shadow: 1px 1px 4px #000000;">
+                            Fotografia
+                        </a>
+                    </h2>
+                </div>
+
+
+
+
                 <p class="fs-5 bg-white md:p-5 bodoni justify-self-start ms-5 w-50">
                     Con la macchina fotografica ho portato quella stessa attenzione nell'immagine: raccontare
                     un’atmosfera, dare forma a un’emozione. Scatto per raccontare storie, che siano luci soffuse,
                     riflessi su una bottiglia o un paesaggio urbano. Per me, la fotografia è il modo più diretto per
                     fermare un momento e dargli voce.
                 </p>
+
                 <br>
+
             </div>
 
             <div class="col-12 col-md-7 my-2">
