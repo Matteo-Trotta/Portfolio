@@ -29,8 +29,9 @@
                             <p class=" display-6 mb-3">a partire da
                             <p class="fw-bold display-6 mb-3">280 €</p>
                             </p>
-                            <a href="{{ route('preventivo') }}" class="btn btn-primary rounded-pill px-4">Richiedi
-                                Preventivo</a>
+                            <button href="" id=""
+                                class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
+                                Preventivo</button>
                         </div>
                     </div>
                 </div>
@@ -51,8 +52,9 @@
                         <p class=" display-6 mb-3">a partire da
                         <p class="fw-bold display-6 mb-3">490 €</p>
                         </p>
-                        <a href="{{ route('preventivo') }}" class="btn btn-primary rounded-pill px-4">Richiedi
-                            Preventivo</a>
+                        <button href="" id="scrollButtonPreventivo"
+                        class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
+                        Preventivo</button>
                     </div>
                 </div>
 
@@ -107,8 +109,9 @@
                         <p class=" display-6 mb-3">a partire da
                         <p class="fw-bold display-6 mb-3">250 €</p>
                         </p>
-                        <a href="{{ route('preventivo') }}" class="btn btn-primary rounded-pill px-4">Richiedi
-                            Preventivo</a>
+                        <button href="" id="scrollButtonPreventivo"
+                        class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
+                        Preventivo</button>
                     </div>
                 </div>
             </div>
@@ -127,8 +130,9 @@
                         <p class=" display-6 mb-3">a partire da
                         <p class="fw-bold display-6 mb-3">480 €</p>
                         </p>
-                        <a href="{{ route('preventivo') }}" class="btn btn-primary rounded-pill px-4">Richiedi
-                            Preventivo</a>
+                        <button href="" id="scrollButtonPreventivo"
+                        class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
+                        Preventivo</button>
                     </div>
                 </div>
             </div>
@@ -156,6 +160,6 @@
     </div>
 
 
-<x-contatti/>
+    <x-contatti />
 
 </x-layout>

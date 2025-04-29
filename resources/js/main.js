@@ -150,8 +150,6 @@ gsap.from(".sitiwebresponsive", {
     duration: 0.5,
 });
 
-
-
 gsap.fromTo(
     ".laptop",
     {
@@ -249,6 +247,19 @@ document
             behavior: "smooth",
         });
     });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".scrollButtonPreventivo");
+
+    buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                behavior: "smooth",
+            });
+        });
+    });
+});
 
 gsap.from(".bottonePill", {
     opacity: 0,

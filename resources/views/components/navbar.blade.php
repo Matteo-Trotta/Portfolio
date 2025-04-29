@@ -25,7 +25,7 @@
                 
                 <li class="hover:translate-y-2">
                     <a href="{{ 'preventivo' }}"
-                        class=" hover:underline fs-3 italic text-lg hover:text-yellow-500 ">preventivi
+                        class=" hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Preventivi
                     </a>
                 </li>
 
