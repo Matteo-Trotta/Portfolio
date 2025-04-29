@@ -150,7 +150,7 @@ gsap.from(".sitiwebresponsive", {
     duration: 0.5,
 });
 
-gsap.to(".immagineHeader", {});
+
 
 gsap.fromTo(
     ".laptop",

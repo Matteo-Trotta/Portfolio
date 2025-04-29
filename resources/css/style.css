@@ -155,3 +155,34 @@ body {
         height: 60vh !important;
     }
 }
+
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card-body ul li {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.display-6 {
+    font-size: 2rem;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}

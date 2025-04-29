@@ -15,4 +15,4 @@ Route::get('/aboutMe', [PublicController::class, 'aboutMe'])->name('aboutMe');
 
 Route::get('/services', [PublicController::class, 'services'])->name('services');
 
-// Route::get('/fotografia', [PublicController::class, 'fotografia'])->name('fotografia');
+Route::get('/preventivo', [PublicController::class, 'preventivo'])->name('preventivo');

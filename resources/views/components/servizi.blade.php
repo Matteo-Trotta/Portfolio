@@ -81,17 +81,25 @@
                 </h3>
 
                 <p class="my-5 bodoni fs-3 fw-4">
-                    Scegliere un sito web responsive significa creare una <span class="evidenziatore rounded">presenza digitale </span>che risponde perfettamente a
+                    Scegliere un sito web responsive significa creare una <span class="evidenziatore rounded">presenza
+                        digitale </span>che risponde perfettamente a
                     <span class="evidenziatore rounded">ogni dispositivo</span>, ottimizzando
-                    l’esperienza utente su smartphone, tablet e desktop. Offro <span class="evidenziatore rounded">soluzioni personalizzate</span>, progettate per soddisfare le specifiche esigenze di ristoranti, aziende, negozi e
-                    liberi professionisti. Ogni sito è pensato per combinare <span class="evidenziatore rounded">design moderno</span>, prestazioni elevate e
+                    l’esperienza utente su smartphone, tablet e desktop. Offro <span
+                        class="evidenziatore rounded">soluzioni personalizzate</span>, progettate per soddisfare le
+                    specifiche esigenze di ristoranti, aziende, negozi e
+                    liberi professionisti. Ogni sito è pensato per combinare <span class="evidenziatore rounded">design
+                        moderno</span>, prestazioni elevate e
                     funzionalità pratiche, garantendo un'interfaccia user-friendly che cattura l’attenzione degli utenti
                     e li invita ad esplorare il contenuto.
 
                 </p>
 
                 <div class="">
-                    <button class="btn btn-warning shadow-2xl bottone p-3" type="submit">Preventivo Web</button>
+                    <a href="{{ route('preventivo') }}">
+
+                        <button class="btn btn-warning shadow-2xl bottone p-3" type="submit">Preventivo Web</button>
+                    </a>
+
 
                 </div>
             </div>

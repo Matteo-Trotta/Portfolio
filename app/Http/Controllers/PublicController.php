@@ -28,8 +28,8 @@ class PublicController extends Controller
         return view('portfolio');
     }
 
-    // public function fotografia()
-    // {
-    //     return view('fotografia');
-    // }
+    public function preventivo()
+    {
+        return view('preventivo');
+    }
 }
