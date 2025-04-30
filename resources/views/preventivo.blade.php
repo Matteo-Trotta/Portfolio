@@ -284,7 +284,7 @@
 
         <div class="col-md-6 text-center mb-4 text-white display-4">
 
-            <h2 class="display-5 fw-bold fade-in">Servizi Visivi & Stampa</h2>
+            <h2 class="display-4 fw-bold fade-in">Servizi Visivi & Stampa</h2>
             <p class="lead italic ">Un tocco professionale per la tua immagine e la tua comunicazione</p>
         </div>
     </div>

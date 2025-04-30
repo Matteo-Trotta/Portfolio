@@ -128,7 +128,7 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
             trigger: ".smartphone",
             toggleActions: "play reverse play reverse",
             start: "-=300",
-             markers:true,
+            //  markers:true,
         },
 
         autoAlpha: 0,
