@@ -127,12 +127,13 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         scrollTrigger: {
             trigger: ".smartphone",
             toggleActions: "play reverse play reverse",
-            start: "top center",
+            start: "-=300",
+             markers:true,
         },
 
         autoAlpha: 0,
         y: 100,
-        ease: "ease-in",
+        rotation: 80,
         duration: 0.5,
     });
 }
@@ -141,7 +142,8 @@ gsap.from(".sitiwebresponsive", {
     scrollTrigger: {
         trigger: ".sitiwebresponsive",
         toggleActions: "play reverse play reverse",
-        start: "top center",
+        start: "-=500",
+        // markers:true,
     },
 
     autoAlpha: 0,

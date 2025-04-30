@@ -22,7 +22,7 @@
                     </a>
                 </li>
 
-                
+
                 <li class="hover:translate-y-2">
                     <a href="{{ 'preventivo' }}"
                         class=" hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Preventivi
@@ -69,6 +69,12 @@
 
                 <li class="">
                     <a href="{{ route('services') }}" class=" fw-semibold fs-3 italic text-lg">Servizi
+                    </a>
+                </li>
+
+                <li class="hover:translate-y-2">
+                    <a href="{{ 'preventivo' }}"
+                        class="fw-semibold fs-3 italic text-lg ">Preventivi
                     </a>
                 </li>
 
