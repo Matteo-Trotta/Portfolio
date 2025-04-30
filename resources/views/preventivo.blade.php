@@ -185,7 +185,9 @@
                             <li>✅ Hosting incluso (1 anno)</li>
                             <li>❌ Nessuna gestione autonoma dei contenuti</li>
                         </ul>
-                        <p class="fw-bold fs-4 mb-3">550€ – 750€</p>
+                        <p class=" display-6 mb-3">a partire da
+                            <p class="fw-bold display-6 mb-3">550 €</p>
+                            </p>
                         <a href="{{ route('preventivo') }}" class="btn btn-primary rounded-pill px-4">Richiedi
                             Preventivo</a>
                     </div>
@@ -203,7 +205,9 @@
                             <li>✅ Ottimizzazione SEO on-page</li>
                             <li>✅ Hosting incluso (1 anno)</li>
                         </ul>
-                        <p class="fw-bold fs-4 mb-3">850€ – 1200€</p>
+                        <p class=" display-6 mb-3">a partire da
+                            <p class="fw-bold display-6 mb-3">850 €</p>
+                            </p>
                         <a href="{{ route('preventivo') }}" class="btn btn-primary rounded-pill px-4">Richiedi
                             Preventivo</a>
                     </div>
@@ -289,9 +293,10 @@
         </div>
     </div>
 
+    <div class="container">
     <div class="row g-4 justify-content-center g-4 mb-5 ">
 
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="card border-0 shadow-sm rounded-4 hover-shadow transition h-100">
                 <div class="card-body text-center">
                     <h3 class="h4 mb-3">Servizio Fotografico</h3>
@@ -302,12 +307,14 @@
                         <li>🖼 Editing incluso</li>
                         <li>📦 Consegna in formato digitale</li>
                     </ul>
-                    <p class="fw-bold fs-5">a partire da 150€</p>
+                    <p class=" display-6 mb-3">a partire da
+                        <p class="fw-bold display-6 mb-3">150 €</p>
+                        </p>
                 </div>
             </div>
         </div>
         
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="card border-0 shadow-sm rounded-4 hover-shadow transition h-100">
                 <div class="card-body text-center">
                     <h3 class="h4 mb-3">Stampa QR Code & Biglietti da visita</h3>
@@ -318,13 +325,15 @@
                         <li>🎫 Biglietti da visita personalizzati</li>
                         <li>🖨️ Grafica inclusa</li>
                     </ul>
-                    <p class="fw-bold fs-5">a partire da 50€</p>
+                    <p class=" display-6 mb-3">a partire da
+                        <p class="fw-bold display-6 mb-3">50 €</p>
+                        </p>
                 </div>
             </div>
         </div>
     </div>
     </div>
-
+</div>
 
     <x-contatti />
 
