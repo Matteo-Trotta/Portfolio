@@ -168,20 +168,22 @@
             </div>
         </div>
 
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center">
             <!-- Landing Essenziale -->
             <div class="col-md-6">
                 <div class="card h-100 shadow border-0 rounded-4">
                     <div class="card-body text-center">
-                        <h3 class="card-title mb-3 ">Landing Essenziale</h3>
+                        <h3 class="card-title mb-3 ">Landing Page</h3>
                         <ul class="list-unstyled mb-4 ">
                             <li>✅ Design moderno e responsive</li>
                             <li>✅ Sezione contatti + mappa</li>
+                            <li>✅ Sezione Recensioni & Social</li>
+                            <li>✅ Multilingua (eng-esp-fra)</li>
                             <li>✅ Hosting incluso (1 anno)</li>
                             <li>❌ Nessuna gestione autonoma dei contenuti</li>
                         </ul>
                         <p class=" display-6 mb-3">a partire da
-                        <p class="fw-bold display-6 mb-3">250 €</p>
+                        <p class="fw-bold display-6 mb-3">500 €</p>
                         </p>
                         <button href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
                             target="_blank" id="scrollButtonPreventivo"
@@ -191,37 +193,18 @@
                 </div>
             </div>
 
-            <!-- Landing Personalizzabile -->
-            <div class="col-md-6 ">
-                <div class="card h-100 shadow border-0 rounded-4 ">
-                    <div class="card-body text-center">
-                        <h3 class="card-title mb-3">Landing Personalizzabile</h3>
-                        <ul class="list-unstyled  mb-4 ">
-                            <li>✅ Tutto incluso nella versione base</li>
-                            <li>✅ Sezioni personalizzate (servizi, gallery, recensioni)</li>
-                            <li>❌Nessuna gestione autonoma dei contenuti</li>
-                            <li>✅ Hosting incluso (1 anno)</li>
-                        </ul>
-                        <p class=" display-6 mb-3">a partire da
-                        <p class="fw-bold display-6 mb-3">480 €</p>
-                        </p>
-                        <button href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
-                            target="_blank" id="scrollButtonPreventivo"
-                            class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
-                            Preventivo</button>
-                    </div>
-                </div>
-            </div>
+
+
         </div>
 
         <div class="row mt-5 justify-content-center">
             <div class="col-md-6 ">
                 <h4 class="mb-4 text-white display-4 text-center">Servizi Extra</h4>
                 <ul class="list-group list-group-flush rounded-4 text-center">
-                    <li class="list-group-item">Dominio personalizzato: 20–30€/anno</li>
+                    <li class="list-group-item">Dominio personalizzato: 12€/ 1°anno</li>
                     <li class="list-group-item">Hosting e manutenzione dopo 1° anno: 100€/anno</li>
                     <li class="list-group-item">Integrazione Google Analytics / Meta Pixel: 30€</li>
-                    <li class="list-group-item">Form contatti collegato a email: 20€</li>
+                    <li class="list-group-item">Form contatti collegato a email: 50€</li>
                 </ul>
             </div>
         </div>
@@ -260,10 +243,10 @@
                             <li>❌ Nessuna gestione autonoma dei contenuti</li>
                         </ul>
                         <p class=" display-6 mb-3">a partire da
-                        <p class="fw-bold display-6 mb-3">550 €</p>
+                        <p class="fw-bold display-6 mb-3">750 €</p>
                         </p>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
-                            target="_blank" class="btn btn-primary rounded-pill px-4">Richiedi
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com" target="_blank"
+                            class="btn btn-primary rounded-pill px-4">Richiedi
                             Preventivo</a>
                     </div>
                 </div>
@@ -281,7 +264,7 @@
                             <li>✅ Hosting incluso (1 anno)</li>
                         </ul>
                         <p class=" display-6 mb-3">a partire da
-                        <p class="fw-bold display-6 mb-3">850 €</p>
+                        <p class="fw-bold display-6 mb-3">950 €</p>
                         </p>
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
                             target="_blank" class="btn btn-primary rounded-pill px-4">Richiedi
@@ -373,49 +356,73 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row g-4 justify-content-center g-4 mb-5 ">
+    {{-- SERVIZI FOTO E STAMPA --}}
 
+    <section class="container py-5">
+        <div class="row g-4">
+
+{{-- FOTOGRAFIA --}}
             <div class="col-md-6">
-                <div class="card border-0 shadow-sm rounded-4 hover-shadow transition h-100">
-                    <div class="card-body text-center">
-                        <h3 class="h4 mb-3">Servizio Fotografico</h3>
-                        <p class="mb-3 lead bodoni fs-3">Immagini professionali del tuo locale, dei piatti o dei prodotti per uso
-                            web,
-                            social e stampa.</p>
+                <div class="card text-white border-0 rounded-4 overflow-hidden position-relative"
+                    style="background: linear-gradient(135deg, rgba(75,0,130,0.85), rgba(138,43,226,0.85));">
+                    <div class="position-absolute top-0 start-0 w-100 h-100"
+                        style="background: url('{{ asset('images/servizio-fotografico.jpg') }}') center/cover no-repeat;">
+                    </div>
+                    <div class="card-body position-relative text-end">
+                        <div class="mb-3">
+                            <i class="fas fa-camera-retro display-2"></i>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3">Servizio Fotografico</h3>
+                        <p class="mb-3">Servizi fotografici di livello professionale progettati per esaltare al
+                            massimo l’estetica del tuo locale, valorizzare la presentazione dei piatti e promuovere i
+                            tuoi prodotti su web, social e materiali stampati.</p>
                         <ul class="list-unstyled mb-4">
-                            <li class="bodoni fs-3">📷 Scatti in alta definizione</li>
-                            <li class="bodoni fs-3">🖼 Editing incluso</li>
-                            <li class="bodoni fs-3">📦 Consegna in formato digitale</li>
+                            <li class="mb-2"><i class="fas fa-check-circle me-2"></i><span class="fw-medium">Scatti
+                                    in alta definizione</span></li>
+                            <li class="mb-2"><i class="fas fa-check-circle me-2"></i><span
+                                    class="fw-medium">Editing professionale</span></li>
+                            <li class="mb-2"><i class="fas fa-check-circle me-2"></i><span
+                                    class="fw-medium">Consegna digitale rapida</span></li>
                         </ul>
-                        <p class=" display-6 mb-3">a partire da
-                        <p class="fw-bold display-6 mb-3">150 €</p>
-                        </p>
+                        <p class="fs-5 fw-semibold mb-1">A partire da</p>
+                        <p class="display-6 fw-bold ">150€</p>
                     </div>
                 </div>
             </div>
 
+            {{-- STAMPA QR CODE --}}
             <div class="col-md-6">
-                <div class="card border-0 shadow-sm rounded-4 hover-shadow transition h-100">
-                    <div class="card-body text-center">
-                        <h3 class="h4 mb-3 ">Stampa QR Code & Biglietti da visita</h3>
-                        <p class="mb-3 lead bodoni fs-3">Materiale stampato per completare la tua offerta digitale con elementi
-                            fisici
-                            eleganti e funzionali.</p>
+                <div class="card text-white border-0 rounded-4 overflow-hidden position-relative"
+                    style="background: linear-gradient(135deg, rgba(0,128,128,0.85), rgba(32,178,170,0.85));">
+                    <div class="position-absolute top-0 start-0 w-100 h-100"
+                        style="background: url('{{ asset('images/stampa-qr.jpg') }}') center/cover no-repeat;"></div>
+                    <div class="card-body position-relative">
+                        <div class="mb-3">
+                            <i class="fas fa-print display-2"></i>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3">Stampa QR Code &amp; Biglietti</h3>
+                        <p class="mb-3">Stampati su materiali di alta qualità per valorizzare l’identità del tuo brand e del tuo locale, questi supporti fisici uniscono emozione e funzionalità garantendo una comunicazione tangibile e distintiva premium</p>
                         <ul class="list-unstyled mb-4">
-                            <li class="bodoni fs-3">🔲 QR Code su cartoncino rigido</li>
-                            <li class="bodoni fs-3">🎫 Biglietti da visita personalizzati</li>
-                            <li class="bodoni fs-3">🖨️ Grafica inclusa</li>
+                            <li class="mb-2"><i class="fas fa-check-circle me-2"></i><span class="fw-medium">QR
+                                    Code custom , materiali & design</span></li>
+                            <li class="mb-2"><i class="fas fa-check-circle me-2"></i><span
+                                    class="fw-medium">Biglietti da visita personalizzati</span></li>
+                            <li class="mb-2"><i class="fas fa-check-circle me-2"></i><span
+                                    class="fw-medium">Grafica inclusa e ottimizzata</span></li>
                         </ul>
-                        <p class=" display-6 mb-3">a partire da
-                        <p class="fw-bold display-6 mb-3">50 €</p>
-                        </p>
+                        <p class="fs-5 fw-semibold mb-1">A partire da</p>
+                        <p class="display-6 fw-bold">50€</p>
                     </div>
                 </div>
             </div>
+
         </div>
+    </section>
+
     </div>
-    </div>
+
+
+
 
     <x-contatti />
 
