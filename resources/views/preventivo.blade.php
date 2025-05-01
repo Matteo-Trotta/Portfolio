@@ -21,17 +21,19 @@
                 <div class="card h-100 shadow border-0 rounded-4">
                     <div class="card h-100 shadow border-0 rounded-4">
                         <div class="card-body text-center">
-                            <h3 class="card-title mb-3">Menu Statico (React)</h3>
+                            <h3 class="card-title mb-3">Menu Statico</h3>
                             <ul class="list-unstyled mb-4">
                                 <li>✅ Design responsive e moderno</li>
-                                <li>✅ QR code incluso</li>
+                                <li>✅ Menù multilingua</li>
                                 <li>✅ Hosting incluso (1 anno)</li>
+                                <li>✅ supporto per stampa QR code</li>
                                 <li>❌ Nessuna modifica autonoma</li>
                             </ul>
                             <p class=" display-6 mb-3">a partire da
-                            <p class="fw-bold display-6 mb-3">280 €</p>
+                            <p class="fw-bold display-6 mb-3">300 €</p>
                             </p>
-                            <button href="" id=""
+                            <button href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
+                                target="_blank" id=""
                                 class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
                                 Preventivo</button>
                         </div>
@@ -43,16 +45,18 @@
             <div class="col-md-6 mt-5">
 
                 <div class="card h-100 shadow border-0 rounded-4">
-                    <div class="card-body text-center">
+                    <div class="card-body  text-center">
                         <h3 class="card-title mb-3">Menu Gestibile (Laravel)</h3>
                         <ul class="list-unstyled mb-4">
-                            <li>✅ Design responsive</li>
-                            <li>✅ QR code incluso</li>
+                            <li>✅ Tutto del 'menu statico'</li>
+                            <li>✅ per chi cambia spesso</li>
                             <li>✅ Area riservata per modifiche</li>
                             <li>✅ Hosting incluso (1 anno)</li>
+                            <li>✅ sei indipendente nelle modifiche</li>
+
                         </ul>
                         <p class=" display-6 mb-3">a partire da
-                        <p class="fw-bold display-6 mb-3">490 €</p>
+                        <p class="fw-bold display-6 mb-3">500 €</p>
                         </p>
                         <button href="" id="scrollButtonPreventivo"
                             class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
@@ -66,19 +70,87 @@
 
         <div class="row mt-5 justify-content-center">
             <div class="col-md-6 text-center">
-                <h4 class="mb-4 text-white display-4 text-center">Servizi Extra</h4>
+                <h4 class="mb-4 text-white display-4 text-center">Servizi Extra </h4>
                 <ul class="list-group list-group-flush rounded-4">
-                    <li class="list-group-item">Dominio personalizzato: 30€/anno</li>
-                    <li class="list-group-item">Hosting e manutenzione dopo 1° anno: 100€/anno</li>
-                    <li class="list-group-item">QR code personalizzato stampabile: 30€</li>
-                    <li class="list-group-item">Supporto tecnico mensile: da 10€/mese</li>
+                    <li class="list-group-item bodoni fs-3">Dominio personalizzato: <span class="fw-bold">30€</span>
+                        /anno</li>
+                    <li class="list-group-item bodoni fs-3">Hosting dopo 1° anno: <span class="fw-bold">108€
+                        </span>
+                        /anno</li>
+                    <li class="list-group-item bodoni fs-3">QR code personalizzato stampabile da <span
+                            class="fw-bold">30€
+                        </span>
+                    </li>
+                    <li class="list-group-item bodoni fs-3">Supporto tecnico mensile:
+                        <span class="fw-bold">20€</span>
+                        /mese
+                    </li>
                 </ul>
             </div>
         </div>
 
+        {{-- Sezione Confronto Soluzioni QR  --}}
+        <div class="row mt-5">
+            <div class="col-12 text-center mb-4">
+                <h2 class="display-4 fw-bold  text-white">Confronto: Abbonamento vs Servizio Personalizzato</h2>
+                <p class="lead  text-white italic">Scopri perché una soluzione su misura è più vantaggiosa nel tempo</p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered text-center align-middle bg-white ">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Caratteristica</th>
+                            <th class="fw-light">Servizio in Abbonamento</th>
+                            <th>Soluzione su Misura con me</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Design personalizzato</td>
+                            <td>❌ Layout standard</td>
+                            <td>✅ Grafica su misura</td>
+                        </tr>
+                        <tr>
+                            <td>Proprietà del menu</td>
+                            <td>❌ Del fornitore</td>
+                            <td>✅ Di tua proprietà</td>
+                        </tr>
+                        <tr>
+                            <td>Hosting incluso</td>
+                            <td>✅ Sì (condiviso)</td>
+                            <td>✅ Hosting dedicato</td>
+                        </tr>
+                        <tr>
+                            <td>Gestione autonoma</td>
+                            <td>✅ Sì</td>
+                            <td>✅ Sì (Laravel) o su richiesta</td>
+                        </tr>
+                        <tr>
+                            <td>Costo iniziale</td>
+                            <td>✅ Basso</td>
+                            <td>❌ Medio (una tantum)</td>
+                        </tr>
+
+                        <tr>
+                            <td>Assistenza personale</td>
+                            <td>❌ Generica</td>
+                            <td>✅ Diretta con me</td>
+                        </tr>
+                        <tr>
+                            <td>Espandibilità (PDF, stampa, sito)</td>
+                            <td>❌ Limitata</td>
+                            <td>✅ Inclusa o espandibile</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <a href="{{ route('preventivo') }}" class="btn btn-warning btn-lg rounded-pill shadow-lg px-5">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com" target="_blank"
+                    class="btn btn-warning btn-lg rounded-pill shadow-lg px-5">
                     Chiedi un Preventivo Personalizzato
                 </a>
             </div>
@@ -111,7 +183,8 @@
                         <p class=" display-6 mb-3">a partire da
                         <p class="fw-bold display-6 mb-3">250 €</p>
                         </p>
-                        <button href="" id="scrollButtonPreventivo"
+                        <button href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
+                            target="_blank" id="scrollButtonPreventivo"
                             class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
                             Preventivo</button>
                     </div>
@@ -126,13 +199,14 @@
                         <ul class="list-unstyled  mb-4 ">
                             <li>✅ Tutto incluso nella versione base</li>
                             <li>✅ Sezioni personalizzate (servizi, gallery, recensioni)</li>
-                            <li>✅ Gestione contenuti semplice (Laravel CMS)</li>
+                            <li>❌Nessuna gestione autonoma dei contenuti</li>
                             <li>✅ Hosting incluso (1 anno)</li>
                         </ul>
                         <p class=" display-6 mb-3">a partire da
                         <p class="fw-bold display-6 mb-3">480 €</p>
                         </p>
-                        <button href="" id="scrollButtonPreventivo"
+                        <button href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
+                            target="_blank" id="scrollButtonPreventivo"
                             class="btn btn-primary scrollButtonPreventivo rounded-pill px-4">Richiedi
                             Preventivo</button>
                     </div>
@@ -186,9 +260,10 @@
                             <li>❌ Nessuna gestione autonoma dei contenuti</li>
                         </ul>
                         <p class=" display-6 mb-3">a partire da
-                            <p class="fw-bold display-6 mb-3">550 €</p>
-                            </p>
-                        <a href="{{ route('preventivo') }}" class="btn btn-primary rounded-pill px-4">Richiedi
+                        <p class="fw-bold display-6 mb-3">550 €</p>
+                        </p>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
+                            target="_blank" class="btn btn-primary rounded-pill px-4">Richiedi
                             Preventivo</a>
                     </div>
                 </div>
@@ -206,14 +281,29 @@
                             <li>✅ Hosting incluso (1 anno)</li>
                         </ul>
                         <p class=" display-6 mb-3">a partire da
-                            <p class="fw-bold display-6 mb-3">850 €</p>
-                            </p>
-                        <a href="{{ route('preventivo') }}" class="btn btn-primary rounded-pill px-4">Richiedi
+                        <p class="fw-bold display-6 mb-3">850 €</p>
+                        </p>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
+                            target="_blank" class="btn btn-primary rounded-pill px-4">Richiedi
                             Preventivo</a>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-6 text-center">
+                <h4 class="mb-4 text-white display-4 text-center">Servizi Extra</h4>
+                <ul class="list-group list-group-flush rounded-4">
+                    <li class="list-group-item">Dominio personalizzato: 20–30€/anno</li>
+                    <li class="list-group-item">Hosting e manutenzione dopo 1° anno: 100€/anno</li>
+                    <li class="list-group-item">Ottimizzazione immagini e prestazioni: 40€</li>
+                    <li class="list-group-item">Analisi e report SEO iniziale: 50€</li>
+                </ul>
+            </div>
+        </div>
+
 
         <!-- Tabella di confronto -->
         <div class="row">
@@ -246,7 +336,7 @@
                             </tr>
                             <tr>
                                 <td>SEO on-page</td>
-                                <td>❌</td>
+                                <td>✅</td>
                                 <td>✅</td>
                             </tr>
                             <tr>
@@ -260,21 +350,11 @@
             </div>
         </div>
 
-        <div class="row mt-5 justify-content-center">
-            <div class="col-md-6">
-                <h4 class="mb-4 text-white display-4 text-center">Servizi Extra</h4>
-                <ul class="list-group list-group-flush rounded-4">
-                    <li class="list-group-item">Dominio personalizzato: 20–30€/anno</li>
-                    <li class="list-group-item">Hosting e manutenzione dopo 1° anno: 100€/anno</li>
-                    <li class="list-group-item">Ottimizzazione immagini e prestazioni: 40€</li>
-                    <li class="list-group-item">Analisi e report SEO iniziale: 50€</li>
-                </ul>
-            </div>
-        </div>
 
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <a href="{{ route('preventivo') }}" class="btn btn-warning btn-lg rounded-pill shadow px-5">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com" target="_blank"
+                    class="btn btn-warning btn-lg rounded-pill shadow px-5">
                     Chiedi un Preventivo Personalizzato
                 </a>
             </div>
@@ -294,46 +374,48 @@
     </div>
 
     <div class="container">
-    <div class="row g-4 justify-content-center g-4 mb-5 ">
+        <div class="row g-4 justify-content-center g-4 mb-5 ">
 
-        <div class="col-md-6">
-            <div class="card border-0 shadow-sm rounded-4 hover-shadow transition h-100">
-                <div class="card-body text-center">
-                    <h3 class="h4 mb-3">Servizio Fotografico</h3>
-                    <p class="mb-3 lead">Immagini professionali del tuo locale, dei piatti o dei prodotti per uso web,
-                        social e stampa.</p>
-                    <ul class="list-unstyled mb-4">
-                        <li>📷 Scatti in alta definizione</li>
-                        <li>🖼 Editing incluso</li>
-                        <li>📦 Consegna in formato digitale</li>
-                    </ul>
-                    <p class=" display-6 mb-3">a partire da
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 hover-shadow transition h-100">
+                    <div class="card-body text-center">
+                        <h3 class="h4 mb-3">Servizio Fotografico</h3>
+                        <p class="mb-3 lead bodoni fs-3">Immagini professionali del tuo locale, dei piatti o dei prodotti per uso
+                            web,
+                            social e stampa.</p>
+                        <ul class="list-unstyled mb-4">
+                            <li class="bodoni fs-3">📷 Scatti in alta definizione</li>
+                            <li class="bodoni fs-3">🖼 Editing incluso</li>
+                            <li class="bodoni fs-3">📦 Consegna in formato digitale</li>
+                        </ul>
+                        <p class=" display-6 mb-3">a partire da
                         <p class="fw-bold display-6 mb-3">150 €</p>
                         </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="col-md-6">
-            <div class="card border-0 shadow-sm rounded-4 hover-shadow transition h-100">
-                <div class="card-body text-center">
-                    <h3 class="h4 mb-3">Stampa QR Code & Biglietti da visita</h3>
-                    <p class="mb-3 lead">Materiale stampato per completare la tua offerta digitale con elementi fisici
-                        eleganti e funzionali.</p>
-                    <ul class="list-unstyled mb-4">
-                        <li>🔲 QR Code su cartoncino rigido</li>
-                        <li>🎫 Biglietti da visita personalizzati</li>
-                        <li>🖨️ Grafica inclusa</li>
-                    </ul>
-                    <p class=" display-6 mb-3">a partire da
+
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 hover-shadow transition h-100">
+                    <div class="card-body text-center">
+                        <h3 class="h4 mb-3 ">Stampa QR Code & Biglietti da visita</h3>
+                        <p class="mb-3 lead bodoni fs-3">Materiale stampato per completare la tua offerta digitale con elementi
+                            fisici
+                            eleganti e funzionali.</p>
+                        <ul class="list-unstyled mb-4">
+                            <li class="bodoni fs-3">🔲 QR Code su cartoncino rigido</li>
+                            <li class="bodoni fs-3">🎫 Biglietti da visita personalizzati</li>
+                            <li class="bodoni fs-3">🖨️ Grafica inclusa</li>
+                        </ul>
+                        <p class=" display-6 mb-3">a partire da
                         <p class="fw-bold display-6 mb-3">50 €</p>
                         </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
-</div>
 
     <x-contatti />
 
