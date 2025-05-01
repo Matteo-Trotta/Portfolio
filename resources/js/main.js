@@ -132,9 +132,10 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         },
 
         autoAlpha: 0,
-        y: 100,
-        rotation: 80,
-        duration: 0.5,
+        y: 200,
+        
+        duration: 0.4,
+        ease: "ease-in",
     });
 }
 
