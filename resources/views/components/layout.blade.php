@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description"
-        content="Hai bisogno di un sito web professionale? Creo siti web , landing page e soluzioni digitali su misura per aziende e liberi professionisti. Porta il tuo business online con un design moderno e performante!">
+        content="Hai bisogno di un sito web professionale? Creo soluzioni digitali su misura per aziende e liberi professionisti,a Roma.">
 
-    <title>Portfolio Trotta Matteo</title>
+    <title>Trotta Matteo, Web Developer, Roma</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script src="https://kit.fontawesome.com/6d37a08b54.js" crossorigin="anonymous"></script>
 
