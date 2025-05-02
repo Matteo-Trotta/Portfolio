@@ -9,7 +9,7 @@
 
 
             {{-- video mostrato solamente su dispositivi lg --}}
-            <video aria-hidden="true" alt="video sfondo sezione" autoplay loop muted playsinline src="{{ asset('storage/video/video-hero.mp4') }}" id="heroVideo"
+            <video aria-hidden="true" alt="video sfondo sezione" autoplay loop muted playsinline src="{{ asset('storage/video/video-hero.webm') }}" id="heroVideo"
                 class=" d-none d-lg-block position-absolute">
             </video>
 
