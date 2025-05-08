@@ -201,13 +201,16 @@
             <div class="col-md-6 ">
                 <h4 class="mb-4 text-white display-4 text-center">Servizi Extra</h4>
                 <ul class="list-group list-group-flush rounded-4 text-center">
-                    <li class="list-group-item bodoni fs-3">Dominio personalizzato:  <span class="fw-bold">12€</span>
+                    <li class="list-group-item bodoni fs-3">Dominio personalizzato: <span class="fw-bold">12€</span>
                         /mese 1°anno</li>
-                    <li class="list-group-item bodoni fs-3">Hosting e manutenzione dopo 1° anno:  <span class="fw-bold">100€</span>
+                    <li class="list-group-item bodoni fs-3">Hosting e manutenzione dopo 1° anno: <span
+                            class="fw-bold">100€</span>
                         /mese/anno</li>
-                    <li class="list-group-item bodoni fs-3">Integrazione Google Analytics / Meta Pixel:  <span class="fw-bold">30€</span>
+                    <li class="list-group-item bodoni fs-3">Integrazione Google Analytics / Meta Pixel: <span
+                            class="fw-bold">30€</span>
                         /mese</li>
-                    <li class="list-group-item bodoni fs-3">Form contatti collegato a email:  <span class="fw-bold">50€</span>
+                    <li class="list-group-item bodoni fs-3">Form contatti collegato a email: <span
+                            class="fw-bold">50€</span>
                         /mese</li>
                 </ul>
             </div>
@@ -249,8 +252,8 @@
                         <p class=" display-6 mb-3">a partire da
                         <p class="fw-bold display-6 mb-3">750 €</p>
                         </p>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com" target="_blank"
-                            class="btn btn-primary rounded-pill px-4">Richiedi
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com"
+                            target="_blank" class="btn btn-primary rounded-pill px-4">Richiedi
                             Preventivo</a>
                     </div>
                 </div>
@@ -283,13 +286,17 @@
             <div class="col-md-6 text-center">
                 <h4 class="mb-4 text-white display-4 text-center">Servizi Extra</h4>
                 <ul class="list-group list-group-flush rounded-4">
-                    <li class="list-group-item bodoni fs-3">Dominio personalizzato:  <span class="fw-bold">20-30€</span>
+                    <li class="list-group-item bodoni fs-3">Dominio personalizzato: <span
+                            class="fw-bold">20-30€</span>
                         /mese/anno</li>
-                    <li class="list-group-item bodoni fs-3">Hosting e manutenzione dopo 1° anno:  <span class="fw-bold">100€</span>
+                    <li class="list-group-item bodoni fs-3">Hosting e manutenzione dopo 1° anno: <span
+                            class="fw-bold">100€</span>
                         /mese/anno</li>
-                    <li class="list-group-item bodoni fs-3">Ottimizzazione immagini e prestazioni:  <span class="fw-bold">40€</span>
+                    <li class="list-group-item bodoni fs-3">Ottimizzazione immagini e prestazioni: <span
+                            class="fw-bold">40€</span>
                         /mese</li>
-                    <li class="list-group-item bodoni fs-3">Analisi e report SEO iniziale:  <span class="fw-bold">50€</span>
+                    <li class="list-group-item bodoni fs-3">Analisi e report SEO iniziale: <span
+                            class="fw-bold">50€</span>
                         /mese</li>
                 </ul>
             </div>
@@ -369,7 +376,7 @@
     <section class="container py-5">
         <div class="row g-4">
 
-{{-- FOTOGRAFIA --}}
+            {{-- FOTOGRAFIA --}}
             <div class="col-md-6">
                 <div class="card text-white border-0 rounded-4 overflow-hidden position-relative"
                     style="background: linear-gradient(135deg, rgba(75,0,130,0.85), rgba(138,43,226,0.85));">
@@ -409,7 +416,9 @@
                             <i class="fas fa-print display-2"></i>
                         </div>
                         <h3 class="h5 fw-bold mb-3">Stampa QR Code &amp; Biglietti</h3>
-                        <p class="mb-3">Stampati su materiali di alta qualità per valorizzare l’identità del tuo brand e del tuo locale, questi supporti fisici uniscono emozione e funzionalità garantendo una comunicazione tangibile e distintiva premium</p>
+                        <p class="mb-3">Stampati su materiali di alta qualità per valorizzare l’identità del tuo
+                            brand e del tuo locale, questi supporti fisici uniscono emozione e funzionalità garantendo
+                            una comunicazione tangibile e distintiva premium</p>
                         <ul class="list-unstyled mb-4">
                             <li class="mb-2"><i class="fas fa-check-circle me-2"></i><span class="fw-medium">QR
                                     Code custom , materiali & design</span></li>
