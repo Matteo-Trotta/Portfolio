@@ -201,10 +201,14 @@
             <div class="col-md-6 ">
                 <h4 class="mb-4 text-white display-4 text-center">Servizi Extra</h4>
                 <ul class="list-group list-group-flush rounded-4 text-center">
-                    <li class="list-group-item">Dominio personalizzato: 12€/ 1°anno</li>
-                    <li class="list-group-item">Hosting e manutenzione dopo 1° anno: 100€/anno</li>
-                    <li class="list-group-item">Integrazione Google Analytics / Meta Pixel: 30€</li>
-                    <li class="list-group-item">Form contatti collegato a email: 50€</li>
+                    <li class="list-group-item bodoni fs-3">Dominio personalizzato:  <span class="fw-bold">12€</span>
+                        /mese 1°anno</li>
+                    <li class="list-group-item bodoni fs-3">Hosting e manutenzione dopo 1° anno:  <span class="fw-bold">100€</span>
+                        /mese/anno</li>
+                    <li class="list-group-item bodoni fs-3">Integrazione Google Analytics / Meta Pixel:  <span class="fw-bold">30€</span>
+                        /mese</li>
+                    <li class="list-group-item bodoni fs-3">Form contatti collegato a email:  <span class="fw-bold">50€</span>
+                        /mese</li>
                 </ul>
             </div>
         </div>
@@ -279,10 +283,14 @@
             <div class="col-md-6 text-center">
                 <h4 class="mb-4 text-white display-4 text-center">Servizi Extra</h4>
                 <ul class="list-group list-group-flush rounded-4">
-                    <li class="list-group-item">Dominio personalizzato: 20–30€/anno</li>
-                    <li class="list-group-item">Hosting e manutenzione dopo 1° anno: 100€/anno</li>
-                    <li class="list-group-item">Ottimizzazione immagini e prestazioni: 40€</li>
-                    <li class="list-group-item">Analisi e report SEO iniziale: 50€</li>
+                    <li class="list-group-item bodoni fs-3">Dominio personalizzato:  <span class="fw-bold">20-30€</span>
+                        /mese/anno</li>
+                    <li class="list-group-item bodoni fs-3">Hosting e manutenzione dopo 1° anno:  <span class="fw-bold">100€</span>
+                        /mese/anno</li>
+                    <li class="list-group-item bodoni fs-3">Ottimizzazione immagini e prestazioni:  <span class="fw-bold">40€</span>
+                        /mese</li>
+                    <li class="list-group-item bodoni fs-3">Analisi e report SEO iniziale:  <span class="fw-bold">50€</span>
+                        /mese</li>
                 </ul>
             </div>
         </div>

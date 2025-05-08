@@ -3,16 +3,6 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-// import Swiper from "swiper";
-// import { Navigation, Pagination, EffectCube } from "swiper/modules";
-// import Swiper and modules styles
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// import "swiper/css/effect-cube";
-
-// Swiper.use([Navigation, Pagination, EffectCube]);
-
 gsap.fromTo(
     ".soluzioniDigitali",
     {
@@ -122,36 +112,32 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
             start: "top center",
         },
     });
-
-    gsap.from(".smartphone", {
+    const tl = gsap.timeline({
         scrollTrigger: {
-            trigger: ".smartphone",
+            trigger: ".smartphone", // usa l'elemento principale
+            start: "top center+=100", // punti di riferimento corretti
             toggleActions: "play reverse play reverse",
-            start: "-=300",
-            //  markers:true,
+            // markers: true,                   // per debug visivo
         },
+    });
 
+    // 3. monta le due animazioni in sequenza (con overlap)
+    tl.from(".smartphone", {
         autoAlpha: 0,
         y: 200,
-        
         duration: 0.4,
         ease: "ease-in",
-    });
+    }).from(
+        ".sitiwebresponsive",
+        {
+            autoAlpha: 0,
+            y: 100,
+            duration: 0.5,
+            ease: "ease-in",
+        },
+        "-=0.2"
+    );
 }
-
-gsap.from(".sitiwebresponsive", {
-    scrollTrigger: {
-        trigger: ".sitiwebresponsive",
-        toggleActions: "play reverse play reverse",
-        start: "-=500",
-        // markers:true,
-    },
-
-    autoAlpha: 0,
-    y: 100,
-    ease: "ease-in",
-    duration: 0.5,
-});
 
 gsap.fromTo(
     ".laptop",

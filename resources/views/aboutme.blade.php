@@ -22,8 +22,12 @@
 
     <div class="container-fluid px-0">
         <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
-            <div class="col-12 col-md-4 align-items-center justify-content-center text-start">
+
+            <div class="col-12 col-md-4 align-items-center justify-content-center text-center">
+                <span class="lead bodoni ">scorri le slide per vedere i progetti</span>
                 <h2 class="tangerine display-1 md:my-5 rounded">Presto.it</h2>
+
+
                 <div id="slideDescription" class="fs-5 bg-white p-4 bodoni text-start animate-description">
                     <p class="mb-3">Testo descrittivo iniziale della prima slide.</p>
                     <p class="fw-bold">Canon EOS 400Digital</p>
@@ -114,7 +118,7 @@
                     fermare un momento e dargli voce.
                 </p>
 
-                <br>
+                <a target="_blank" class="text-decoration underline text-blue-500 fs-4" href="https://www.flickr.com/photos/202041132@N05/">profilo di Matteo Trotta | Flickr</a>
 
             </div>
 

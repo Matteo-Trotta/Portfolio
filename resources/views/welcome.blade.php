@@ -4,18 +4,19 @@
 
 
 
-<x-hero />
+    <x-hero />
 
 
-<x-servizi />
-
-
-
+    <x-servizi />
 
 
 
+    <x-performance />
 
-<x-contatti/>
+
+
+
+    <x-contatti />
 
 
 
