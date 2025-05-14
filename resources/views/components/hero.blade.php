@@ -24,6 +24,7 @@
 
 
             <div class="position-relative text-center text-white z-1">
+
                 <h1 class="display-6 text-yellow-500 letter-spacing fw-bold text-uppercase text-shadow titolo bodoni">
                     Creazione Siti Web a Roma</h1>
                 <h2 class="display-5 fw-bold text-uppercase text-shadow titolo">Trasforma le tue idee in esperienze
@@ -34,7 +35,7 @@
                     business.
                 </p>
 
-             
+
 
                 {{-- BOTTONE SMARTPHONE E DEKSTOP COMPORTAMENTO DIFFERENTE --}}
                 <script>
