@@ -1,18 +1,34 @@
 <x-layout>
 
 
-    <div class="h-20  md:h-24"></div>
+    <div class="h-40  md:h-24"></div>
 
-    <div class="container-fluid px-0 my-0 border-5">
+    <div class="container-fluid px-0 my-0 border-5 ">
         <div class="row md:mx-0 md:p-5 bg-white justify-content-center align-items-center">
+            
             <div class="col-10 col-md-6 align-items-center justify-content-center text-center">
+                
                 <h2 class="tangerine display-1 letter-spacing !fs-2 md:my-5">hello World !</h2>
-                <p class="fs-5 bg-white md:p-5 bodoni md:w-1/2">
-                    Ho iniziato con la passione per i mondi fantasy e il bartending, poi ho scoperto nella
-                    programmazione web il modo perfetto per costruire realtà digitali eleganti e funzionali. Ora
-                    unisco creatività e codice per raccontare storie online.
+                <p class="lead bodoni"> Mi presento</p>
+                
+
+                <p class="fs-5 bg-white md:p-5 bodoni">
+                    dopo diversi anni di esperienza nel settore del bartending, dove ho sviluppato attenzione al
+                    cliente, precisione e spirito di squadra, ho deciso di intraprendere un nuovo percorso professionale
+                    nello sviluppo web. Questa scelta nasce da una motivazione autentica: da sempre appassionato di
+                    tecnologia e creatività digitale, ho sentito il bisogno di costruire una carriera che rispecchiasse
+                    davvero le mie aspirazioni.Ho completato il corso Aulab Hackademy "Web Developer Full Stack",
+                    durante il quale ho acquisito solide competenze in HTML, CSS, JavaScript, Bootstrap, PHP, MySQL e
+                    Laravel. In particolare, mi sono appassionato allo sviluppo Front-End, trovando stimolante la
+                    possibilità di creare interfacce intuitive e coinvolgenti.Attualmente sto sviluppando il mio sito
+                    personale, un progetto che mi permette di mettere in pratica quanto appreso e di approfondire l’uso
+                    di soluzioni responsive, ottimizzazione delle prestazioni front-end e traduzione di layout grafici
+                    in codice funzionale.
                 </p>
+
             </div>
+
+
             <div class="col-10 col-md-6 mx-auto">
                 <img alt="foto di Matteo Trotta" class="shadow-2xl img-fluid mx-auto rounded mb-4"
                     src="{{ asset('storage/images/foto-cv-canva.jpg') }}">
@@ -118,7 +134,8 @@
                     fermare un momento e dargli voce.
                 </p>
 
-                <a target="_blank" class="text-decoration underline text-blue-500 fs-4" href="https://www.flickr.com/photos/202041132@N05/">profilo di Matteo Trotta | Flickr</a>
+                <a target="_blank" class="text-decoration underline text-blue-500 fs-4"
+                    href="https://www.flickr.com/photos/202041132@N05/">profilo di Matteo Trotta | Flickr</a>
 
             </div>
 
