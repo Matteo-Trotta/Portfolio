@@ -18,7 +18,7 @@
 
     <x-contatti />
 
-
+<x-form />
 
 
 </x-layout>

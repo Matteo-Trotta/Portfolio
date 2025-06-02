@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ContattiController;
 
 Route::get('/', [PublicController::class, 'welcome'])->name('home');
 
