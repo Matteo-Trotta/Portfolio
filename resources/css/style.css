@@ -186,5 +186,9 @@ body {
 .btn:hover {
     transform: scale(1.05);
 }
-
-
+/* HOVERABLE DROPDOWN */
+@media (min-width: 992px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}

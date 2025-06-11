@@ -138,7 +138,7 @@
                 </p>
 
                 <a target="_blank" class="text-decoration underline text-blue-500 fs-4"
-                    href="https://www.flickr.com/photos/202041132@N05/">profilo di Matteo Trotta | Flickr</a>
+                    href="https://www.flickr.com/photos/202041132@N05/">profilo Flickr</a>
 
             </div>
 

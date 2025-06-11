@@ -29,11 +29,22 @@
                     </a>
                 </li>
 
-                <li class="hover:translate-y-2">
-                    <a href="{{ 'https://blog.sitiwebromatrottamatteo.com/' }}"
-                        class=" hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Blog
+                <li class="nav-item dropdown position-relative d-none d-lg-block">
+                    <a href="https://blog.sitiwebromatrottamatteo.com/"
+                        class="nav-link dropdown-toggle fs-3 italic text-lg hover:text-yellow-500" id="blogDropdown"
+                        role="button">
+                        Progetti
                     </a>
+                    <ul class="dropdown-menu position-absolute mt-0 bg-yellow-500" aria-labelledby="blogDropdown">
+                        <li><a class="dropdown-item" href="https://wordpress.sitiwebromatrottamatteo.com">Cantina
+                                Sala</a></li>
+                        <li><a class="dropdown-item" href="https://blog.sitiwebromatrottamatteo.com">Blog
+                                Marketing</a></li>
+                        <li><a class="dropdown-item inactive" href="https://blog.sitiwebromatrottamatteo.com">Cocktail Bar 'TIPO'</a>
+                        </li>
+                    </ul>
                 </li>
+
 
 
 
@@ -79,8 +90,7 @@
                 </li>
 
                 <li class="hover:translate-y-2">
-                    <a href="{{ 'preventivo' }}"
-                        class="fw-semibold fs-3 italic text-lg ">Preventivi
+                    <a href="{{ 'preventivo' }}" class="fw-semibold fs-3 italic text-lg ">Preventivi
                     </a>
                 </li>
 
