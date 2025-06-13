@@ -30,11 +30,11 @@
                 </li>
 
                 <li class="nav-item dropdown position-relative d-none d-lg-block">
-                    <a href="#"
+                    <p 
                         class="nav-link dropdown-toggle fs-3 italic text-lg hover:text-yellow-500" id="blogDropdown"
                         role="button">
                         Progetti
-                    </a>
+                </p>
                     <ul class="dropdown-menu position-absolute mt-0 bg-yellow-500" aria-labelledby="blogDropdown">
                         <li><a class="dropdown-item" href="https://wordpress.sitiwebromatrottamatteo.com">Cantina
                                 Sala</a></li>
