@@ -30,11 +30,20 @@
                 </li>
 
                 <li class="nav-item dropdown position-relative d-none d-lg-block">
-                    <p 
-                        class="nav-link dropdown-toggle fs-3 italic text-lg hover:text-yellow-500" id="blogDropdown"
-                        role="button">
-                        Progetti
-                </p>
+                <li class="nav-item dropdown hover:translate-y-2">
+    <a href="#" 
+       class="nav-link dropdown-toggle fs-3 italic text-lg hover:text-yellow-500" 
+       id="blogDropdown" 
+       role="button">
+        Progetti
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+        <li><a class="dropdown-item" href="{{ url('/blog/landing-page') }}">Landing Page</a></li>
+        <li><a class="dropdown-item" href="{{ url('/blog/menu-qr-code') }}">Menu QR Code</a></li>
+        <li><a class="dropdown-item" href="{{ url('/blog/siti-web') }}">Siti Web</a></li>
+    </ul>
+</li>
+
                     <ul class="dropdown-menu position-absolute mt-0 bg-yellow-500" aria-labelledby="blogDropdown">
                         <li><a class="dropdown-item" href="https://wordpress.sitiwebromatrottamatteo.com">Cantina
                                 Sala</a></li>
