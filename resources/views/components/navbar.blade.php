@@ -30,7 +30,7 @@
                 </li>
 
                 <li class="nav-item dropdown position-relative d-none d-lg-block">
-                    <a href="https://blog.sitiwebromatrottamatteo.com/"
+                    <a href="#"
                         class="nav-link dropdown-toggle fs-3 italic text-lg hover:text-yellow-500" id="blogDropdown"
                         role="button">
                         Progetti
