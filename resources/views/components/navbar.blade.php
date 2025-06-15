@@ -40,6 +40,7 @@
 
 
 
+
             </ul>
         </div>
 
@@ -82,13 +83,8 @@
                 </li>
 
                 <li class="hover:translate-y-2">
-                    <a href="{{ 'preventivo' }}" class="fw-semibold fs-3 italic text-lg ">Preventivi
-                    </a>
-                </li>
-
-                <li class="hover:translate-y-2">
-                    <a href="{{ 'https://blog.sitiwebromatrottamatteo.com/' }}"
-                        class="fw-semibold fs-3 italic text-lg ">Blog
+                    <a href="{{ 'preventivo' }}"
+                        class="fw-semibold fs-3 italic text-lg ">Preventivi
                     </a>
                 </li>
 
