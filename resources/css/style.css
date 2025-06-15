@@ -236,9 +236,4 @@ body {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-/* HOVERABLE DROPDOWN */
-@media (min-width: 992px) {
-    .nav-item.dropdown:hover .dropdown-menu {
-        display: block;
-    }
-}
+
