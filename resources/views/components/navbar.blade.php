@@ -64,8 +64,8 @@
 
 
 
-        <nav id="navbar-cta" class="hidden hadow-md fixed ms-2 align-items-center top-10">
-            <ul class="bg-yellow-500 ms-4 mt-1 text-indigo-500  rounded p-3">
+        <nav id="navbar-cta" class="hidden hadow-md fixed ms-2 align-items-center top-20">
+            <ul class="bg-yellow-500 ms-4 mt-2 text-indigo-500  rounded p-3">
                 <li class="">
                     <a href="{{ route('welcome') }}" class=" fw-semibold fs-3 italic text-lg">home</a>
                 </li>
