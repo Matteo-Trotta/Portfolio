@@ -2,7 +2,8 @@
     <div class="row">
         <div class="col-6">
 
-            <form method="POST" action="/contatti" class="p-4 border rounded-4 shadow-sm bg-light shadow-xl">
+            <form method="POST" action="/contatti" class="p-4 border rounded-4 bg-light shadow-xl">
+                @csrf
                 <h4 class="mb-4 fs-4 text-center">Chiedi un preventivo</h4>
 
                 <div class="mb-3">
@@ -13,8 +14,8 @@
 
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="verrai ricontattato via email"
-                        required>
+                    <input type="email" class="form-control" id="email" name="email"
+                        placeholder="verrai ricontattato via email" required>
                 </div>
 
                 <div class="mb-3">
