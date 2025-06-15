@@ -30,7 +30,7 @@
                 </li>
 
                 <div class="dropdown">
-                    <button class="dropbtn btn btn-success p-3 fs-4">Progetti</button>
+                    <button class="dropbtn p-3 fs-4">Progetti</button>
                     <div class="dropdown-content">
                         <a href="https://blog.sitiwebromatrottamatteo.com/">Blog Marketing</a>
                         <a href="https://wordpress.sitiwebromatrottamatteo.com/">Cantina Sala</a>
