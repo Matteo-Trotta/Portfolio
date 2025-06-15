@@ -51,7 +51,7 @@
 
 
         {{-- menu mobile --}}
-        <div class="md:hidden fixed-top justify-self-end m-4">
+        <div class="md:hidden fixed top-4 right-4 m-4">
             <button data-collapse-toggle="navbar-cta" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-yellow-500 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-gray-200">
                 <span class="sr-only">Open main menu</span>
@@ -65,7 +65,7 @@
 
 
         <nav id="navbar-cta" class="hidden hadow-md fixed ms-2 align-items-center  top-10 end-5">
-            <ul class="bg-yellow-500 ms-4 mt-3 text-indigo-500  rounded p-3">
+            <ul class="bg-yellow-500 ms-4 mt-10 text-indigo-500  rounded p-3">
                 <li class="">
                     <a href="{{ route('welcome') }}" class=" fw-semibold fs-3 italic text-lg">home</a>
                 </li>
