@@ -1,13 +1,13 @@
-<div class="md:container-fluid my-5 mx-0">
+<div class="container my-5">
 
 
     <div class="row text-center align-items-center  mb-5">
-        <h1 class="tangerine-title text-white text-decoration-underline ">Guarda i miei lavori</h1>
+        <h3 class="tangerine-title text-white italic">i miei progetti</h3>
     </div>
 
 
     <div class="row justify-content-evenly align-items-center mt-5">
-        <div class="col-md-4">
+        <div class=" col-10 col-md-4 my-2">
 
 
             <div class="card shadow-lg border-blue-500 appearToY" style="height: 600px">
@@ -35,7 +35,7 @@
 
         </div>
 
-        <div class="col-md-4">
+        <div class=" col-10 col-md-4 my-2">
 
             <div class="card shadow-lg border-blue-500 appearToY " style="height: 600px">
                 <div class="img-container">
@@ -59,7 +59,7 @@
 
         </div>
 
-        <div class="col-md-4">
+        <div class=" col-10 col-md-4 my-2">
             <div class="card shadow-lg border-blue-500 appearToY " style="height: 600px">
                 <div class="img-container">
 
@@ -69,7 +69,7 @@
 
                 </div>
                 <div class="card-body overflow-scroll text-center align-items-center">
-                    <h5 class="card-title fs-1 bodoni">Cocktail Bar 'TIPO'</h5>
+                    <h5 class="card-title fs-1 bodoni">Cocktail Bar 'TIPO' <p class="fs-5 text-slate-700">coming soon. .</p></h5>
                     <hr>
                     <p class="card-text playfair-display fs-4">TIPO è un cocktail bar dal design accogliente e raffinato, dove ogni drink è frutto di mixologie creative e ingredienti selezionati. Il menu propone signature cocktail e creazioni stagionali, accompagnati da piccole degustazioni e serate a tema, per vivere momenti conviviali in un’atmosfera elegante e contemporanea.</p>
 
