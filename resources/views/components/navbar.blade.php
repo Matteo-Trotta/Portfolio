@@ -29,30 +29,14 @@
                     </a>
                 </li>
 
-                <li class="nav-item dropdown position-relative d-none d-lg-block">
-                <li class="nav-item dropdown hover:translate-y-2">
-    <a href="#" 
-       class="nav-link dropdown-toggle fs-3 italic text-lg hover:text-yellow-500" 
-       id="blogDropdown" 
-       role="button">
-        Progetti
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="blogDropdown">
-        <li><a class="dropdown-item" href="{{ url('/blog/landing-page') }}">Landing Page</a></li>
-        <li><a class="dropdown-item" href="{{ url('/blog/menu-qr-code') }}">Menu QR Code</a></li>
-        <li><a class="dropdown-item" href="{{ url('/blog/siti-web') }}">Siti Web</a></li>
-    </ul>
-</li>
-
-                    <ul class="dropdown-menu position-absolute mt-0 bg-yellow-500" aria-labelledby="blogDropdown">
-                        <li><a class="dropdown-item" href="https://wordpress.sitiwebromatrottamatteo.com">Cantina
-                                Sala</a></li>
-                        <li><a class="dropdown-item" href="https://blog.sitiwebromatrottamatteo.com">Blog
-                                Marketing</a></li>
-                        <li><a class="dropdown-item inactive" href="https://blog.sitiwebromatrottamatteo.com">Cocktail Bar 'TIPO'</a>
-                        </li>
-                    </ul>
-                </li>
+                <div class="dropdown">
+                    <button class="dropbtn p-3 fs-4">Progetti</button>
+                    <div class="dropdown-content">
+                        <a href="https://blog.sitiwebromatrottamatteo.com/">Blog Marketing</a>
+                        <a href="https://wordpress.sitiwebromatrottamatteo.com/">Cantina Sala</a>
+                        <a href="#">in arrivo . .</a>
+                    </div>
+                </div>
 
 
 
@@ -99,7 +83,8 @@
                 </li>
 
                 <li class="hover:translate-y-2">
-                    <a href="{{ 'preventivo' }}" class="fw-semibold fs-3 italic text-lg ">Preventivi
+                    <a href="{{ 'preventivo' }}"
+                        class="fw-semibold fs-3 italic text-lg ">Preventivi
                     </a>
                 </li>
 
