@@ -1,15 +1,15 @@
 <section id="performance" class="py-5 bg-light">
     <div class="container">
-        <h2 class="display-4 text-center mb-4 bodoni">Performance del sito</h2>
+        <h2 class="display-4 text-center mb-4 bodoni appearToYperformance ">Performance del sito</h2>
         <p class="lead bodoni my-1 text-center fs-4">
             <a class="text-decoration underline text-blue-500" href="https://developer.chrome.com/docs/lighthouse/overview?hl=it">Lighthouse</a> & <a class="text-decoration underline text-blue-500" href="https://pagespeed.web.dev/">PageSpeedInsights</a> sono strumenti di Google che analizzano la qualità di un sito web in termini di prestazioni, accessibilità, SEO e buone pratiche. Fornisce un punteggio chiaro e suggerimenti concreti per migliorare l’esperienza utente e la velocità del sito, aspetti fondamentali sia per il posizionamento sui motori di ricerca che per la soddisfazione dei visitatori. <br><p class="lead bodoni my-1 text-end fs-5 italic">*di seguito l'analisi di questo sito web</p></p>
-        <div class="row gx-4 align-items-center ">
+        <div class="row gx-4 align-items-center mx-0 ">
 
             {{-- screenshot di lighthouse --}}
             <div class="col-md-6 mb-4 mb-md-0">
                 <div class="ratio ratio-4x3 shadow-sm rounded">
                     <img src="{{ asset('storage/images/performance.png') }}" alt="Screenshot Lighthouse Performance"
-                        class="img-fluid rounded">
+                        class="img-fluid rounded appearToYperformanceRank">
                 </div>
             </div>
 
@@ -22,28 +22,28 @@
                 </div>
 
                 <!-- Descrizioni delle categorie -->
-                <ul class="list-group list-group-flush mb-3">
+                <ul class="list-group list-group-flush mb-3 appearToYperformanceRank">
                     <li class="list-group-item px-0">
                         <strong><a class="text-red-500" href="https://developer.chrome.com/docs/lighthouse/performance/performance-scoring?hl=en"
                                 target="_blank">Performance</a>:</strong>
                         misura la velocità di caricamento, interattività e stabilità visiva del sito.
                     </li>
-                    <li class="list-group-item px-0">
+                    <li class="list-group-item px-0  ">
                         <strong><a class="text-green-700" href="https://developer.chrome.com/docs/lighthouse/accessibility/scoring?hl=it"
                                 target="_blank">Accessibility</a>:</strong>
                         verifica che tutti gli utenti, anche con disabilità, possano fruire dei contenuti.
                     </li>
-                    <li class="list-group-item px-0">
+                    <li class="list-group-item px-0  ">
                         <strong><a  class="text-yellow-500" href="https://developers.google.com/web/tools/lighthouse/best-practices"
                                 target="_blank">Best Practices</a>:</strong>
                         controlla sicurezza, uso corretto delle API e consigli per il web moderno.
                     </li>
-                    <li class="list-group-item px-0">
+                    <li class="list-group-item px-0  ">
                         <strong><a  class="text-blue-600" href="https://developers.google.com/web/tools/lighthouse/seo"
                                 target="_blank">SEO</a>:</strong>
                         analizza i fattori on-page che aiutano il posizionamento nei motori di ricerca.
                     </li>
-                    <li class="list-group-item px-0">
+                    <li class="list-group-item px-0 ">
                         <strong><a href="https://developers.google.com/web/tools/lighthouse/pwa"
                                 target="_blank">PWA</a>:</strong>
                         verifica l’implementazione delle Progressive Web App per esperienza app-like.
@@ -55,7 +55,7 @@
                     Ottimizzazioni principali: WebM per video hero, layout fixed, cache headers, lazy loading.
                 </p>
                 <a href="https://developers.google.com/speed/pagespeed/insights/?url=tua-url"
-                    class="btn btn-sm btn-outline-primary mt-2">
+                    class="btn btn-sm btn-outline-primary mt-2 appearToYperformanceRank">
                     Vedi report completo
                 </a>
             </div>

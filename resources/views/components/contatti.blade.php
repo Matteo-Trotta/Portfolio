@@ -1,7 +1,7 @@
 <div class="container-fluid bg-white border-5">
     <div class="row justify-content-center align-items-center my-5">
 
-        <div class=" col-md-4 gap-4 justify-content-center align-items-center ">
+        <div class=" col-md-4 gap-4 justify-content-center align-items-center  ">
             <picture class="">
                 <img src="{{ asset('storage/images/biglietto-da-visita.png') }}"
                     alt="biglietto da visita di trotta matteo" class="img-fluid justify-self-center">

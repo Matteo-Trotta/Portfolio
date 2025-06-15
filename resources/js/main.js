@@ -412,3 +412,49 @@ document.addEventListener("DOMContentLoaded", function () {
         new bootstrap.Tooltip(el);
     });
 });
+
+
+// Aggiungi questo in resources/js/main.js
+gsap.from(".appearToY", {
+    scrollTrigger: {
+        trigger: ".appearToY",
+        start: "top center",
+        toggleActions: "play reverse play reverse"
+    },
+    autoAlpha: 0,
+    y: 50,
+    duration: 1
+});
+
+gsap.from(".appearToYperformance", {
+    scrollTrigger: {
+        trigger: ".appearToYperformance",
+        start: "top center",
+        toggleActions: "play reverse play reverse"
+    },
+    autoAlpha: 0,
+    y: 50,
+    duration: 1
+});
+
+gsap.from(".appearToYperformanceRank", {
+    scrollTrigger: {
+        trigger: ".appearToYperformanceRank",
+        start: "top center",
+        toggleActions: "play reverse play reverse"
+    },
+    autoAlpha: 0,
+    y: 50,
+    duration: 1
+});
+
+// gsap.from("bigliettoAnimazione",{
+//     scrollTrigger: {
+//         trigger: ".bigliettoAnimazione",
+//         start: "top center",
+//         toggleActions: "play reverse play reverse"
+//     },
+//     autoAlpha: 0,
+//     y: 50,
+//     duration: 1
+// })

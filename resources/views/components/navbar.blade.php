@@ -29,14 +29,13 @@
                     </a>
                 </li>
 
-                <div class="dropdown">
-                    <button class="dropbtn p-3 fs-4">Progetti</button>
-                    <div class="dropdown-content">
-                        <a href="https://blog.sitiwebromatrottamatteo.com/">Blog Marketing</a>
-                        <a href="https://wordpress.sitiwebromatrottamatteo.com/">Cantina Sala</a>
-                        <a href="#">in arrivo . .</a>
-                    </div>
-                </div>
+                <li class="hover:translate-y-2">
+                    <a href="{{ 'https://blog.sitiwebromatrottamatteo.com' }}"
+                        class=" hover:underline fs-3 italic text-lg hover:text-yellow-500 ">Blog
+                    </a>
+                </li>
+
+
 
 
 
@@ -52,7 +51,7 @@
 
 
         {{-- menu mobile --}}
-        <div class="md:hidden fixed top-20 left-2 right-0 z-50">
+        <div class="md:hidden fixed-top justify-self-end m-4">
             <button data-collapse-toggle="navbar-cta" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-yellow-500 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-gray-200">
                 <span class="sr-only">Open main menu</span>
@@ -65,7 +64,7 @@
 
 
 
-        <nav id="navbar-cta" class="hidden hadow-md fixed ms-2 align-items-center top-20">
+        <nav id="navbar-cta" class="hidden hadow-md fixed ms-2 align-items-center  top-10 end-5">
             <ul class="bg-yellow-500 ms-4 mt-3 text-indigo-500  rounded p-3">
                 <li class="">
                     <a href="{{ route('welcome') }}" class=" fw-semibold fs-3 italic text-lg">home</a>
@@ -83,8 +82,13 @@
                 </li>
 
                 <li class="hover:translate-y-2">
-                    <a href="{{ 'preventivo' }}"
-                        class="fw-semibold fs-3 italic text-lg ">Preventivi
+                    <a href="{{ 'preventivo' }}" class="fw-semibold fs-3 italic text-lg ">Preventivi
+                    </a>
+                </li>
+
+                <li class="hover:translate-y-2">
+                    <a href="{{ 'https:://blog.sitiwebromatrottamatteo.com' }}"
+                        class="fw-semibold fs-3 italic text-lg ">Blog
                     </a>
                 </li>
 
