@@ -6,14 +6,6 @@
             class="col-12 position-relative d-flex align-items-center justify-content-center vh-100 overflow-hidden px-0">
 
 
-            <style>
-
-            </style>
-
-
-
-
-
             {{-- video mostrato solamente su dispositivi lg --}}
 
             <video autoplay muted loop playsinline preload="metadata" aria-hidden="true"

@@ -48,7 +48,9 @@
                 <div class="card-body overflow-scroll text-center align-items-center">
                     <h5 class="card-title fs-1 bodoni">Blog Marketing</h5>
                     <hr>
-                    <p class="card-text playfair-display fs-4">Un blog di web marketing ricco di contenuti strategici e strumenti pratici. Guide approfondite su SEO, social media e campagne pubblicitarie per potenziare la tua visibilità online e raggiungere nuovi clienti senza sforzi.</p>
+                    <p class="card-text playfair-display fs-4">Un blog di web marketing ricco di contenuti strategici e
+                        strumenti pratici. Guide approfondite su SEO, social media e campagne pubblicitarie per
+                        potenziare la tua visibilità online e raggiungere nuovi clienti senza sforzi.</p>
 
                     <a href="{{ 'https://blog.sitiwebromatrottamatteo.com/' }}"
                         class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Visita
@@ -59,28 +61,40 @@
 
         </div>
 
-        <div class=" col-10 col-md-4 my-2">
-            <div class="card shadow-lg border-blue-500 appearToY " style="height: 600px">
-                <div class="img-container">
-
-                    <img class="img-fluid rounded border-4"
-                        src="{{ asset('storage/images/screenshot-progetti/cantina-sala.png') }}" class="card-img-top"
-                        alt="foto di un progetto realizzato per Cantina Sala">
-
+        <div class="col-10 col-md-4 my-2">
+            <div class="card shadow-lg border-blue-500 appearToY" style="height: 600px;">
+                
+                <!-- Immagine ottimizzata -->
+                <div style="height: 250px; overflow: hidden;">
+                    <img 
+                        src="{{ asset('storage/images/screenshot-progetti/tipo.png') }}" 
+                        alt="foto di un progetto realizzato per Cantina Sala" 
+                        class="img-fluid w-100 h-100 rounded border-4" 
+                        style="object-fit: cover;">
                 </div>
-                <div class="card-body overflow-scroll text-center align-items-center">
-                    <h5 class="card-title fs-1 bodoni">Cocktail Bar 'TIPO' <p class="fs-5 text-slate-700">coming soon. .</p></h5>
-                    <hr>
-                    <p class="card-text playfair-display fs-4">TIPO è un cocktail bar dal design accogliente e raffinato, dove ogni drink è frutto di mixologie creative e ingredienti selezionati. Il menu propone signature cocktail e creazioni stagionali, accompagnati da piccole degustazioni e serate a tema, per vivere momenti conviviali in un’atmosfera elegante e contemporanea.</p>
-
-                    <a href="{{ 'https://wordpress.sitiwebromatrottamatteo.com/' }}"
-                        class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Visita
-                        il cocktail bar 'TIPO'</a>
+                
+                <!-- Corpo della card -->
+                <div class="card-body overflow-auto text-center d-flex flex-column align-items-center">
+                    <h5 class="card-title fs-1 bodoni">
+                        Cocktail Bar 'TIPO'
+                        <p class="fs-5 text-slate-700 mb-2">coming soon...</p>
+                    </h5>
+                    <hr class="w-100">
+                    <p class="card-text playfair-display fs-4 flex-grow-1">
+                        TIPO è un cocktail bar dal design accogliente e raffinato, dove ogni drink è frutto di mixologie creative e ingredienti selezionati. Il menu propone signature cocktail e creazioni stagionali, accompagnati da piccole degustazioni e serate a tema, per vivere momenti conviviali in un’atmosfera elegante e contemporanea.
+                    </p>
+                    <a 
+                        href="https://tipo.sitiwebromatrottamatteo.com/"
+                        class="btn btn-warning shadow-2xl p-3 my-3 hover:scale-110 hover:bg-indigo-500 hover:text-white"
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                        In Sviluppo
+                    </a>
                 </div>
-
+        
             </div>
-
         </div>
+        
 
     </div>
 </div>
