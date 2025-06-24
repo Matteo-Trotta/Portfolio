@@ -81,14 +81,14 @@
                     </h5>
                     <hr class="w-100">
                     <p class="card-text playfair-display fs-4 flex-grow-1">
-                        TIPO è un cocktail bar dal design accogliente e raffinato, dove ogni drink è frutto di mixologie creative e ingredienti selezionati. Il menu propone signature cocktail e creazioni stagionali, accompagnati da piccole degustazioni e serate a tema, per vivere momenti conviviali in un’atmosfera elegante e contemporanea.
+                        TIPO è un Ristorante dal design accogliente e raffinato, dove ogni drink è frutto di mixologie creative e ingredienti selezionati. Il menu propone signature cocktail e creazioni stagionali, accompagnati da piccole degustazioni e serate a tema, per vivere momenti conviviali in un’atmosfera elegante e contemporanea.
                     </p>
                     <a 
-                        href="https://tipo.sitiwebromatrottamatteo.com/"
+                        href="https://cocktailbartipo.sitiwebromatrottamatteo.com/"
                         class="btn btn-warning shadow-2xl p-3 my-3 hover:scale-110 hover:bg-indigo-500 hover:text-white"
                         target="_blank" 
                         rel="noopener noreferrer">
-                        In Sviluppo
+                        Visita
                     </a>
                 </div>
         
