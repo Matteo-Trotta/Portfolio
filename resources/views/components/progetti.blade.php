@@ -18,6 +18,7 @@
                         alt="foto di un progetto realizzato per Cantina Sala">
 
                 </div>
+                
                 <div class="card-body overflow-scroll text-center align-items-center">
                     <h5 class="card-title fs-1 bodoni">Cantina Sala</h5>
                     <hr>

@@ -403,7 +403,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// TOOLTIP FOTOGRAFIA
+// tooltip fotografia
 document.addEventListener("DOMContentLoaded", function () {
     var tooltipTriggerList = [].slice.call(
         document.querySelectorAll('[data-bs-toggle="tooltip"]')
@@ -413,39 +413,40 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
-// Aggiungi questo in resources/js/main.js
-gsap.from(".appearToY", {
-    scrollTrigger: {
-        trigger: ".appearToY",
-        start: "top center",
-        toggleActions: "play reverse play reverse"
-    },
-    autoAlpha: 0,
-    y: 50,
-    duration: 1
+gsap.utils.toArray(".appearToY").forEach((card) => {
+    gsap.from(card, {
+        y: 50,
+        autoAlpha: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+            trigger: card,
+            start: "top 55%",
+            toggleActions: "play reverse play reverse",
+        },
+    });
 });
 
 gsap.from(".appearToYperformance", {
     scrollTrigger: {
         trigger: ".appearToYperformance",
         start: "top center",
-        toggleActions: "play reverse play reverse"
+        toggleActions: "play reverse play reverse",
     },
     autoAlpha: 0,
     y: 50,
-    duration: 1
+    duration: 1,
 });
 
 gsap.from(".appearToYperformanceRank", {
     scrollTrigger: {
         trigger: ".appearToYperformanceRank",
         start: "top center",
-        toggleActions: "play reverse play reverse"
+        toggleActions: "play reverse play reverse",
     },
     autoAlpha: 0,
     y: 50,
-    duration: 1
+    duration: 1,
 });
 
 // gsap.from("bigliettoAnimazione",{
@@ -458,3 +459,22 @@ gsap.from(".appearToYperformanceRank", {
 //     y: 50,
 //     duration: 1
 // })
+
+ScrollTrigger.matchMedia({
+    "(min-width: 768px)": function () {
+        gsap.utils.toArray(".row").forEach((section, i) => {
+            gsap.from(section, {
+                y: 50,
+                opacity: 0,
+                duration: 1,
+                ease: "power2.out",
+                delay: i * 0.2, // effetto sequenziale
+                scrollTrigger: {
+                    trigger: section,
+                    start: "top 80%",
+                    toggleActions: "play none none none",
+                },
+            });
+        });
+    },
+});
