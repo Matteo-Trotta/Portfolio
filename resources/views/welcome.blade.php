@@ -17,7 +17,7 @@
 
 
 
-    <x-contatti />
+    {{-- <x-contatti /> --}}
 
     {{-- <x-form />  --}}
 

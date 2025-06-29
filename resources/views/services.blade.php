@@ -18,8 +18,6 @@
         {{-- PRIMA FILA / sito web --}}
         <div class="row text-center justify-content-between align-items-center ">
 
-
-
             <h2 class="bodoni fs-1 letter-spacing text-yellow-500 my-2"> Perchè un sito web?</h2>
 
             <div class="col-12 col-md-6">
@@ -31,7 +29,7 @@
 
             <div class="col-12 col-md-6 my-1  text-center rounded ">
 
-                <div class="p-5 bg-white rounded mx-3">
+                <div class="p-5 bg-white rounded mx-3 imgServices">
                     <ul class="flex flex-wrap">
                         <li>
                             <h5 class="text-lg font-bold text-gray-800 ">🔹 Visibilità e Credibilità</h5>
@@ -394,7 +392,7 @@
     </div>
 
 
-<x-contatti />
+{{-- <x-contatti /> --}}
 
 
 

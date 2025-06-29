@@ -3,41 +3,60 @@
 
     <div class="h-40  md:h-24"></div>
 
-    <div class="container-fluid px-0 my-0 border-5 ">
-        <div class="row md:mx-0 md:p-5 bg-white justify-content-center align-items-center">
+    <section class="bg-white py-16 px-4 md:px-10 lg:px-20">
+        <div class="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-20 max-w-7xl mx-auto">
 
-            <div class="col-10 col-md-6 align-items-center justify-content-center text-center">
-
-                <h2 class="tangerine display-1 letter-spacing !fs-2 md:my-5">hello World !</h2>
-                <p class="lead bodoni"> Mi presento</p>
-
-
-                <p class="fs-5 bg-white md:p-5 bodoni">
-                    dopo diversi anni di esperienza nel settore del bartending, dove ho sviluppato attenzione al
-                    cliente, precisione e spirito di squadra, ho deciso di intraprendere un nuovo percorso professionale
-                    nello sviluppo web. Questa scelta nasce da una motivazione autentica: da sempre appassionato di
-                    tecnologia e creatività digitale, ho sentito il bisogno di costruire una carriera che rispecchiasse
-                    davvero le mie aspirazioni.Ho completato il <a
-                        href="{{ asset('storage/pdf/Attestato_AuLab_TrottaMatteo.pdf') }}" target="_blank"
-                        class="text-blue-500 hover:underline">
-                        corso Aulab Hackademy "Web Developer Full Stack"</a>,
-                    durante il quale ho acquisito solide competenze in HTML, CSS, JavaScript, Bootstrap, PHP, MySQL e
-                    Laravel. In particolare, mi sono appassionato allo sviluppo Front-End, trovando stimolante la
-                    possibilità di creare interfacce intuitive e coinvolgenti.Attualmente sto sviluppando il mio sito
-                    personale, un progetto che mi permette di mettere in pratica quanto appreso e di approfondire l’uso
-                    di soluzioni responsive, ottimizzazione delle prestazioni front-end e traduzione di layout grafici
-                    in codice funzionale.
+            <!-- Testo -->
+            <div class="w-full md:w-1/2 text-center md:text-left animate-fade-in-up">
+                <h2 class="text-4xl md:text-5xl font-serif text-gray-800 mb-4">Hello World!</h2>
+                <p class="text-lg font-semibold text-gray-700 mb-4 bodoni">Mi presento</p>
+                <p class="text-lg text-gray-600 leading-relaxed space-y-4 bodoni">
+                    Ciao! Mi chiamo Matteo e ho iniziato la mia carriera dietro al bancone, tra cocktail shaker e
+                    attenzione al dettaglio. Oggi, invece di mixare drink, mi occupo di “shakerare” codice per creare
+                    siti web funzionali, curati e su misura.<br><br>
+                    Dopo anni nel mondo dell’ospitalità, ho deciso di trasformare la mia passione per la tecnologia in
+                    un vero lavoro. Ho frequentato
+                    <a href="{{ asset('storage/pdf/Attestato_AuLab_TrottaMatteo.pdf') }}" target="_blank"
+                        class="text-blue-600 underline hover:text-blue-800 transition">Aulab Hackademy "Web Developex
+                        Full Stack"</a>, e da allora non ho più smesso di studiare, sperimentare e costruire.<br><br>
+                    Realizzo siti web semplici da usare, belli da vedere e ottimizzati per funzionare bene su ogni
+                    dispositivo. Mi piace l’idea di aiutare piccole attività, locali e professionisti a raccontarsi
+                    online in modo efficace (e con stile!).<br><br>
+                    Se cerchi qualcuno che sappia unire professionalità, creatività e un approccio umano, sei nel posto
+                    giusto. Parliamone!
                 </p>
-
             </div>
 
-
-            <div class="col-10 col-md-6 mx-auto">
-                <img alt="foto di Matteo Trotta" class="shadow-2xl img-fluid mx-auto rounded mb-4"
-                    src="{{ asset('storage/images/foto-cv-canva.jpg') }}">
+            <!-- Immagine -->
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end animate-fade-in">
+                <img src="{{ asset('storage/images/foto-cv-canva.jpg') }}" alt="foto di Matteo Trotta"
+                    class="rounded-lg shadow-xl w-full max-w-sm">
             </div>
         </div>
-    </div>
+    </section>
+
+    <style>
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in-up {
+            animation: fadeInUp 1s ease-out both;
+        }
+
+        .animate-fade-in {
+            animation: fadeInUp 1.2s ease-out both;
+        }
+    </style>
+
 
     <div class="container-fluid px-0">
         <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
@@ -197,6 +216,6 @@
         </div>
     </div>
 
-    <x-contatti />
+    {{-- <x-contatti /> --}}
 
 </x-layout>

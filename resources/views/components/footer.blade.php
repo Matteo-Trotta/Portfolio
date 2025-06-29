@@ -1,27 +1,50 @@
-<footer class="bg-gray-800">
-    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between ">
-        <span class=" mx-0 text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/"
-                class="hover:underline">Matteo Trotta™</a>. All Rights Reserved.
-        </span>
-        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            <li>
-                <a href="{{ route('aboutMe') }}" class="hover:underline me-4 md:me-6">About</a>
-            </li>
-            <li>
-                <a href="{{ route('welcome') }}" class="hover:underline me-4 md:me-6 disabled">home</a>
-            </li>
-            <li>
-                <a href="{{ route('services') }}" class="hover:underline me-4 md:me-6">Servizi</a>
-            </li>
+<footer class="bg-gray-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-10 md:flex md:justify-between md:items-center space-y-8 md:space-y-0">
 
-            <li>
-                <a href="https://www.iubenda.com/privacy-policy/58740088" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-            </li>
+        <!-- Logo e Biglietto -->
+        <div class="w-full md:w-1/3 flex justify-center md:justify-start">
+            <img src="{{ asset('storage/images/biglietto-da-visita.png') }}" alt="Biglietto da visita Matteo Trotta"
+                class="w-64 h-auto">
+        </div>
 
-            <li class="mx-1">
-                <a href="https://www.iubenda.com/privacy-policy/58740088/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-            </li>
+        <!-- Contatti -->
+        <div class="w-full md:w-1/3 text-center space-y-3">
+            <ul class="space-y-2">
+                <li>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com" target="_blank"
+                        rel="noopener noreferrer" class="italic text-lg hover:underline">
+                        matteotrotta7@gmail.com
+                    </a>
+                </li>
+                <li class="italic text-lg">
+                    
+                    <a href="https://github.com/Matteo-Trotta"><i class="fa-brands fa-github text-white"></i> Profilo GitHub</a>
+                </li>
+                <li class="text-lg">
+                    LinkedIn <i class="fa-brands fa-linkedin text-blue-400"></i> :
+                    <a href="https://www.linkedin.com/in/matteo-trotta-5a9984278/"
+                        class="text-blue-400 hover:underline">Visita profilo</a>
+                </li>
+            </ul>
+        </div>
 
-        </ul>
+        <!-- Link -->
+        <div class="w-full md:w-1/3 text-center md:text-right space-y-3">
+            <ul class="flex flex-wrap justify-center md:justify-end gap-4 text-sm text-gray-400">
+                <li><a href="{{ route('welcome') }}" class="hover:underline">home</a></li>
+                <li><a href="{{ route('aboutMe') }}" class="hover:underline">About Me</a></li>
+                <li><a href="{{ route('services') }}" class="hover:underline">Servizi</a></li>
+                <li><a href="{{ route('preventivo') }}" class="hover:underline">Preventivi</a></li>
+                <li><a href="{{ 'https://blog.sitiwebromatrottamatteo.com' }}" class="hover:underline">Blog</a></li>
+
+
+                <li><a href="https://www.iubenda.com/privacy-policy/58740088" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li><a href="https://www.iubenda.com/privacy-policy/58740088/cookie-policy"
+                        class="hover:underline">Cookie Policy</a></li>
+            </ul>
+            <p class="text-xs text-gray-500 mt-4">© 2025 Matteo Trotta™. All Rights Reserved.</p>
+        </div>
+
     </div>
 </footer>

@@ -441,6 +441,6 @@
 
 
 
-    <x-contatti />
+    {{-- <x-contatti /> --}}
 
 </x-layout>
