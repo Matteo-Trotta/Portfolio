@@ -45,11 +45,13 @@
 
 
         <div class="md:ml-auto">
-            <a class="  d-lg-block d-none btn btn-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 my-4 fs-3" aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"><img alt="Chat on WhatsApp" src="{{ asset('storage/images/ChatOnWhatsAppButton/WhatsAppButtonGreenLarge.svg') }}" />
+            <a class="  d-lg-block d-none btn btn-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 my-4 fs-3"
+                aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX"><img alt="Chat on WhatsApp"
+                    src="{{ asset('storage/images/ChatOnWhatsAppButton/WhatsAppButtonGreenLarge.png') }}" />
             </a>
         </div>
 
-      
+
         {{-- menu mobile --}}
         <div class="md:hidden fixed top-10 left-2 right-0 z-50">
             <button data-collapse-toggle="navbar-cta" type="button"
