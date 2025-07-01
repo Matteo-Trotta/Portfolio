@@ -54,7 +54,7 @@
 </div>
 
 {{-- animazione smartphone ease-in --}}
-<div class="container-fluid bianco my-0 p-0">
+<div class="container-fluid bianco p-4">
     <div class="row mx-0 align-items-center justify-content-center">
         <div class="col-lg-5 my-0 justify-content-center align-items-center px-0 ">
 

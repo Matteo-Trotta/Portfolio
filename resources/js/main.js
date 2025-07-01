@@ -121,7 +121,6 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         },
     });
 
-    // 3. monta le due animazioni in sequenza (con overlap)
     tl.from(".smartphone", {
         autoAlpha: 0,
         y: 200,

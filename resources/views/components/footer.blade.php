@@ -9,22 +9,35 @@
 
         <!-- Contatti -->
         <div class="w-full md:w-1/3 text-center space-y-3">
-            <ul class="space-y-2">
+            <ul class="space-y-6 ">
+
                 <li>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotrotta7@gmail.com" target="_blank"
                         rel="noopener noreferrer" class="italic text-lg hover:underline">
                         matteotrotta7@gmail.com
                     </a>
                 </li>
+
                 <li class="italic text-lg">
-                    
-                    <a href="https://github.com/Matteo-Trotta"><i class="fa-brands fa-github text-white"></i> Profilo GitHub</a>
+
+                    <a href="https://github.com/Matteo-Trotta"><i
+                            class="fa-brands fa
+                    -github text-white"></i> Profilo GitHub</a>
                 </li>
+
                 <li class="text-lg">
                     LinkedIn <i class="fa-brands fa-linkedin text-blue-400"></i> :
                     <a href="https://www.linkedin.com/in/matteo-trotta-5a9984278/"
                         class="text-blue-400 hover:underline">Visita profilo</a>
                 </li>
+
+                <li class="flex justify-center">
+                    <a class="" aria-label="Chat on WhatsApp" href="https://wa.me/393392222022"><img alt="Chat on WhatsApp"
+                            src="{{ asset('storage/images/ChatOnWhatsAppButton/WhatsAppButtonGreenMedium.svg') }}" />
+                    </a>
+
+                </li>
+
             </ul>
         </div>
 
