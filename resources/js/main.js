@@ -285,15 +285,23 @@ gsap.from(".contattami", {
     delay: 4,
 });
 
-const toggleButton = document.querySelector(
-    '[data-collapse-toggle="navbar-cta"]'
-);
+// NAVBAR TOGGLE
+document.addEventListener("DOMContentLoaded", function () {
+    // Tutto qui dentro
+    const toggleButton = document.querySelector('[data-collapse-toggle="navbar-cta"]');
+    const menu = document.getElementById("navbar-cta");
 
-const menu = document.getElementById("navbar-cta");
-
-toggleButton.addEventListener("click", () => {
-    menu.classList.toggle("hidden");
+    if (toggleButton && menu) {
+        toggleButton.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    } else {
+        console.warn("Elemento mancante:", { toggleButton, menu });
+    }
 });
+
+
+
 
 gsap.fromTo(
     ".evidenziatore",
