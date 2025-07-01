@@ -217,24 +217,10 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         y: 100,
     });
 
-    // document
-    // .getElementById("scrollButton")
-    // .addEventListener("click", function () {
-    //     window.scrollTo({
-    //         top: 999,
-    //         behavior: "smooth",
-    //     });
-    // });
-}
 
-document
-    .getElementById("scrollButtonContattami")
-    .addEventListener("click", function () {
-        window.scrollTo({
-            top: 10000,
-            behavior: "smooth",
-        });
-    });
+}
+// FINE ANIMAZIONI DA DESKTOP-LAPTOP
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".scrollButtonPreventivo");
@@ -286,19 +272,19 @@ gsap.from(".contattami", {
 });
 
 // NAVBAR TOGGLE
-document.addEventListener("DOMContentLoaded", function () {
-    // Tutto qui dentro
-    const toggleButton = document.querySelector('[data-collapse-toggle="navbar-cta"]');
-    const menu = document.getElementById("navbar-cta");
+// document.addEventListener("DOMContentLoaded", function () {
+//     // Tutto qui dentro
+//     const toggleButton = document.querySelector('[data-collapse-toggle="navbar-cta"]');
+//     const menu = document.getElementById("navbar-cta");
 
-    if (toggleButton && menu) {
-        toggleButton.addEventListener("click", () => {
-            menu.classList.toggle("hidden");
-        });
-    } else {
-        console.warn("Elemento mancante:", { toggleButton, menu });
-    }
-});
+//     if (toggleButton && menu) {
+//         toggleButton.addEventListener("click", () => {
+//             menu.classList.toggle("hidden");
+//         });
+//     } else {
+//         console.warn("Elemento mancante:", { toggleButton, menu });
+//     }
+// });
 
 
 
