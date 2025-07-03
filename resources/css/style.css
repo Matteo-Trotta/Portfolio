@@ -1,6 +1,13 @@
+/* ==========================================================================
+   1. BASE
+   ========================================================================== */
 body {
     overflow-x: hidden;
 }
+
+/* ==========================================================================
+   2. TIPOGRAFIA – CLASSI FONT E TESTI
+   ========================================================================== */
 
 /* GOOGLE FONTS */
 .tangerine-regular {
@@ -16,6 +23,7 @@ body {
     font-weight: 600;
     font-style: normal;
 }
+
 .tangerine {
     font-family: "montserrat", serif;
 }
@@ -32,6 +40,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 .tangerine-title {
     font-family: "Tangerine", serif;
     font-weight: bolder;
@@ -49,9 +58,10 @@ body {
     font-style: normal;
 }
 
-/* FINE CLASSI PER TESTI */
+/* ==========================================================================
+   3. ANIMAZIONI – PARAGRAFI DA DESTRA/SINISTRA
+   ========================================================================== */
 
-/* PARAGRAFO DI SINISTRA */
 .paragrafo {
     opacity: 0;
     animation: paragrafodasinistra 2s ease-in-out forwards;
@@ -70,7 +80,6 @@ body {
         backdrop-filter: blur(60px);
     }
 }
-/* PARAGRAFO SINISTRA FINE */
 
 .paragrafoDestra {
     opacity: 0;
@@ -91,9 +100,17 @@ body {
     }
 }
 
+/* ==========================================================================
+   4. COLORI E UTILITIES GENERICHE
+   ========================================================================== */
+
 .bianco {
     background-color: rgb(250, 250, 250);
 }
+
+/* ==========================================================================
+   5. LAYOUT E CONTAINER VARI
+   ========================================================================== */
 
 .card {
     height: 600px;
@@ -104,8 +121,9 @@ body {
     background: linear-gradient(13deg, rgb(48, 45, 127) 30%, #0768cf 80%);
 }
 
-/* CAROSELLO FOTOGRAFIA
- */
+/* ==========================================================================
+   6. COMPONENTE – CAROSELLO FOTOGRAFIA
+   ========================================================================== */
 
 .slide-fullheight {
     height: 100vh;
@@ -124,9 +142,11 @@ body {
     max-height: 100%;
 }
 
-/* colorefrecce carousel */
+
+
+
+/* Frecce personalizzate del carosello */
 .custom-carousel-prev-icon {
-    /* FRECCE CAROSELLO ROSSE */
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3e%3cpath d='M3.854 0.146a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L1.707 4l2.147-2.146a.5.5 0 0 0 0-.708z'/%3e%3c/svg%3e");
     background-size: 100%, 100%;
 }
@@ -136,13 +156,15 @@ body {
     background-size: 100%, 100%;
 }
 
-/* centrare le img di presto.it nelle loro slide contenitori */
+/* Centrare immagini nelle slide */
 .object-contain {
     object-fit: contain;
     object-position: center;
 }
 
-/* FINE CAROSELLO FOTOGRAFIA */
+/* ==========================================================================
+   7. RESPONSIVE DESIGN – MEDIA QUERY
+   ========================================================================== */
 
 @media (max-width: 768px) {
     .carousel-inner.dynamic-height {
@@ -155,6 +177,10 @@ body {
         height: 60vh !important;
     }
 }
+
+/* ==========================================================================
+   8. COMPONENTI – CARD
+   ========================================================================== */
 
 .card {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -175,9 +201,17 @@ body {
     margin-bottom: 0.5rem;
 }
 
+/* ==========================================================================
+   9. UTILITIES VARIE
+   ========================================================================== */
+
 .display-6 {
     font-size: 2rem;
 }
+
+/* ==========================================================================
+   10. COMPONENTI – BUTTON
+   ========================================================================== */
 
 .btn {
     transition: all 0.3s ease;
@@ -187,14 +221,18 @@ body {
     transform: scale(1.05);
 }
 
-/* DROPDOWN
- */
-/* Dropdown Button */
-.dropbtn {
-    background-color: #04aa6d;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+/* ==========================================================================
+   11. COMPONENTI – MENU TOGGLE (ANIMAZIONE ☰ ↔ ✕)
+   ========================================================================== */
+
+.menu-open .top-bar {
+    transform: translateY(6px) rotate(45deg);
 }
 
+.menu-open .middle-bar {
+    opacity: 0;
+}
+
+.menu-open .bottom-bar {
+    transform: translateY(-6px) rotate(-45deg);
+}

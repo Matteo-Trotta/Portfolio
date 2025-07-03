@@ -235,6 +235,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// MENU TOGGLE NAVBAR
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("mobileToggle");
+    const mobileMenu = document.getElementById("navbar-cta");
+
+    toggleButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+        toggleButton.classList.toggle("menu-open");
+    });
+});
+
+
+
 gsap.from(".bottonePill", {
     opacity: 0,
     y: 50,
@@ -270,22 +283,6 @@ gsap.from(".contattami", {
     duration: 2,
     delay: 4,
 });
-
-// NAVBAR TOGGLE
-// document.addEventListener("DOMContentLoaded", function () {
-//     // Tutto qui dentro
-//     const toggleButton = document.querySelector('[data-collapse-toggle="navbar-cta"]');
-//     const menu = document.getElementById("navbar-cta");
-
-//     if (toggleButton && menu) {
-//         toggleButton.addEventListener("click", () => {
-//             menu.classList.toggle("hidden");
-//         });
-//     } else {
-//         console.warn("Elemento mancante:", { toggleButton, menu });
-//     }
-// });
-
 
 
 

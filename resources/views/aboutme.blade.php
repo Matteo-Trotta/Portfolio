@@ -3,7 +3,7 @@
 
     <div class="h-40  md:h-24"></div>
 
-    <section class="bg-white py-16 px-4 md:px-10 lg:px-20">
+    <section class="bg-white mt-5 py-2 px-4 md:px-10 lg:px-20">
         <div class="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-20 max-w-7xl mx-auto">
 
             <!-- Testo -->
