@@ -4,33 +4,35 @@
     <div class=" d-none d-sm-block h-40  md:h-24"></div>
 
     <section class="bg-white mt-5 py-2 px-4 md:px-10 lg:px-20">
-        <div class="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-20 max-w-7xl mx-auto">
+        <div class="flex flex-col-reverse my-5 md:flex-row items-center gap-10 md:gap-20 max-w-7xl mx-auto">
 
             <!-- Testo -->
-            <div class="w-full md:w-1/2 text-center md:text-left animate-fade-in-up">
+            <div class="w-full md:w-1/2 text-center md:text-left animate-fade-in-up border-1 shadow-lg my-2 p-4 rounded">
                 <h2 class="text-4xl md:text-5xl font-serif text-gray-800 mb-4">Hello World!</h2>
-                <p class="text-lg font-semibold text-gray-700 mb-4 bodoni">Mi presento</p>
-                <p class="text-lg text-gray-600 leading-relaxed space-y-4 bodoni">
-                    Ciao! Mi chiamo Matteo e ho iniziato la mia carriera dietro al bancone, tra cocktail shaker e
-                    attenzione al dettaglio. Oggi, invece di mixare drink, mi occupo di “shakerare” codice per creare
-                    siti web funzionali, curati e su misura.<br><br>
-                    Dopo anni nel mondo dell’ospitalità, ho deciso di trasformare la mia passione per la tecnologia in
-                    un vero lavoro. Ho frequentato
-                    <a href="{{ asset('storage/pdf/Attestato_AuLab_TrottaMatteo.pdf') }}" target="_blank"
-                        class="text-blue-600 underline hover:text-blue-800 transition">Aulab Hackademy "Web Developex
-                        Full Stack"</a>, e da allora non ho più smesso di studiare, sperimentare e costruire.<br><br>
-                    Realizzo siti web semplici da usare, belli da vedere e ottimizzati per funzionare bene su ogni
-                    dispositivo. Mi piace l’idea di aiutare piccole attività, locali e professionisti a raccontarsi
-                    online in modo efficace (e con stile!).<br><br>
-                    Se cerchi qualcuno che sappia unire professionalità, creatività e un approccio umano, sei nel posto
-                    giusto. Parliamone!
+           
+                <p class="text-lg text-black space-y-4 bodoni">
+                    Ciao, sono Matteo Trotta – sviluppatore web freelance con sede a Roma. Dopo un’esperienza
+                    pluriennale in ambito operativo e gestionale, oggi mi dedico con passione alla creazione di siti web
+                    performanti, responsive e orientati all’esperienza utente. Utilizzo HTML, CSS, JavaScript
+                    (Bootstrap, Tailwind), PHP, MySQL e Laravel, e seguo ogni progetto con cura artigianale: dalla
+                    progettazione al deploy su server LEMP.
+
+                    Accanto allo sviluppo, sto approfondendo le logiche SEO per aiutare i miei clienti a ottenere
+                    maggiore visibilità online, rendendo i siti non solo belli e funzionali, ma anche trovabili.
+                    Utilizzo WordPress nei progetti più adatti alla gestione autonoma dei contenuti, imparando a
+                    personalizzarlo a fondo per offrire soluzioni flessibili e su misura. Allo stesso tempo, mi sto
+                    formando anche sulle pratiche DevOps, per comprendere e gestire in modo più solido l’intero ciclo di
+                    vita di un’applicazione: dall’ambiente di sviluppo alla messa in produzione, fino al monitoraggio.
+
+                    Credo nel design chiaro, nella funzionalità e nel codice pulito, perché ogni sito web deve essere un
+                    percorso guidato, semplice da usare e pensato per convertire.
                 </p>
             </div>
 
             <!-- Immagine -->
-            <div class="w-full md:w-1/2 flex justify-center md:justify-end animate-fade-in">
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end animate-fade-in ">
                 <img src="{{ asset('storage/images/foto-cv-canva.jpg') }}" alt="foto di Matteo Trotta"
-                    class="rounded-lg shadow-xl w-full max-w-sm">
+                    class="rounded-lg shadow-xl w-full max-w-sm p-3 border-2">
             </div>
         </div>
     </section>
