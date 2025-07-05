@@ -24,7 +24,7 @@
     <title>Web Developer Freelance Roma | Trotta Matteo</title>
     <meta name="description"
         content="Hai bisogno di un sito web professionale? Creo soluzioni digitali su misura per aziende e liberi professionisti.">
- 
+
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -36,15 +36,14 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     {{-- COOKIE IUBENDA --}}
-    {{-- <script type="text/javascript" src="//embeds.iubenda.com/widgets/06b020d7-268c-4851-afdc-61a5fbeab44a.js"></script> --}}
-    {{-- <script type="text/javascript" src="//embeds.iubenda.com/widgets/06b020d7-268c-4851-afdc-61a5fbeab44a.js"></script> --}}
+    <script type="text/javascript" src="//embeds.iubenda.com/widgets/06b020d7-268c-4851-afdc-61a5fbeab44a.js"></script>
+    <script type="text/javascript" src="//embeds.iubenda.com/widgets/06b020d7-268c-4851-afdc-61a5fbeab44a.js"></script>
     {{-- COOKIE IUBENDA --}}
-    <link
-        href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAADAwMA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEREAAAARAAAAAAAAAAEQAAAAAAAAABEAAAAAAAAAARAAAAAAAAABEAAAAAAAABEAAAAAAAABEAAAAAAAABEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        rel="icon" type="image/x-icon">
-    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAADAwMA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEREAAAARAAAAAAAAAAEQAAAAAAAAABEAAAAAAAAAARAAAAAAAAABEAAAAAAAABEAAAAAAAABEAAAAAAAABEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        rel="icon" type="image/x-icon">
-        
+
+    {{-- FAVICON --}}
+    <link rel="icon" type="image/png" sizes="16x16" href="storage/images/favicon/favicon.ico">
+    
+    {{-- FINE FAVICON --}}
 </head>
 
 <body class="bg-indigo-900">
