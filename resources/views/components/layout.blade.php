@@ -19,12 +19,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    {{-- search result --}}
+    {{-- META TAG GOOGLE --}}
     <meta property="og:site_name" content="Matteo Trotta - Web Developer">
     <title>Web Developer Freelance Roma | Trotta Matteo</title>
     <meta name="description"
         content="Hai bisogno di un sito web professionale? Creo soluzioni digitali su misura per aziende e liberi professionisti.">
-
+    {{-- META TAG GOOGLE --}}
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -42,7 +42,6 @@
 
     {{-- FAVICON --}}
     <link rel="icon" type="image/png" sizes="16x16" href="storage/images/favicon/favicon.ico">
-    
     {{-- FINE FAVICON --}}
 </head>
 
