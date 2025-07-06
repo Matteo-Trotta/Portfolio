@@ -10,12 +10,12 @@
 
             <video autoplay muted loop playsinline preload="metadata" aria-hidden="true"
                 src="{{ asset('storage/video/video-hero.webm') }}" id="heroVideo"
-                class="d-none d-lg-block position-absolute w-100 h-100 object-fit-cover">
+                class="d-none d-lg-block position-absolute object-fit-cover">
             </video>
 
 
 
-            <div class="position-relative text-center text-white z-1">
+            <div class="position-relative text-center text-white bg-gray-500 bg-opacity-20 p-3 rounded">
 
                 <h1 class="display-6 text-yellow-500 letter-spacing fw-bold text-uppercase text-shadow titolo bodoni">
                     Creazione Siti Web a Roma</h1>
@@ -29,24 +29,6 @@
 
 
 
-                {{-- BOTTONE SMARTPHONE E DEKSTOP COMPORTAMENTO DIFFERENTE --}}
-                <script>
-                    function updateLink() {
-                        const scrollButton = document.getElementById('scrollButton');
-
-                        if (window.innerWidth <= 768) {
-
-                            scrollButton.href = '{{ route('services') }}';
-                        } else {
-
-                            scrollButton.href = '#scopridipiù';
-                        }
-                    }
-
-
-                    window.addEventListener('load', updateLink);
-                    window.addEventListener('resize', updateLink);
-                </script>
             </div>
 
 

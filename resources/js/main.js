@@ -216,11 +216,8 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         duration: 1,
         y: 100,
     });
-
-
 }
 // FINE ANIMAZIONI DA DESKTOP-LAPTOP
-
 
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".scrollButtonPreventivo");
@@ -245,8 +242,6 @@ document.addEventListener("DOMContentLoaded", function () {
         toggleButton.classList.toggle("menu-open");
     });
 });
-
-
 
 gsap.from(".bottonePill", {
     opacity: 0,
@@ -285,6 +280,9 @@ gsap.from(".contattami", {
 });
 
 
+
+window.addEventListener("load", updateLink);
+window.addEventListener("resize", updateLink);
 
 gsap.fromTo(
     ".evidenziatore",
