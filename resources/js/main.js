@@ -204,6 +204,28 @@ if (!window.matchMedia("(max-width: 767px)").matches) {
         x: -200,
     });
 
+    gsap.utils.toArray("[data-animate]").forEach((el) => {
+        gsap.fromTo(
+            el,
+            {
+                autoAlpha: 0,
+                y: 50,
+            },
+            {
+                duration: 1,
+                autoAlpha: 1,
+                y: 0,
+                ease: "power2.out",
+                scrollTrigger: {
+                    trigger: el,
+                    start: "top 85%",
+                    toggleActions: "play none none none",
+                    once: true,
+                },
+            }
+        );
+    });
+
     gsap.from(".secondafilacard", {
         scrollTrigger: {
             trigger: ".secondafilacard",
@@ -278,8 +300,6 @@ gsap.from(".contattami", {
     duration: 2,
     delay: 4,
 });
-
-
 
 window.addEventListener("load", updateLink);
 window.addEventListener("resize", updateLink);

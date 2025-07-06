@@ -3,7 +3,7 @@
 
     <div class=" d-none d-sm-block h-40  md:h-24"></div>
 
-    <section class="bg-white mt-5 py-2 px-4 md:px-10 lg:px-20">
+    {{-- <section class="bg-white mt-5 py-2 px-4 md:px-10 lg:px-20">
         <div class="flex flex-col-reverse my-5 md:flex-row items-center gap-10 md:gap-20 max-w-7xl mx-auto">
 
             <!-- Testo -->
@@ -12,7 +12,7 @@
            
                 <p class="text-lg text-black space-y-4 bodoni">
                     Ciao, sono Matteo Trotta – sviluppatore web freelance con sede a Roma. Dopo un’esperienza
-                    pluriennale in ambito operativo e gestionale, oggi mi dedico con passione alla creazione di siti web
+                    pluriennale in ambito Ho.Re.Ca, oggi mi dedico con passione alla creazione di siti web
                     performanti, responsive e orientati all’esperienza utente. Utilizzo HTML, CSS, JavaScript
                     (Bootstrap, Tailwind), PHP, MySQL e Laravel, e seguo ogni progetto con cura artigianale: dalla
                     progettazione al deploy su server LEMP.
@@ -35,29 +35,74 @@
                     class="rounded-lg shadow-xl w-full max-w-sm p-3 border-2">
             </div>
         </div>
+    </section> --}}
+
+    <section id="about-me" class="bg-gray-50 py-16 px-4 md:px-8 lg:px-16">
+        <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+
+            <!-- Foto -->
+            <div class="col-span-1 flex justify-center lg:justify-start">
+                <img src="{{ asset('storage/images/foto-cv-canva.jpg') }}" alt="Foto di Matteo Trotta"
+                    class="w-48 h-48 rounded-full border-4 border-indigo-600 shadow-lg object-cover">
+            </div>
+
+            <!-- Testi -->
+            <div class="col-span-2 space-y-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+                    Ciao, sono <span class="text-indigo-600">Matteo Trotta</span>
+                </h2>
+                <p class="text-lg md:text-xl text-gray-700 ">
+                    Sviluppatore web freelance a Roma, trasformo le tue idee in
+                    <span class="font-semibold text-gray-900">siti web efficaci, eleganti e facili da gestire</span>.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <h3 class="text-2xl font-semibold text-gray-800 p-2 bg-slate-500 bg-opacity-20 rounded-lg">🎯 Le mie competenze</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li><span class="font-medium">Realizzazione su misura</span>: HTML, CSS, JS, PHP, MySQL,
+                                Laravel.</li>
+                            <li><span class="font-medium">Performance veloci</span>: siti rapidi su desktop e mobile.
+                            </li>
+                            <li><span class="font-medium">SEO mirata</span>: per farti trovare online.</li>
+                            <li><span class="font-medium">WordPress custom</span>: autonomia e flessibilità.</li>
+                            <li><span class="font-medium">Dal deploy al server</span>: gestione completa su LEMP.</li>
+                        </ul>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-2xl font-semibold text-gray-800">💼 Ideale per</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li><span class="font-medium">Siti professionali senza complicazioni</span>.</li>
+                            <li><span class="font-medium">Visibilità online e semplicità di gestione</span>.</li>
+                            <li><span class="font-medium">Design pulito e attenzione ai dettagli</span>.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <h3 class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-2xl  font-semibold text-gray-800">✨ Il mio approccio</h3>
+                    <p class="text-gray-700">Precisione sartoriale: ogni progetto ha cura artigianale.</p>
+                    <p class="text-gray-700">Design intuitivo e impattante.</p>
+                    <p class="text-gray-700">Orientato alla conversione: più clienti dal web.</p>
+                </div>
+
+                <div class="space-y-4">
+                    <p class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-xl text-gray-800 mb-4">📈 Il valore che porto:</p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+                        <li>Siti affidabili e sempre veloci.</li>
+                        <li>Soluzioni per generare contatti o vendite.</li>
+                        <li>Supporto continuo: assistenza e scalabilità.</li>
+                    </ul>
+                    <a class="d-lg-block d-none btn btn-lg transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 my-4 fs-3"
+                        aria-label="Chat on WhatsApp" href="https://wa.me/393392222022">
+                        <img alt="Chat on WhatsApp"
+                            src="{{ asset('storage/images/ChatOnWhatsAppButton/WhatsAppButtonGreenMedium.svg') }}" />
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <style>
-        @keyframes fadeInUp {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .animate-fade-in-up {
-            animation: fadeInUp 1s ease-out both;
-        }
-
-        .animate-fade-in {
-            animation: fadeInUp 1.2s ease-out both;
-        }
-    </style>
 
 
     <div class="container-fluid px-0">

@@ -81,6 +81,26 @@ body {
     }
 }
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 1s ease-out both;
+}
+
+.animate-fade-in {
+    animation: fadeInUp 1.2s ease-out both;
+}
+
 .paragrafoDestra {
     opacity: 0;
     animation: paragrafodadestra 2s ease-in-out forwards;
@@ -141,9 +161,6 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
-
-
-
 
 /* Frecce personalizzate del carosello */
 .custom-carousel-prev-icon {
