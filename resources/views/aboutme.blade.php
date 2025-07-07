@@ -41,23 +41,23 @@
         <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
 
             <!-- Foto -->
-            <div class="col-span-1 flex justify-center lg:justify-start">
+            <div class="col-span-1 flex justify-center lg:justify-start  animate-fade-in-up">
                 <img src="{{ asset('storage/images/foto-cv-canva.jpg') }}" alt="Foto di Matteo Trotta"
                     class="w-48 h-48 rounded-full border-4 border-indigo-600 shadow-lg object-cover">
             </div>
 
             <!-- Testi -->
             <div class="col-span-2 space-y-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800  animate-fade-in-up">
                     Ciao, sono <span class="text-indigo-600">Matteo Trotta</span>
                 </h2>
-                <p class="text-lg md:text-xl text-gray-700 ">
+                <p class="text-lg md:text-xl text-gray-700 animate-fade-in ">
                     Sviluppatore web freelance a Roma, trasformo le tue idee in
                     <span class="font-semibold text-gray-900">siti web efficaci, eleganti e facili da gestire</span>.
                 </p>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="space-y-4">
+                    <div class="space-y-4 animate-fade-in">
                         <h3 class="text-2xl font-semibold text-gray-800 p-2 bg-slate-500 bg-opacity-20 rounded-lg">🎯 Le mie competenze</h3>
                         <ul class="list-disc list-inside text-gray-700 space-y-2">
                             <li><span class="font-medium">Realizzazione su misura</span>: HTML, CSS, JS, PHP, MySQL,
@@ -69,8 +69,8 @@
                             <li><span class="font-medium">Dal deploy al server</span>: gestione completa su LEMP.</li>
                         </ul>
                     </div>
-                    <div class="space-y-4">
-                        <h3 class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-2xl font-semibold text-gray-800">💼 Ideale per</h3>
+                    <div class="space-y-4 animate-fade-in-up">
+                        <h3 class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-2xl font-semibold text-gray-800 animate-fade-in-right">💼 Ideale per</h3>
                         <ul class="list-disc list-inside text-gray-700 space-y-2">
                             <li><span class="font-medium">Siti professionali senza complicazioni</span>.</li>
                             <li><span class="font-medium">Visibilità online e semplicità di gestione</span>.</li>

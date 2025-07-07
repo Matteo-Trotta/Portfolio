@@ -376,7 +376,6 @@ document.addEventListener("DOMContentLoaded", () => {
          <p class="italic bodoni fs-3">
          "Uso di strumenti di intelligenza artificiale per analizzare gli annunci. Questo sistema potrebbe essere usato per vari scopi, ad esempio per rilevare contenuti inappropriati, oppure per suggerire delle modifiche che ne migliorino la chiarezza e l'efficacia."
          </p>`,
-        ,
     ];
 
     const getActiveIndex = () => {

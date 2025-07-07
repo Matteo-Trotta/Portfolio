@@ -101,6 +101,10 @@ body {
     animation: fadeInUp 1.2s ease-out both;
 }
 
+.animate-fade-in-right{
+    animation: fadeRight 1.2s ease-out both;
+}
+
 .paragrafoDestra {
     opacity: 0;
     animation: paragrafodadestra 2s ease-in-out forwards;
