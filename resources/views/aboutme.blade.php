@@ -3,40 +3,6 @@
 
     <div class=" d-none d-sm-block h-40  md:h-24"></div>
 
-    {{-- <section class="bg-white mt-5 py-2 px-4 md:px-10 lg:px-20">
-        <div class="flex flex-col-reverse my-5 md:flex-row items-center gap-10 md:gap-20 max-w-7xl mx-auto">
-
-            <!-- Testo -->
-            <div class="w-full md:w-1/2 text-center md:text-left animate-fade-in-up border-1 shadow-lg my-2 p-4 rounded">
-                <h2 class="text-4xl md:text-5xl font-serif text-gray-800 mb-4">Hello World!</h2>
-           
-                <p class="text-lg text-black space-y-4 bodoni">
-                    Ciao, sono Matteo Trotta – sviluppatore web freelance con sede a Roma. Dopo un’esperienza
-                    pluriennale in ambito Ho.Re.Ca, oggi mi dedico con passione alla creazione di siti web
-                    performanti, responsive e orientati all’esperienza utente. Utilizzo HTML, CSS, JavaScript
-                    (Bootstrap, Tailwind), PHP, MySQL e Laravel, e seguo ogni progetto con cura artigianale: dalla
-                    progettazione al deploy su server LEMP.
-
-                    Accanto allo sviluppo, sto approfondendo le logiche SEO per aiutare i miei clienti a ottenere
-                    maggiore visibilità online, rendendo i siti non solo belli e funzionali, ma anche trovabili.
-                    Utilizzo WordPress nei progetti più adatti alla gestione autonoma dei contenuti, imparando a
-                    personalizzarlo a fondo per offrire soluzioni flessibili e su misura. Allo stesso tempo, mi sto
-                    formando anche sulle pratiche DevOps, per comprendere e gestire in modo più solido l’intero ciclo di
-                    vita di un’applicazione: dall’ambiente di sviluppo alla messa in produzione, fino al monitoraggio.
-
-                    Credo nel design chiaro, nella funzionalità e nel codice pulito, perché ogni sito web deve essere un
-                    percorso guidato, semplice da usare e pensato per convertire.
-                </p>
-            </div>
-
-            <!-- Immagine -->
-            <div class="w-full md:w-1/2 flex justify-center md:justify-end animate-fade-in ">
-                <img src="{{ asset('storage/images/foto-cv-canva.jpg') }}" alt="foto di Matteo Trotta"
-                    class="rounded-lg shadow-xl w-full max-w-sm p-3 border-2">
-            </div>
-        </div>
-    </section> --}}
-
     <section id="about-me" class="bg-gray-50 py-16 px-4 md:px-8 lg:px-16">
         <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
 
