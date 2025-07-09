@@ -2,6 +2,38 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+
+// NAVBAR TOGGLE
+document.addEventListener("DOMContentLoaded", () => {
+    const toggleButton = document.getElementById("mobileToggle");
+    const menu = document.getElementById("navbar-cta");
+
+    if (toggleButton && menu) {
+        toggleButton.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+
+            // (facoltativo) animazione hamburger a croce
+            toggleButton.classList.toggle("open");
+
+            // animazioni opzionali sulle barrette
+            const topBar = toggleButton.querySelector(".top-bar");
+            const middleBar = toggleButton.querySelector(".middle-bar");
+            const bottomBar = toggleButton.querySelector(".bottom-bar");
+
+            if (toggleButton.classList.contains("open")) {
+                topBar.classList.add("rotate-45", "translate-y-1.5");
+                middleBar.classList.add("opacity-0");
+                bottomBar.classList.add("-rotate-45", "-translate-y-1.5");
+            } else {
+                topBar.classList.remove("rotate-45", "translate-y-1.5");
+                middleBar.classList.remove("opacity-0");
+                bottomBar.classList.remove("-rotate-45", "-translate-y-1.5");
+            }
+        });
+    }
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     if (document.querySelector(".soluzioniDigitali")) {
         gsap.fromTo(
