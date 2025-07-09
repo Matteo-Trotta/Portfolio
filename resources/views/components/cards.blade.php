@@ -5,10 +5,9 @@
         <div class="card primafilacard shadow-lg border-blue-500 " style="height: 600px">
             <div class="img-container">
                 <picture>
-                    <source srcset="{{ asset('storage/images/cards-webp/sito-web.webp') }}" media="(max-width: 767px)" type="image/webp">
-                    <source srcset="{{ asset('storage/images/cards-webp/sito-web.webp') }}" media="(max-width: 1024px)" type="image/webp">
-                    <source srcset="{{ asset('storage/images/cards-webp/sito-web.webp') }}" media="(min-width: 1025px)" type="image/webp">
-                    <img class="img-fluid rounded border-4" src="{{ asset('storage/images/cards/sito-web.webp') }}" alt="Sito Web">
+
+                    <img class="img-fluid rounded border-4" src="{{ asset('storage/images/cards-webp/sito-web.webp') }}"
+                        alt="Sito Web">
                 </picture>
             </div>
             <div class="card-body overflow-scroll text-center align-items-center">
@@ -29,10 +28,9 @@
 
         <div class="card primafilacard shadow-lg border-blue-500 p-1 " style="height: 600px">
             <picture>
-                <source srcset="{{ asset('storage/images/cards-webp/seo-640.webp') }}" media="(max-width: 767px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/seo-960.webp') }}" media="(max-width: 1024px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/seo-1280.webp') }}" media="(min-width: 1025px)" type="image/webp">
-                <img class="img-fluid" src="{{ asset('storage/images/cards/seo.png') }}" alt="Consulenza SEO">
+
+                <img class="img-fluid" src="{{ asset('storage/images/cards-webp/seo-1280.webp') }}"
+                    alt="Consulenza SEO">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center">
                 <h5 class="card-title fs-1 bodoni mt-5 pt-1">Consulenza SEO</h5>
@@ -53,10 +51,9 @@
 
         <div class="card h-full primafilacard shadow-lg border-blue-500 p-1" style="height: 600px">
             <picture>
-                <source srcset="{{ asset('storage/images/cards-webp/landing-page-640.webp') }}" media="(max-width: 767px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/landing-page-960.webp') }}" media="(max-width: 1024px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/landing-page-1280.webp') }}" media="(min-width: 1025px)" type="image/webp">
-                <img class="img-fluid rounded border-4" src="{{ asset('storage/images/cards/landing-page.avif') }}" alt="Landing Page">
+
+                <img class="img-fluid rounded border-4"
+                    src="{{ asset('storage/images/cards-webp/landing-page-1280.webp') }}" alt="Landing Page">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center">
                 <h5 class="card-title fs-1 bodoni">Landing Page</h5>
@@ -81,10 +78,9 @@
 
         <div class="card h-full shadow-lg border-blue-500" style="height: 600px">
             <picture>
-                <source srcset="{{ asset('storage/images/cards-webp/responsive-design-640.webp') }}" media="(max-width: 767px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/responsive-design-960.webp') }}" media="(max-width: 1024px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/responsive-design-1280.webp') }}" media="(min-width: 1025px)" type="image/webp">
-                <img class="img-fluid" src="{{ asset('storage/images/cards/responsive-design.avif') }}" alt="Responsive Web">
+
+                <img class="img-fluid" src="{{ asset('storage/images/cards-webp/responsive-design-1280.webp') }}"
+                    alt="Responsive Web">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center ">
                 <h5 class="card-title fs-1 bodoni">Responsive Web Mobile-First</h5>
@@ -105,10 +101,8 @@
 
         <div class="card h-full shadow-lg border-blue-500 p-1 "style="height: 600px">
             <picture>
-                <source srcset="{{ asset('storage/images/cards-webp/seo-trend-640.webp') }}" media="(max-width: 767px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/seo-trend-960.webp') }}" media="(max-width: 1024px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/seo-trend-1280.webp') }}" media="(min-width: 1025px)" type="image/webp">
-                <img class="img-fluid" src="{{ asset('storage/images/cards/seo-trend.avif') }}" alt="Google trends for SEO">
+                <img class="img-fluid" src="{{ asset('storage/images/cards-webp/seo-trend-1280.webp') }}"
+                    alt="Google trends for SEO">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center">
                 <h5 class="card-title fs-1 bodoni">Google trends for SEO's</h5>
@@ -128,10 +122,8 @@
     <div class="col-10 col-lg-3 my-5 secondafilacard justify-content-center align-items-center ">
         <div class="card h-full shadow-lg border-blue-500 p-1 " style="height: 600px">
             <picture>
-                <source srcset="{{ asset('storage/images/cards-webp/hosting-640.webp') }}" media="(max-width: 767px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/hosting-960.webp') }}" media="(max-width: 1024px)" type="image/webp">
-                <source srcset="{{ asset('storage/images/cards-webp/hosting-1280.webp') }}" media="(min-width: 1025px)" type="image/webp">
-                <img class="img-fluid" src="{{ asset('storage/images/cards/hosting.avif') }}" alt="Hosting">
+
+                <img class="img-fluid" src="{{ asset('storage/images/cards-webp/hosting-1280.webp') }}" alt="Hosting">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center ">
                 <h5 class="card-title fs-1 bodoni">Hosting</h5>
