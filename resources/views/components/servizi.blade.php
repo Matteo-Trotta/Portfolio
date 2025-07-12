@@ -12,7 +12,7 @@
 
 {{-- animazione tavola bounceout  --}}
 <div class="container-fluid bianco my-0  p-0">
-    <div class="row  m-0 align-items-center justify-content-end">
+    <div class="row m-0 align-items-center justify-content-end">
 
         <div class="col-md-5 my-5">
 
@@ -55,8 +55,8 @@
 
 {{-- animazione smartphone ease-in --}}
 <div class="container-fluid bianco p-4">
-    <div class="row mx-0 align-items-center justify-content-center">
-        <div class="col-lg-5 my-0 justify-content-center align-items-center px-0 ">
+    <div class="row mx-0 my-5 align-items-center justify-content-center">
+        <div class="col-lg-5 justify-content-center align-items-center px-0 ">
 
 
             <picture class="">

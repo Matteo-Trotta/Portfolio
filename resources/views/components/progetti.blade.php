@@ -1,7 +1,7 @@
 <div class="container my-5">
 
 
-    <div class="row text-center align-items-center  mb-5">
+    <div class="row text-center align-items-center  my-5">
         <h3 class="tangerine-title text-white italic">i miei progetti</h3>
     </div>
 

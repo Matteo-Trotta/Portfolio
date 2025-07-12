@@ -2,7 +2,6 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-
 // NAVBAR TOGGLE
 document.addEventListener("DOMContentLoaded", () => {
     const toggleButton = document.getElementById("mobileToggle");
@@ -12,10 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
         toggleButton.addEventListener("click", () => {
             menu.classList.toggle("hidden");
 
-            // (facoltativo) animazione hamburger a croce
             toggleButton.classList.toggle("open");
 
-            // animazioni opzionali sulle barrette
             const topBar = toggleButton.querySelector(".top-bar");
             const middleBar = toggleButton.querySelector(".middle-bar");
             const bottomBar = toggleButton.querySelector(".bottom-bar");
@@ -32,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
-
 
 document.addEventListener("DOMContentLoaded", () => {
     if (document.querySelector(".soluzioniDigitali")) {
@@ -155,23 +151,23 @@ document.addEventListener("DOMContentLoaded", () => {
             const tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".smartphone",
-                    start: "top center+=100",
+                    start: "top center+=150",
                     toggleActions: "play reverse play reverse",
                 },
             });
 
             tl.from(".smartphone", {
                 autoAlpha: 0,
-                y: 200,
-                duration: 0.4,
-                ease: "ease-in",
+                y: 250,
+                duration: 2,
+                ease: "elastic",
             }).from(
                 ".sitiwebresponsive",
                 {
                     autoAlpha: 0,
                     y: 100,
-                    duration: 0.5,
-                    ease: "ease-in",
+                    duration: 1,
+                    ease: "ease-in-out",
                 },
                 "-=0.2"
             );
@@ -185,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     start: "-=300 center",
                 },
                 opacity: 0,
-                ease: "bounce.out",
+                ease: "elastic",
                 duration: 1.5,
                 x: -200,
             });
@@ -267,10 +263,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const extraSelectors = [
         ".appearToYperformance",
-        ".appearToYperformanceRank"
+        ".appearToYperformanceRank",
     ];
 
-    extraSelectors.forEach(selector => {
+    extraSelectors.forEach((selector) => {
         if (document.querySelector(selector)) {
             gsap.from(selector, {
                 scrollTrigger: {
