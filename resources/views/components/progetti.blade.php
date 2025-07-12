@@ -18,7 +18,7 @@
                         alt="foto di un progetto realizzato per Cantina Sala">
 
                 </div>
-                
+
                 <div class="card-body overflow-scroll text-center align-items-center">
                     <h5 class="card-title fs-1 bodoni">Cantina Sala</h5>
                     <hr>
@@ -64,16 +64,14 @@
 
         <div class="col-10 col-md-4 my-2">
             <div class="card shadow-lg border-blue-500 appearToY" style="height: 600px;">
-                
+
                 <!-- Immagine ottimizzata -->
                 <div style="height: 250px; overflow: hidden;">
-                    <img 
-                        src="{{ asset('storage/images/screenshot-progetti/tipo.png') }}" 
-                        alt="foto di un progetto realizzato per Cantina Sala" 
-                        class="img-fluid w-100 h-100 rounded border-4" 
-                        style="object-fit: cover;">
+                    <img src="{{ asset('storage/images/screenshot-progetti/tipo.png') }}"
+                        alt="foto di un progetto realizzato per Cantina Sala"
+                        class="img-fluid w-100 h-100 rounded border-4" style="object-fit: cover;">
                 </div>
-                
+
                 <!-- Corpo della card -->
                 <div class="card-body overflow-auto text-center d-flex flex-column align-items-center">
                     <h5 class="card-title fs-1 bodoni">
@@ -82,20 +80,23 @@
                     </h5>
                     <hr class="w-100">
                     <p class="card-text playfair-display fs-4 flex-grow-1">
-                        TIPO è un Ristorante dal design accogliente e raffinato, dove ogni drink è frutto di mixologie creative e ingredienti selezionati. Il menu propone signature cocktail e creazioni stagionali, accompagnati da piccole degustazioni e serate a tema, per vivere momenti conviviali in un’atmosfera elegante e contemporanea.
+                        TIPO è un Ristorante dal design accogliente e raffinato, dove ogni drink è frutto di mixologie
+                        creative e ingredienti selezionati. Il menu propone signature cocktail e creazioni stagionali,
+                        accompagnati da piccole degustazioni e serate a tema, per vivere momenti conviviali in
+                        un’atmosfera elegante e contemporanea.
                     </p>
-                    <a 
-                        href="https://cocktailbartipo.sitiwebromatrottamatteo.com/"
+                    <a href="https://cocktailbartipo.sitiwebromatrottamatteo.com/"
                         class="btn btn-warning shadow-2xl p-3 my-3 hover:scale-110 hover:bg-indigo-500 hover:text-white"
-                        target="_blank" 
-                        rel="noopener noreferrer">
+                        target="_blank" rel="noopener noreferrer">
                         Visita
                     </a>
                 </div>
-        
+
             </div>
         </div>
-        
+
 
     </div>
 </div>
+
+>

@@ -18,8 +18,8 @@
 
 
     {{-- <x-contatti /> --}}
-
-    {{-- <x-form />  --}}
+    
+    <x-contact-form-whatsapp />
 
 
 </x-layout>

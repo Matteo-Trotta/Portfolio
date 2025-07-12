@@ -36,13 +36,18 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     {{-- COOKIE IUBENDA --}}
-    <script type="text/javascript" src="//embeds.iubenda.com/widgets/06b020d7-268c-4851-afdc-61a5fbeab44a.js"></script>
-    <script type="text/javascript" src="//embeds.iubenda.com/widgets/06b020d7-268c-4851-afdc-61a5fbeab44a.js"></script>
+    {{-- <script type="text/javascript" src="//embeds.iubenda.com/widgets/06b020d7-268c-4851-afdc-61a5fbeab44a.js"></script> --}}
+    {{-- <script type="text/javascript" src="//embeds.iubenda.com/widgets/06b020d7-268c-4851-afdc-61a5fbeab44a.js"></script> --}}
     {{-- COOKIE IUBENDA --}}
 
     {{-- FAVICON --}}
     <link rel="icon" type="image/png" sizes="16x16" href="storage/images/favicon/favicon.ico">
     {{-- FINE FAVICON --}}
+
+{{-- FORM DI WHATSAPP --}}
+<script async src="https://whatsform.com/launcher.js" id="wf-widget" data-id="oj1k4q" data-message="Message on WhatsApp" ></script>
+{{-- form di whatsapp --}}
+
 </head>
 
 <body class="bg-indigo-900">
