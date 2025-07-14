@@ -1,8 +1,9 @@
 <nav class="flex justify-between items-center p-4 navbar z-1 absolute w-full text-white">
-    <div class="max-w-screen-xl flex flex-wrap w-full items-center justify-center">
+    <div class=" flex flex-wrap w-full  items-center justify-between
+    ">
         {{-- Menu Navigazione Desktop --}}
-        <div class="hidden md:flex flex-grow justify-center space-x-8">
-            <ul class="flex space-x-6">
+        <div class="hidden md:flex flex-grow justify-center ">
+            <ul class="flex space-x-8 text-center">
                 <li class="hover:translate-y-2">
                     <a href="{{ route('welcome') }}"
                         class="hover:underline fs-3 italic text-lg hover:text-yellow-500">home</a>
