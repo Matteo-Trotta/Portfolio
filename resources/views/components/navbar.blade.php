@@ -39,7 +39,8 @@
 
         <!-- Contenitore bottone e menu mobile -->
         <div class="md:hidden fixed top-6 right-6 text-center z-50">
-
+            
+            
             <!-- Bottone Toggle animato -->
             <button id="mobileToggle"
                 class="fixed top-6 right-6 w-10 h-10 my-1 flex flex-col justify-center items-center z-50 bg-yellow-500 rounded-full">

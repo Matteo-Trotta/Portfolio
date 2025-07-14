@@ -159,14 +159,14 @@ document.addEventListener("DOMContentLoaded", () => {
             tl.from(".smartphone", {
                 autoAlpha: 0,
                 y: 250,
-                duration: 2,
+                duration: 1.5,
                 ease: "elastic",
             }).from(
                 ".sitiwebresponsive",
                 {
                     autoAlpha: 0,
-                    y: 100,
-                    duration: 1,
+                    x: 100,
+                    duration: 0.5,
                     ease: "ease-in-out",
                 },
                 "-=0.2"

@@ -13,6 +13,8 @@
                 class="d-none d-lg-block position-absolute object-fit-cover">
             </video>
 
+            {{-- <img src="{{ asset('storage/images/logo-portfolio.png') }}" alt="Sfondo digitale mobile"
+                class="position-absolute  d-block d-lg-none " /> --}}
 
 
 
