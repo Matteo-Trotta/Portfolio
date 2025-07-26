@@ -67,7 +67,7 @@
 
                 <!-- Immagine ottimizzata -->
                 <div style="height: 250px; overflow: hidden;">
-                    <img src="{{ asset('storage/images/screenshot-progetti/tipo.png') }}"
+                    <img src="{{ asset('storage/images/screenshot-progetti/building foto.webp') }}"
                         alt="foto di un progetto realizzato per Cantina Sala"
                         class="img-fluid w-100 h-100 rounded border-4" style="object-fit: cover;">
                 </div>
@@ -75,20 +75,18 @@
                 <!-- Corpo della card -->
                 <div class="card-body overflow-auto text-center d-flex flex-column align-items-center">
                     <h5 class="card-title fs-1 bodoni">
-                        Cocktail Bar 'TIPO'
-                        <p class="fs-5 text-slate-700 mb-2">coming soon...</p>
+                        Fotografia
+                        <p class="fs-5 text-slate-700 mb-2 underline">in fase di costruzione</p>
                     </h5>
                     <hr class="w-100">
                     <p class="card-text playfair-display fs-4 flex-grow-1">
-                        TIPO è un Ristorante dal design accogliente e raffinato, dove ogni drink è frutto di mixologie
-                        creative e ingredienti selezionati. Il menu propone signature cocktail e creazioni stagionali,
-                        accompagnati da piccole degustazioni e serate a tema, per vivere momenti conviviali in
-                        un’atmosfera elegante e contemporanea.
+                        Questo sito portfolio è strutturato per offrire un'esperienza di navigazione semplice, fluida e
+                        immersiva. La homepage accoglie il visitatore con una selezione di scatti rappresentativi.
                     </p>
                     <a href="https://portfolio.sitiwebromatrottamatteo.com/"
                         class="btn btn-warning shadow-2xl p-3 my-3 hover:scale-110 hover:bg-indigo-500 hover:text-white"
                         target="_blank" rel="noopener noreferrer">
-                        Visita
+                        Visita Portfolio
                     </a>
                 </div>
 
