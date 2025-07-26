@@ -54,21 +54,21 @@
 </div>
 
 {{-- animazione smartphone ease-in --}}
-<div class="container-fluid bianco p-4">
+<div class="container-fluid  p-3 bianco">
     <div class="row mx-0 my-5 align-items-center justify-content-center">
         <div class="col-lg-5 justify-content-center align-items-center px-0 ">
 
 
             <picture class="">
                 <img class="img-fluid smartphone " class="img-fluid"
-                    src="{{ asset('storage/images/mockup-smartphone-portfolio.png') }}" alt="immagine smartphone">
+                    src="{{ asset('storage/images/mockup-smartphone-portfolio.png') }}" alt="immagine mockup smartphone">
             </picture>
 
 
         </div>
 
 
-        <div class="col-lg-5 p-0 mx-0 text-center sitiwebresponsive">
+        <div class="col-lg-5 p-0 mx-0 text-center sitiwebresponsive my-5">
 
             <div class="my-2">
 
