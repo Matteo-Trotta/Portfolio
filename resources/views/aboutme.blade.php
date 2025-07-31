@@ -244,7 +244,7 @@
                         <div class="carousel-item h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
 
-                                <img src="storage/images/aboutMe/verticali/dettaglio-bottigliera.JPG" alt="Slide 2"
+                                <img src="storage/images/aboutMe/verticali/pattern.JPG" alt="Slide 2"
                                     class="shadow-lg img-fluid h-100 w-auto" style="object-fit: contain;">
 
                             </div>
@@ -252,7 +252,7 @@
                         <div class="carousel-item h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
 
-                                <img src="storage/images/aboutMe/verticali/bulldog.JPG" alt="Slide 3"
+                                <img src="storage/images/aboutMe/verticali/wood.JPG" alt="Slide 3"
                                     class="shadow-lg img-fluid h-100 w-auto" style="object-fit: contain;">
 
                             </div>
@@ -260,7 +260,7 @@
                         <div class="carousel-item h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
 
-                                <img src="storage/images/aboutMe/verticali/montelobos.JPG" alt="Slide 4"
+                                <img src="storage/images/aboutMe/verticali/foglia-verde.JPG" alt="Slide 4"
                                     class="shadow-lg img-fluid h-100 w-auto" style="object-fit: contain;">
 
                             </div>
