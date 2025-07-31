@@ -156,11 +156,10 @@
 
                     <h2 class="display-1">
 
-                        <p class="md:text-transparent hover:text-black" data-bs-toggle="tooltip"
-                            data-bs-placement="top" title="Guarda le mie foto"
-                            style="text-shadow: 1px 1px 4px #000000;">
+                        <p class="md:text-transparent hover:text-black" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Guarda le mie foto" style="text-shadow: 1px 1px 4px #000000;">
                             Fotografia
-                    </p >
+                        </p>
                     </h2>
                 </div>
 
@@ -236,30 +235,39 @@
                     <div class="carousel-inner dynamic-height w-100">
                         <div class="carousel-item active h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
+
                                 <img src="storage/images/aboutMe/verticali/scimmia-scuro.JPG" alt="Slide 1"
+
                                     class="img-fluid h-100 w-auto" style="object-fit: contain;">
                             </div>
                         </div>
                         <div class="carousel-item h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
-                                <img src="storage/images/aboutMe/verticali/dettaglio-bottigliera.JPG" alt="Slide 2"
+
+                                <img src="storage/images/aboutMe/verticali/foglia-verde.JPG" alt="Slide 2"
                                     class="img-fluid h-100 w-auto" style="object-fit: contain;">
+
                             </div>
                         </div>
                         <div class="carousel-item h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
-                                <img src="storage/images/aboutMe/verticali/bulldog.JPG" alt="Slide 3"
+
+                                <img src="storage/images/aboutMe/verticali/pattern.JPG" alt="Slide 3"
                                     class="img-fluid h-100 w-auto" style="object-fit: contain;">
+
                             </div>
                         </div>
                         <div class="carousel-item h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
-                                <img src="storage/images/aboutMe/verticali/montelobos.JPG" alt="Slide 4"
+
+                                <img src="storage/images/aboutMe/verticali/wood.JPG" alt="Slide 4"
                                     class="img-fluid h-100 w-auto" style="object-fit: contain;">
+
                             </div>
                         </div>
                     </div>
 
+                    
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon custom-carousel-prev-icon" aria-hidden="true"></span>
