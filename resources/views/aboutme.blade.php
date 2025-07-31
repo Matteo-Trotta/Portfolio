@@ -24,7 +24,8 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="space-y-4 animate-fade-in">
-                        <h3 class="text-2xl font-semibold text-gray-800 p-2 bg-slate-500 bg-opacity-20 rounded-lg">🎯 Le mie competenze</h3>
+                        <h3 class="text-2xl font-semibold text-gray-800 p-2 bg-slate-500 bg-opacity-20 rounded-lg">🎯 Le
+                            mie competenze</h3>
                         <ul class="list-disc list-inside text-gray-700 space-y-2">
                             <li><span class="font-medium">Realizzazione su misura</span>: HTML, CSS, JS, PHP, MySQL,
                                 Laravel.</li>
@@ -36,7 +37,9 @@
                         </ul>
                     </div>
                     <div class="space-y-4 animate-fade-in-up">
-                        <h3 class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-2xl font-semibold text-gray-800 animate-fade-in-right">💼 Ideale per</h3>
+                        <h3
+                            class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-2xl font-semibold text-gray-800 animate-fade-in-right">
+                            💼 Ideale per</h3>
                         <ul class="list-disc list-inside text-gray-700 space-y-2">
                             <li><span class="font-medium">Siti professionali senza complicazioni</span>.</li>
                             <li><span class="font-medium">Visibilità online e semplicità di gestione</span>.</li>
@@ -46,14 +49,16 @@
                 </div>
 
                 <div class="space-y-4">
-                    <h3 class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-2xl  font-semibold text-gray-800">✨ Il mio approccio</h3>
+                    <h3 class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-2xl  font-semibold text-gray-800">✨ Il mio
+                        approccio</h3>
                     <p class="text-gray-700">Precisione sartoriale: ogni progetto ha cura artigianale.</p>
                     <p class="text-gray-700">Design intuitivo e impattante.</p>
                     <p class="text-gray-700">Orientato alla conversione: più clienti dal web.</p>
                 </div>
 
                 <div class="space-y-4">
-                    <p class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-xl text-gray-800 mb-4">📈 Il valore che porto:</p>
+                    <p class="p-2 bg-slate-500 bg-opacity-20 rounded-lg text-xl text-gray-800 mb-4">📈 Il valore che
+                        porto:</p>
                     <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
                         <li>Siti affidabili e sempre veloci.</li>
                         <li>Soluzioni per generare contatti o vendite.</li>
@@ -151,26 +156,67 @@
 
                     <h2 class="display-1">
 
-                        <a href="" class="md:text-transparent hover:text-black" data-bs-toggle="tooltip"
+                        <p class="md:text-transparent hover:text-black" data-bs-toggle="tooltip"
                             data-bs-placement="top" title="Guarda le mie foto"
                             style="text-shadow: 1px 1px 4px #000000;">
                             Fotografia
-                        </a>
+                    </p >
                     </h2>
                 </div>
 
 
 
 
-                <p class="fs-5 bg-white md:p-5 bodoni justify-self-start ms-5 w-50">
-                    Con la macchina fotografica ho portato quella stessa attenzione nell'immagine: raccontare
-                    un’atmosfera, dare forma a un’emozione. Scatto per raccontare storie, che siano luci soffuse,
-                    riflessi su una bottiglia o un paesaggio urbano. Per me, la fotografia è il modo più diretto per
-                    fermare un momento e dargli voce.
+                <p class="fs-5 bg-white md:p-5 bodoni justify-self-start ms-5 w-70">
+                    La mia visione nasce dall’osservazione attenta dei ritmi della natura. Ogni immagine è il frutto di
+                    lunghe passeggiate all’aperto, in cui luce, composizione e colori si incontrano per restituire
+                    l’essenza di foglie, cortecce e piccoli dettagli organici. Parto in esplorazione alla caccia
+                    dell’attimo sorprendente — da una luce che filtra tra gli alberi fino a un riflesso casuale
+                    sull’acqua — per restituire l’anima imprevedibile della natura.
+                    <hr>
+                <p class="fs-5 bg-white md:p-5 bodoni justify-self-start ms-5 w-70">
+                    Pur essendo un amatore, mi appassiono tanto alla tecnica quanto all’estetica. Dopo lo scatto, dedico
+                    tempo alla post-produzione: sperimento correzioni di colore, bilanciamenti tonali e maschere
+                    selettive per valorizzare la profondità e l’emozione di ogni scena. È un processo in continua
+                    evoluzione, che mi permette di esplorare nuovi strumenti e approcci per dare voce alle mie immagini.
+
+                </p>
+                <hr>
+                <p class="fs-5 bg-white md:p-5 bodoni justify-self-start ms-5 w-70">
+
+                    Ti invito a esplorare il mio portfolio, dove ho raccolto i miei scatti naturalistici e le versioni
+                    elaborate in post-produzione. Se ami la natura e sei curioso di vedere il suo racconto attraverso il
+                    mio occhio, trovi tutto qui:
                 </p>
 
-                <a target="_blank" class="text-decoration underline text-blue-500 fs-4"
-                    href="https://www.flickr.com/photos/202041132@N05/">profilo Flickr</a>
+                </p>
+                <ul>
+
+                    <li class="mb-2">
+
+                        <p class="w-50">
+
+                            Visita il mio Portfolio Fotografico Personale
+                            <a target="_blank" class=" hover:underline text-blue-500 fs-4"
+                                href="https://portfolio.sitiwebromatrottamatteo.com/">Portfolio Fotografico</a>
+
+                        </p>
+                    </li>
+                    <hr>
+
+                    <li class="mt-1">
+
+                        <p class="w-50">
+                            Guarda le mie foto sul portale Flickr
+
+                            <a target="_blank" class=" hover:underline ms-2 text-blue-500 fs-4"
+                                href="https://www.flickr.com/photos/202041132@N05/">Fotostream Flickr</a>
+                        </p>
+
+                    </li>
+
+                </ul>
+
 
             </div>
 
@@ -229,6 +275,6 @@
         </div>
     </div>
 
-   
+
 
 </x-layout>
