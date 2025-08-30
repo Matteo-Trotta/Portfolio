@@ -78,7 +78,7 @@
                     Test eseguito su <strong>Desktop</strong> con Lighthouse 10.0 & PageSpeedInsights<br>
                     Ottimizzazioni principali: WebM per video hero, layout fixed, cache headers, lazy loading.
                 </p>
-                <a href="https://developers.google.com/speed/pagespeed/insights/?url=tua-url"
+                <a href="https://pagespeed.web.dev/analysis/https-sitiwebromatrottamatteo-com/yh4v772rmf?form_factor=desktop"
                     class="btn btn-sm btn-outline-primary mt-2 appearToYperformanceRank">
                     Vedi report completo
                 </a>
