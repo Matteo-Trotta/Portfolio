@@ -43,7 +43,7 @@
 
         <!-- Link -->
         <div class="w-full md:w-1/3 text-center md:text-right space-y-3">
-            <ul class="flex flex-wrap justify-center md:justify-end gap-4 text-sm text-gray-400">
+            <ul class="flex flex-wrap justify-center md:justify-end gap-4 text-sm text-white">
                 <li><a href="{{ route('welcome') }}" class="hover:underline">home</a></li>
                 <li><a href="{{ route('aboutMe') }}" class="hover:underline">About Me</a></li>
                 <li><a href="{{ route('services') }}" class="hover:underline">Servizi</a></li>
@@ -56,7 +56,7 @@
                 <li><a href="https://www.iubenda.com/privacy-policy/58740088/cookie-policy"
                         class="hover:underline">Cookie Policy</a></li>
             </ul>
-            <p class="text-xs text-gray-500 mt-4">© 2025 Matteo Trotta™. All Rights Reserved.</p>
+            <p class="text-xs text-white mt-4">© 2025 Matteo Trotta™. All Rights Reserved.</p>
         </div>
 
     </div>
