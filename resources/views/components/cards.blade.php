@@ -11,7 +11,7 @@
                 </picture>
             </div>
             <div class="card-body overflow-scroll text-center align-items-center">
-                <h5 class="card-title fs-1 bodoni">Sito Web</h5>
+                <h2 class="card-title fs-1 bodoni">Sito Web</h5>
                 <hr>
                 <p class="card-text playfair-display fs-4">Realizzo siti web veloci, sicuri e su misura per la tua
                     attività. Ogni progetto è unico e pensato per offrire un’esperienza utente perfetta su qualsiasi
@@ -33,7 +33,7 @@
                     alt="Consulenza SEO">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center">
-                <h5 class="card-title fs-1 bodoni mt-5 pt-1">Consulenza SEO</h5>
+                <h2 class="card-title fs-1 bodoni mt-5 pt-1">Consulenza SEO</h5>
                 <hr>
                 <p class="card-text playfair-display fs-4">Ottimizzo il tuo sito per migliorare la visibilità su
                     Google. Analizzo contenuti, parole chiave e prestazioni per aiutarti a raggiungere più clienti
@@ -56,7 +56,7 @@
                     src="{{ asset('storage/images/cards-webp/landing-page-1280.webp') }}" alt="Landing Page">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center">
-                <h5 class="card-title fs-1 bodoni">Landing Page</h5>
+                <h2 class="card-title fs-1 bodoni">Landing Page</h5>
                 <hr>
                 <p class="card-text playfair-display fs-4">
                     Creo landing page mirate e persuasive, progettate per
@@ -83,7 +83,7 @@
                     alt="Responsive Web">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center ">
-                <h5 class="card-title fs-1 bodoni">Responsive Web Mobile-First</h5>
+                <h2 class="card-title fs-1 bodoni">Responsive Web Mobile-First</h5>
                 <hr>
                 <p class="card-text playfair-display fs-4"> siti web ottimizzati per smartphone,
                     garantendo un’esperienza fluida e intuitiva su tutti i dispositivi, dal mobile al desktop.
@@ -105,7 +105,7 @@
                     alt="Google trends for SEO">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center">
-                <h5 class="card-title fs-1 bodoni">Google trends for SEO's</h5>
+                <h2 class="card-title fs-1 bodoni">Google trends for SEO's</h5>
                 <hr>
                 <p class="card-text playfair-display fs-4">
                     Analizzo il tuo sito e i trend di ricerca con Google
@@ -126,7 +126,7 @@
                 <img class="img-fluid" src="{{ asset('storage/images/cards-webp/hosting-1280.webp') }}" alt="Hosting">
             </picture>
             <div class="card-body overflow-scroll text-center align-items-center ">
-                <h5 class="card-title fs-1 bodoni">Hosting</h5>
+                <h2 class="card-title fs-1 bodoni">Hosting</h5>
                 <hr>
                 <p class="card-text playfair-display fs-4 ">Offro soluzioni di hosting affidabili e manutenzione
                     continua. Il tuo sito sarà sempre online, aggiornato e sicuro, senza che tu debba preoccuparti
