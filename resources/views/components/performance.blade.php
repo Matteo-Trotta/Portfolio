@@ -28,7 +28,7 @@
 
             {{-- screenshot di lighthouse --}}
             <div class="col-md-6 mb-4 mb-md-0">
-                <div class="ratio ratio-4x3 shadow-sm rounded">
+                <div class=" shadow-sm rounded">
                     <img src="{{ asset('storage/images/performance.png') }}" alt="Screenshot Lighthouse Performance"
                         class="img-fluid rounded appearToYperformanceRank">
                 </div>
