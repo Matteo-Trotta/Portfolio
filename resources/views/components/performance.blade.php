@@ -4,12 +4,12 @@
 
         <p class="lead bodoni my-1 text-center fs-4">
 
-            <a class="text-decoration underline text-blue-500"
+            <a class="text-decoration underline text-black"
                 href="https://developer.chrome.com/docs/lighthouse/overview?hl=it">Lighthouse</a>
 
             &
 
-            <a class="text-decoration underline text-blue-500" href="https://pagespeed.web.dev/">PageSpeedInsights</a>
+            <a class="text-decoration underline text-black" href="https://pagespeed.web.dev/">PageSpeedInsights</a>
             sono strumenti di Google che analizzano la qualità di un sito web in termini di Prestazioni, Accessibilità,
             SEO e Best Practice. Fornisce un punteggio chiaro e suggerimenti concreti per migliorare l’esperienza utente
             e la 'velocità' del sito, aspetti fondamentali sia per il posizionamento sui motori di ricerca che per la

@@ -41,7 +41,7 @@
             
             
             <!-- Bottone Toggle animato -->
-            <button aria-label="mobileToggle" id="mobileToggle"
+            <button aria-label="Apri menù di navigazione" id="mobileToggle"
                 class="fixed top-6 right-6 w-10 h-10 my-1 flex flex-col justify-center items-center z-50 bg-yellow-500 rounded-full">
                 <span class="bar top-bar w-6 h-0.5 bg-white mb-1 transition duration-300 ease-in-out"></span>
                 <span class="bar middle-bar w-6 h-0.5 bg-white mb-1 transition duration-300 ease-in-out"></span>
