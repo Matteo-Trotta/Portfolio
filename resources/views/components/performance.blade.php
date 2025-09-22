@@ -67,11 +67,7 @@
                                 target="_blank">SEO</a>:</strong>
                         analizza i fattori on-page che aiutano il posizionamento nei motori di ricerca.
                     </li>
-                    <li class="list-group-item px-0 ">
-                        <strong><a href="https://developers.google.com/web/tools/lighthouse/pwa"
-                                target="_blank">PWA</a>:</strong>
-                        verifica l’implementazione delle Progressive Web App per esperienza app-like.
-                    </li>
+                  
                 </ul>
 
                 <p class="mt-2 text-muted">
