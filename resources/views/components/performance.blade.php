@@ -29,7 +29,7 @@
             {{-- screenshot di lighthouse --}}
             <div class="col-md-6 mb-4 mb-md-0">
                 <div class=" shadow-sm rounded">
-                    <img src="{{ asset('storage/images/performance.png') }}" alt="Screenshot Lighthouse Performance"
+                    <img src="{{ asset('storage/images/CoreWebVitals.png') }}" alt="Screenshot Lighthouse Performance"
                         class="img-fluid rounded appearToYperformanceRank">
                 </div>
             </div>
@@ -38,7 +38,7 @@
             <div class="col-md-6">
                 <h3 class="h4 mb-3">Punteggio Lighthouse | Page Speed insights</h3>
                 <div class="d-flex align-items-baseline mb-3">
-                    <span class="display-3 fw-bold text-success me-2">95</span>
+                    <span class="display-3 fw-bold text-success me-2">98</span>
                     <span class="fs-5 text-muted">/ 100</span>
                 </div>
 
