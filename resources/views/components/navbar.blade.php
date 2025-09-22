@@ -1,6 +1,5 @@
 <nav class="flex justify-between items-center p-4 navbar z-1 absolute w-full text-white">
-    <div class=" flex flex-wrap w-full  items-center justify-between
-    ">
+    <div class=" flex flex-wrap w-full  items-center justify-between">
         {{-- Menu Navigazione Desktop --}}
         <div class="hidden md:flex flex-grow justify-center ">
             <ul class="flex space-x-8 text-center">
@@ -16,10 +15,10 @@
                     <a href="{{ route('services') }}"
                         class="hover:underline fs-3 italic text-lg hover:text-yellow-500">Servizi</a>
                 </li>
-                <li class="hover:translate-y-2">
+                {{-- <li class="hover:translate-y-2">
                     <a href="{{ route('preventivo') }}"
                         class="hover:underline fs-3 italic text-lg hover:text-yellow-500">Preventivi</a>
-                </li>
+                </li> --}}
                 <li class="hover:translate-y-2">
                     <a href="https://blog.sitiwebromatrottamatteo.com"
                         class="hover:underline fs-3 italic text-lg hover:text-yellow-500">Blog</a>
@@ -71,10 +70,10 @@
 
                     <hr>
 
-                    <li>
-                        <a href="{{ route('preventivo') }}"
+                    {{-- <li>
+                        <a  href="{{ route('preventivo') }}"
                             class="fw-semibold fs-3 italic text-lg block py-1">Preventivi</a>
-                    </li>
+                    </li> --}}
 
                     <hr>
 
