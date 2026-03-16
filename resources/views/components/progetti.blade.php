@@ -10,6 +10,7 @@
         <div class=" col-10 col-md-4 my-2">
 
 
+
             <div class="card shadow-lg border-blue-500 appearToY" style="height: 600px">
                 <div class="img-container">
 
@@ -95,6 +96,75 @@
 
 
     </div>
+
+{{-- SECONDA ROW PROGETTI  --}}
+
+    <div class="row justify-content-evenly align-items-center mt-5">
+
+{{-- LORENZO MASSAGGI MAY LIFE  --}}
+
+        <div class=" col-10 col-md-4 my-2">
+
+            <div class="card shadow-lg border-blue-500 appearToY" style="height: 600px">
+                <div class="img-container">
+
+                    <img class="img-fluid contain rounded border-4"
+                        src="{{ asset('storage\images\screenshot-progetti\lorenzomaylife.jpg') }}" class="card-img-top"
+                        alt="foto di un progetto realizzato per Cantina Sala">
+
+                </div>
+
+                <div class="card-body overflow-scroll text-center align-items-center">
+                    <h5 class="card-title fs-1 bodoni">Massaggi & Benessere</h5>
+                    <hr>
+                    <p class="card-text playfair-display fs-4">Un sito realizzato con WordPress, responsive che racconta
+                        la figura professionale ,ed i servizi offerti, da uno specialista nel settore dei Massaggi
+                        . Gli utenti visitano e si informano sui trattamenti offerti e sulla struttura multidisciplinare
+                        MayLife</p>
+
+                    <a href="{{ 'https://www.lorenzomaylife.com/' }}"
+                        class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Vai
+                        al Sito</a>
+                </div>
+
+            </div>
+        </div>
+
+        {{-- Medicina Estetica MAGISTRATO --}}
+        {{-- <div class=" col-10 col-md-4 my-2">
+
+            <div class="card shadow-lg border-blue-500 appearToY" style="height: 600px">
+                <div class="img-container">
+
+                    <img class="img-fluid rounded border-4"
+                        src="{{ asset('storage\images\screenshot-progetti\viso.png') }}" class="card-img-top"
+                        alt="foto di un progetto realizzato per Medicina estetica Magistrato">
+
+                </div>
+
+                <div class="card-body overflow-scroll text-center align-items-center">
+                    <h5 class="card-title fs-1 bodoni">Medicina Estetica</h5>
+                    <hr>
+                    <p class="card-text playfair-display fs-4">Un sito realizzato con WordPress, che descrive la fgra
+                        professionale nel settore Medicina Estetica, il progetto è pensato per presentare al meglio la
+                        figura specializzata nel settore e descriverne le esperienze rilevanti. I servizi offerti</p>
+
+                    <a href="{{ 'https://www.medesteticamagistrato.com/' }}"
+                        class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Vai
+                        al Sito</a>
+                </div>
+
+            </div>
+        </div> --}}
+
+    </div>
+
+    <div class="row justify-content-evenly align-items-center mt-5">
+
+
+
+    </div>
+
 </div>
 
 >
