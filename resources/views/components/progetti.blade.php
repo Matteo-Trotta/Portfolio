@@ -77,7 +77,7 @@
                 <div class="card-body overflow-auto text-center d-flex flex-column align-items-center">
                     <h5 class="card-title fs-1 bodoni">
                         Fotografia
-                        <p class="fs-5 text-slate-700 mb-2 underline">in fase di costruzione</p>
+                        {{-- <p class="fs-5 text-slate-700 mb-2 underline">in fase di costruzione</p> --}}
                     </h5>
                     <hr class="w-100">
                     <p class="card-text playfair-display fs-4 flex-grow-1">
@@ -105,8 +105,8 @@
 
         <div class=" col-10 col-md-4 my-2">
 
-            <div class="card shadow-lg border-blue-500 appearToY" style="height: 600px">
-                <div class="img-container">
+            <div class="card shadow-lg border-blue-500 appearToY" style="height: 770px">
+                <div class="img-container h-">
 
                     <img class="img-fluid contain rounded border-4"
                         src="{{ asset('storage\images\screenshot-progetti\lorenzomaylife.jpg') }}" class="card-img-top"
@@ -167,4 +167,4 @@
 
 </div>
 
->
+
