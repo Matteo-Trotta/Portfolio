@@ -236,7 +236,7 @@
                         <div class="carousel-item active h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
 
-                                <img src="storage/images/aboutMe/verticali/Isabella.JPG" alt="Slide 1"
+                                <img src="{{ asset('storage/images/aboutMe/verticali/Isabella.jpg') }}" 
 
                                     class="shadow-lg img-fluid h-100 w-auto" style="object-fit: contain;">
                             </div>
@@ -244,7 +244,7 @@
                         <div class="carousel-item h-100">
                             <div class="d-flex justify-content-center align-items-center h-100">
 
-                                <img src="storage/images/aboutMe/verticali/duck.JPG" alt="Slide 2"
+                                <img src="{asset('storage/images/aboutMe/verticali/duck.jpg')}" alt="Slide 2"
                                     class="shadow-lg img-fluid h-100 w-auto" style="object-fit: contain;">
 
                             </div>
