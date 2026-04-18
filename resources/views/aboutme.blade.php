@@ -2,25 +2,59 @@
 
 
     <div class=" d-none d-sm-block h-40  md:h-24"></div>
+<section class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 
+        <!-- Testo -->
+        <div class="animate-fade-in-up">
+            <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                Ciao, sono <span class="text-indigo-600">Matteo Trotta</span>
+            </h1>
+
+            <p class="text-lg text-gray-600 mb-8">
+                <p class="font-semibold">Sviluppatore web</p> full-stack specializzato nella creazione di siti
+                moderni, veloci e ottimizzati per il SEO. Realizzo progetti con
+                Laravel, WordPress e tecnologie frontend moderne.
+            </p>
+
+            <div class="flex gap-4">
+                <a href="#contatti"
+                   class="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700 transition">
+                   Contattami
+                </a>
+
+                <a href="#progetti"
+                   class="border border-indigo-600 text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-50 transition">
+                   Vedi i progetti
+                </a>
+            </div>
+        </div>
+
+        <!-- Foto -->
+        <div class="flex justify-center lg:justify-end animate-fade-in-up">
+            <img src="{{ asset('storage/images/foto-cv-canva.jpg') }}"
+                alt="Foto di Matteo Trotta"
+                class="w-56 h-56 lg:w-72 lg:h-72 rounded-full border-4 border-indigo-600 shadow-xl object-cover">
+        </div>
+
+    </div>
+</section>
     <section id="about-me" class="bg-gray-50 py-16 px-4 md:px-8 lg:px-16">
+        
         <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
 
             <!-- Foto -->
-            <div class="col-span-1 flex justify-center lg:justify-start  animate-fade-in-up">
-                <img src="{{ asset('storage/images/foto-cv-canva.jpg') }}" alt="Foto di Matteo Trotta"
-                    class="w-48 h-48 rounded-full border-4 border-indigo-600 shadow-lg object-cover">
-            </div>
+         
 
             <!-- Testi -->
             <div class="col-span-2 space-y-8">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800  animate-fade-in-up">
+                {{-- <h2 class="text-3xl md:text-4xl font-bold text-gray-800  animate-fade-in-up">
                     Ciao, sono <span class="text-indigo-600">Matteo Trotta</span>
-                </h2>
-                <p class="text-lg md:text-xl text-gray-700 animate-fade-in ">
-                    Sviluppatore web freelance a Roma, trasformo le tue idee in
+                </h2> --}}
+                <h2 class="text-lg md:text-3xl text-gray-700 animate-fade-in ">
+                    <p class="font-semibold">Sviluppatore web freelance</p> a Roma, trasformo le tue idee in
                     <span class="font-semibold text-gray-900">siti web efficaci, eleganti e facili da gestire</span>.
-                </p>
+                </h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="space-y-4 animate-fade-in">
@@ -75,6 +109,7 @@
     </section>
 
 
+{{-- CAROSELLO DI PRESTO.IT --}}
 
     {{-- <div class="container-fluid px-0">
         <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
@@ -146,6 +181,7 @@
         </div>
     </div> --}}
 
+    {{-- CAROSELLO DI PRESTO.IT --}}
     <div class="container-fluid px-0 border-5">
         <div class="row mx-0 md:mx-0 md:p-5 bg-white justify-content-between align-items-center">
 

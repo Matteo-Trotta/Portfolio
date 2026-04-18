@@ -97,11 +97,11 @@
 
     </div>
 
-{{-- SECONDA ROW PROGETTI  --}}
+    {{-- SECONDA ROW PROGETTI  --}}
 
     <div class="row justify-content-evenly align-items-center mt-5">
 
-{{-- LORENZO MASSAGGI MAY LIFE  --}}
+        {{-- LORENZO MASSAGGI MAY LIFE  --}}
 
         <div class=" col-10 col-md-4 my-2">
 
@@ -110,7 +110,7 @@
 
                     <img class="img-fluid contain rounded border-4"
                         src="{{ asset('storage\images\screenshot-progetti\lorenzomaylife.jpg') }}" class="card-img-top"
-                        alt="foto di un progetto realizzato per Cantina Sala">
+                        alt="foto di un progetto realizzato per CENTRO MASSAGGI">
 
                 </div>
 
@@ -131,9 +131,9 @@
         </div>
 
         {{-- Medicina Estetica MAGISTRATO --}}
-        {{-- <div class=" col-10 col-md-4 my-2">
+        <div class=" col-10 col-md-4 my-2">
 
-            <div class="card shadow-lg border-blue-500 appearToY" style="height: 600px">
+            <div class="card shadow-lg border-blue-500 appearToY" style="height: 770px">
                 <div class="img-container">
 
                     <img class="img-fluid rounded border-4"
@@ -155,7 +155,9 @@
                 </div>
 
             </div>
-        </div> --}}
+        </div>
+
+        {{-- FINE MEDICINA ESTETICA MAGISTRATO --}}
 
     </div>
 
@@ -166,5 +168,3 @@
     </div>
 
 </div>
-
-
