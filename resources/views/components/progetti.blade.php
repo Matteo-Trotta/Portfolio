@@ -69,7 +69,7 @@
                 <!-- Immagine ottimizzata -->
                 <div style="height: 250px; overflow: hidden;">
                     <img src="{{ asset('storage/images/screenshot-progetti/building foto.webp') }}"
-                        alt="foto di un progetto realizzato per Cantina Sala"
+                        alt="SITO WEB FOTOGRAFIA TROTTA MATTEO"
                         class="img-fluid w-100 h-100 rounded border-4" style="object-fit: cover;">
                 </div>
 
@@ -108,7 +108,7 @@
             <div class="card shadow-lg border-blue-500 appearToY" style="height: 770px">
                 <div class="img-container h-">
 
-                    <img class="img-fluid contain rounded border-4"
+                    <img class="img-fluid contain rounded border-4 card-img-top"
                         src="{{ asset('storage\images\screenshot-progetti\lorenzomaylife.jpg') }}" class="card-img-top"
                         alt="foto di un progetto realizzato per CENTRO MASSAGGI">
 
@@ -134,10 +134,10 @@
         <div class=" col-10 col-md-4 my-2">
 
             <div class="card shadow-lg border-blue-500 appearToY" style="height: 770px">
-                <div class="img-container">
+                <div class="img-container" style="height: 540px ;overflow: hidden">
 
-                    <img class="img-fluid rounded border-4"
-                        src="{{ asset('storage\images\screenshot-progetti\viso.png') }}" class="card-img-top"
+                    <img class="img-fluid rounded border-4 card-image-top"
+                        src="{{ asset('storage\images\screenshot-progetti\viso.png') }}" 
                         alt="foto di un progetto realizzato per Medicina estetica Magistrato">
 
                 </div>
@@ -145,9 +145,9 @@
                 <div class="card-body overflow-scroll text-center align-items-center">
                     <h5 class="card-title fs-1 bodoni">Medicina Estetica</h5>
                     <hr>
-                    <p class="card-text playfair-display fs-4">Un sito realizzato con WordPress, che descrive la fgra
+                    <p class="card-text playfair-display fs-4">Un sito realizzato con WordPress, che descrive la figura
                         professionale nel settore Medicina Estetica, il progetto è pensato per presentare al meglio la
-                        figura specializzata nel settore e descriverne le esperienze rilevanti. I servizi offerti</p>
+                        figura specializzata nel settore e descriverne le esperienze rilevanti.</p>
 
                     <a href="{{ 'https://www.medesteticamagistrato.com/' }}"
                         class="btn btn-warning shadow-2xl p-3 my-3  hover:scale-110 hover:bg-indigo-500  hover:text-white">Vai
